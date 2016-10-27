@@ -214,5 +214,14 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 				scope: this
 			}
 		);
+	},
+
+	opPermitted: function( operation ) {
+		//Edit functionality is not yet implemented. For the time being this
+		//is the simplest way to hide the "edit" button from the UI.
+		if( operation === 'update' ) {
+			return false;
+		}
+		return this.callParent( arguments );
 	}
 } );
