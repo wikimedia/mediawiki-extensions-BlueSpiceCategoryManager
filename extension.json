@@ -1,0 +1,57 @@
+{
+	"name": "BlueSpiceCategoryManager",
+	"author": [
+		"Leonid Verhovskij",
+		"Dejan Savuljesku"
+	],
+	"url": "https://www.mediawiki.org/wiki/Extension:BlueSpiceCategoryManager",
+	"description": "This extension offers a special page for category administration, based on BlueSpiceFoundation.",
+	"version": "2.27.0",
+	"license-name": "GPL-2.0+",
+	"type": "bluespice",
+	"SpecialPages": {
+		"BlueSpiceCategoryManager": "SpecialBlueSpiceCategoryManager"
+	},
+	"AutoloadClasses": {
+		"BlueSpiceCategoryManager": "includes/BlueSpiceCategoryManager.php",
+		"SpecialBlueSpiceCategoryManager": "includes/specials/SpecialBlueSpiceCategoryManager.php"
+	},
+	"ExtensionMessagesFiles": {
+		"BlueSpiceCategoryManagerAlias": "includes/specials/SpecialBlueSpiceCategoryManager.alias.php"
+	},
+	"MessagesDirs": {
+		"BlueSpiceCategoryManager": [
+			"i18n"
+		]
+	},
+	"bsgExtensions": {
+		"BlueSpiceCategoryManager": {
+			"className": "BlueSpiceCategoryManager",
+			"extPath": "/BlueSpiceCategoryManager"
+		}
+	},
+	"ResourceModules": {
+		"ext.bluespice.categorymanager": {
+			"scripts": [
+				"bluespice.categorymanager.js"
+			],
+			"dependencies": [
+				"ext.bluespice.extjs",
+				"mediawiki.api.edit"
+			],
+			"messages": [
+				"bs-categorymanager-draganddrop-text",
+				"bs-categorymanager-dlg-new-prompt",
+				"bs-categorymanager-dlg-new-title",
+				"bs-categorymanager-removecategoryconfirm-text",
+				"bs-categorymanager-removecategoryconfirm-title"
+
+			]
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "resources",
+		"remoteExtPath": "BlueSpiceCategoryManager/resources"
+	},
+	"manifest_version": 1
+}
