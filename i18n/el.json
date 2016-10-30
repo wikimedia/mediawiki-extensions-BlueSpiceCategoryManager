@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"GR"
+		]
+	},
+	"bs-categorymanager-dlg-new-title": "Δημιουργία κατηγορίας",
+	"bs-categorymanager-dlg-new-prompt": "Παρακαλώ πληκτρολογήστε το όνομα:",
+	"bs-categorymanager-removecategoryconfirm-title": "Αφαιρέστε κατηγορία"
+}

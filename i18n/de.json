@@ -9,7 +9,7 @@
 	"bluespicecategorymanager-desc": "Manager zur Verwaltung von Kategorien",
 	"action-categorymanager-viewspecialpage": "{{int:bluespicecategorymanager}} ansehen",
 	"bs-categorymanager-draganddrop-text": "Drag and Drop, um die Kategorien neu zu organisieren",
-	"bs-categorymanager-label":  "Kategorieverwaltung",
+	"bs-categorymanager-label": "Kategorieverwaltung",
 	"bs-categorymanager-dlg-new-title": "Kategorie erstellen",
 	"bs-categorymanager-dlg-new-prompt": "Bitte gib den Namen ein:",
 	"bs-categorymanager-removecategoryconfirm-text": "Bist du sicher, dass du diese Kategorie löschen willst?",
