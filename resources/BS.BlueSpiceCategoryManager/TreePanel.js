@@ -28,15 +28,7 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 				id: 'src',
 				expanded: true
 			},
-			model: 'BS.BlueSpiceCategoryManager.Model',
-			listeners: {
-				load: function(obj, store, records){
-					Ext.Array.each( records, function( record ) {
-						record.set( 'leaf', false );
-						record.expand();
-					})
-				}
-			}
+			model: 'BS.BlueSpiceCategoryManager.Model'
 		});
 
 		this.treePanel = new Ext.tree.Panel( {
@@ -58,15 +50,14 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 					},
 					drop: function ( node, data, overModel, dropPosition, dropHandler, eOpts ) {
 						function addCategories(page, categories){
-								return Ext.create('BS.action.APIAddCategories', {
-											pageTitle: page,
-											categories: categories
-										}).execute()
-										.fail( function (dfd, set, resp) {
-											mw.log("Add fail");
-											mw.log( page + " " + categories); //for the time of debugging
-											mw.log(resp);
-										});
+							return Ext.create('BS.action.APIAddCategories', {
+								pageTitle: page,
+								categories: categories
+							}).execute()
+							.fail( function (dfd, set, resp) {
+								mw.log("Add fail");
+								mw.log(resp);
+							});
 						};
 
 						function removeCategories(page, categories){
