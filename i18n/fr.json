@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Gomoko"
+		]
+	},
+	"bluespicecategorymanager": "Gestionnaire de catégorie",
+	"bluespicecategorymanager-desc": "Outil visuel pour gérer les catégories",
+	"action-categorymanager-viewspecialpage": "afficher le gestionnaire de catégories",
+	"bs-categorymanager-draganddrop-text": "Glisser et déposer pour réorganiser",
+	"bs-categorymanager-label": "Gestionnaire de catégories",
+	"bs-categorymanager-dlg-new-title": "Créer une catégorie",
+	"bs-categorymanager-dlg-new-prompt": "Veuillez saisir le nom :",
+	"bs-categorymanager-removecategoryconfirm-text": "Êtes-vous sûr de vouloir supprimer cette catégorie ?",
+	"bs-categorymanager-removecategoryconfirm-title": "Supprimer la catégorie"
+}

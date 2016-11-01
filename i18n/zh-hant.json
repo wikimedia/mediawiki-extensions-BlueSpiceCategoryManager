@@ -1,0 +1,14 @@
+{
+	"@metadata": {
+		"authors": [
+			"Cwlin0416"
+		]
+	},
+	"bluespicecategorymanager": "分類管理員",
+	"action-categorymanager-viewspecialpage": "檢視分類管理員",
+	"bs-categorymanager-label": "分類管理員",
+	"bs-categorymanager-dlg-new-title": "建立分類",
+	"bs-categorymanager-dlg-new-prompt": "請輸入名稱：",
+	"bs-categorymanager-removecategoryconfirm-text": "您確定要刪除此分類？",
+	"bs-categorymanager-removecategoryconfirm-title": "刪除分類"
+}

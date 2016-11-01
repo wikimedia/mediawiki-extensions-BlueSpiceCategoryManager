@@ -1,0 +1,16 @@
+{
+	"@metadata": {
+		"authors": [
+			"Macofe"
+		]
+	},
+	"bluespicecategorymanager": "Administrador de categorías",
+	"bluespicecategorymanager-desc": "Herramienta visual para administrar categorías",
+	"action-categorymanager-viewspecialpage": "Ver el administrador de categorías",
+	"bs-categorymanager-draganddrop-text": "Arrastra y suelta para reorganizar",
+	"bs-categorymanager-label": "Administrador de categorías",
+	"bs-categorymanager-dlg-new-title": "Crear categoría",
+	"bs-categorymanager-dlg-new-prompt": "Escribe el nombre:",
+	"bs-categorymanager-removecategoryconfirm-text": "¿Estás seguro de que quieres eliminar esta categoría?",
+	"bs-categorymanager-removecategoryconfirm-title": "Eliminar categoría"
+}
