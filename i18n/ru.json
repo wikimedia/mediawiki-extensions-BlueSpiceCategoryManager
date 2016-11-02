@@ -1,0 +1,11 @@
+{
+	"@metadata": {
+		"authors": [
+			"Kareyac"
+		]
+	},
+	"bluespicecategorymanager": "Менеджер категорий",
+	"bs-categorymanager-label": "Менеджер категорий",
+	"bs-categorymanager-dlg-new-title": "Создать категорию",
+	"bs-categorymanager-removecategoryconfirm-title": "Удалить категорию"
+}
