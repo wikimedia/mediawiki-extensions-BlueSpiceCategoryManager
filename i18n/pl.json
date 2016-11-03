@@ -5,5 +5,7 @@
 		]
 	},
 	"bluespicecategorymanager": "Menedżer kategorii",
-	"bs-categorymanager-label": "Menedżer kategorii"
+	"bluespicecategorymanager-desc": "Narzędzie wizualne do zarządzania kategoriami",
+	"bs-categorymanager-label": "Menedżer kategorii",
+	"bs-categorymanager-dlg-new-prompt": "Podaj nazwę:"
 }
