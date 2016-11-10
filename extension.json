@@ -6,7 +6,7 @@
 	],
 	"url": "https://www.mediawiki.org/wiki/Extension:BlueSpiceCategoryManager",
 	"description": "This extension offers a special page for category administration, based on BlueSpiceFoundation.",
-	"version": "2.27.0",
+	"version": "2.27.1-alpha",
 	"license-name": "GPL-2.0+",
 	"type": "bluespice",
 	"SpecialPages": {
