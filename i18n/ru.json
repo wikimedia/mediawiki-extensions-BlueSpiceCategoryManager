@@ -1,12 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kareyac"
+			"Kareyac",
+			"Mailman"
 		]
 	},
 	"bluespicecategorymanager": "Менеджер категорий",
+	"bluespicecategorymanager-desc": "Инструмент для управления группами",
 	"bs-categorymanager-label": "Менеджер категорий",
 	"bs-categorymanager-dlg-new-title": "Создать категорию",
 	"bs-categorymanager-dlg-new-prompt": "Пожалуйста, введите имя:",
+	"bs-categorymanager-removecategoryconfirm-text": "Вы уверены, что хотите удалить эту категорию?",
 	"bs-categorymanager-removecategoryconfirm-title": "Удалить категорию"
 }
