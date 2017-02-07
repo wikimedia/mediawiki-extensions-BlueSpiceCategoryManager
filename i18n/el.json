@@ -1,10 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"GR"
+			"GR",
+			"Protnet"
 		]
 	},
 	"bs-categorymanager-dlg-new-title": "Δημιουργία κατηγορίας",
-	"bs-categorymanager-dlg-new-prompt": "Παρακαλώ πληκτρολογήστε το όνομα:",
+	"bs-categorymanager-dlg-new-prompt": "Παρακαλούμε εισαγάγετε το όνομα:",
 	"bs-categorymanager-removecategoryconfirm-title": "Αφαιρέστε κατηγορία"
 }
