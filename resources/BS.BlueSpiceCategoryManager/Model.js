@@ -3,13 +3,22 @@ Ext.define( 'BS.BlueSpiceCategoryManager.Model', {
 	fields: [
 		{ name: 'text', type: 'string' },
 		{
-			name: 'leaf', type: 'boolean', convert: function() {
+			name: 'leaf', type: 'boolean', convert: function ( value, record ) {
 				return false;
 			}
 		},
 		{
-			name: 'href', type: 'string', convert: function( value, record  ) {
-				var catTitle = mw.Title.makeTitle( bs.ns.NS_CATEGORY, record.get( 'text') );
+			name: 'loaded', type: 'boolean', convert: function ( value, record ) {
+				if( !record.data.root ) {
+					return record.raw.leaf;
+				}
+
+				return value;
+			}
+		},
+		{
+			name: 'href', type: 'string', convert: function ( value, record ) {
+				var catTitle = mw.Title.makeTitle( bs.ns.NS_CATEGORY, record.get( 'text' ) );
 				return catTitle.getUrl();
 			}
 		},
