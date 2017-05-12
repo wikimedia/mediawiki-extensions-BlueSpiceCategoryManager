@@ -37,7 +37,9 @@
 			],
 			"dependencies": [
 				"ext.bluespice.extjs",
-				"mediawiki.api.edit"
+				"ext.bluespice.extjs.BS.deferred",
+				"mediawiki.api.edit",
+				"mediawiki.Title"
 			],
 			"messages": [
 				"bs-categorymanager-draganddrop-text",
@@ -45,7 +47,6 @@
 				"bs-categorymanager-dlg-new-title",
 				"bs-categorymanager-removecategoryconfirm-text",
 				"bs-categorymanager-removecategoryconfirm-title"
-
 			]
 		}
 	},
