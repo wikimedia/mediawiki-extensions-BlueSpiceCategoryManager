@@ -9,11 +9,7 @@ Ext.define( 'BS.BlueSpiceCategoryManager.Model', {
 		},
 		{
 			name: 'loaded', type: 'boolean', convert: function ( value, record ) {
-				if( !record.data.root ) {
-					return record.raw.leaf;
-				}
-
-				return value;
+				return record.raw.leaf;
 			}
 		},
 		{
