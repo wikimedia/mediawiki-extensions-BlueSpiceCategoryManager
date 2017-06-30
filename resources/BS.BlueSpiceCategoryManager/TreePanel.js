@@ -151,7 +151,9 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 						me.treePanel.getStore().load();
 						me.treePanel.setLoading( false );
 					})
-					.fail( function() {
+					.fail( function( jqXHR, textStatus, response ) {
+						Ext.Msg.alert( mw.message( 'bs-categorymanager-addcategory-dialog-error-title' ).plain(), response.message );
+
 						me.treePanel.setLoading( false );
 					});
 				},

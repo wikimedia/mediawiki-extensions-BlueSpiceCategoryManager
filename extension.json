@@ -46,7 +46,8 @@
 				"bs-categorymanager-dlg-new-prompt",
 				"bs-categorymanager-dlg-new-title",
 				"bs-categorymanager-removecategoryconfirm-text",
-				"bs-categorymanager-removecategoryconfirm-title"
+				"bs-categorymanager-removecategoryconfirm-title",
+				"bs-categorymanager-addcategory-dialog-error-title"
 			]
 		}
 	},
