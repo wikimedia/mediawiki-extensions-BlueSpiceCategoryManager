@@ -12,5 +12,6 @@
 	"bs-categorymanager-dlg-new-title": "创建分类",
 	"bs-categorymanager-dlg-new-prompt": "请输入名称：",
 	"bs-categorymanager-removecategoryconfirm-text": "您确定要删除此分类吗？",
-	"bs-categorymanager-removecategoryconfirm-title": "移除分类"
+	"bs-categorymanager-removecategoryconfirm-title": "移除分类",
+	"bs-categorymanager-addcategory-dialog-error-title": "创建分类失败"
 }
