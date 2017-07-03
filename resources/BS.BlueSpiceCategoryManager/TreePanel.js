@@ -32,13 +32,17 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 			model: 'BS.BlueSpiceCategoryManager.Model'
 		});
 
+		var me = this;
+
 		this.treePanel = new Ext.tree.Panel({
 			useArrows: true,
 			height: 500,
 			rootVisible: false,
 			displayField: 'text',
 			store: this.store,
+			rowLines: true,
 			viewConfig: {
+				stripeRows : true,
 				plugins: {
 					ptype: 'treeviewdragdrop',
 					dragText: mw.message( 'bs-categorymanager-draganddrop-text' ).plain(),
@@ -48,9 +52,34 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 					expandDelay: 250,
 					allowParentInserts: true
 				}
-			}
+			},
+			columns : [{
+				xtype: 'treecolumn', //this is so we know which column will show the tree
+				flex: 2,
+				dataIndex: 'text',
+				sortable: false
+			},
+			new Ext.grid.column.Action({
+				header: mw.message('bs-extjs-actions-column-header').plain(),
+				flex: 0,
+				items: [
+					{
+						tooltip: mw.message('bs-extjs-delete').plain(),
+						iconCls: 'bs-extjs-actioncolumn-icon bs-icon-cross destructive',
+						glyph: true,
+						handler: function() {
+							me.onBtnRemoveClick( me.btnRemove, null);
+						}
+					}
+				],
+				menuDisabled: true,
+				hideable: false,
+				sortable: false
+			})
+			]
 		} );
 
+		this.treePanel.expandAll();
 		this.treePanel.getView().on( 'drop', this.onDrop, this );
 		this.treePanel.getView().on( 'beforedrop', this.onBeforedrop, this );
 		this.treePanel.getView().on( 'itemclick', this.onItemclick, this );
@@ -63,7 +92,7 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 	},
 	onBeforedrop: function( node, data, overModel, dropPosition, dropHandler, eOpts ){
 		Ext.Array.each( data.records, function ( record ) {
-			this.originalParent = record.parentNode.get( 'text' );
+			this.originalParent = record.parentNode.get( 'categoryName' );
 		});
 	},
 	onItemclick: function ( obj, record, item, index, e, eOpts ) {
@@ -74,7 +103,7 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 		var me = this;
 
 		Ext.Array.each( data.records, function ( record ) {
-			var recordFullName = 'Category:' + record.get( 'text' );
+			var recordFullName = 'Category:' + record.get( 'categoryName' );
 
 			// append to category
 			if( dropPosition === 'append' ) {
@@ -82,9 +111,14 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 					me.removeCategories( recordFullName, [this.originalParent] )
 				).always( function(){
 					$.when(
-						me.addCategories( recordFullName, [overModel.get( 'text' )] )
+						me.addCategories( recordFullName, [overModel.get( 'categoryName' )] )
 					).always( function() {
 						me.treePanel.setLoading( false );
+						me.treePanel.getStore().load({
+							callback: function(records, operation, success) {
+								me.treePanel.expandAll();
+							}
+						});
 					});
 				});
 			} else {
@@ -95,6 +129,11 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 						me.removeCategories( recordFullName, [this.originalParent] )
 					).always( function(){
 						me.treePanel.setLoading( false );
+						me.treePanel.getStore().load({
+							callback: function(records, operation, success) {
+								me.treePanel.expandAll();
+							}
+						});
 					});
 				} else {
 					// set category to parent of overModel
@@ -102,9 +141,14 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 						me.removeCategories( recordFullName, [this.originalParent] )
 					).always( function() {
 						$.when(
-							me.addCategories( recordFullName, [overModel.parentNode.get( 'text' )] )
+							me.addCategories( recordFullName, [overModel.parentNode.get( 'categoryName' )] )
 						).always( function() {
 							me.treePanel.setLoading( false );
+							me.treePanel.getStore().load({
+								callback: function(records, operation, success) {
+									me.treePanel.expandAll();
+								}
+							});
 						});
 					});
 				}
@@ -148,8 +192,12 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 					});
 					addCategoryAction.execute()
 					.done( function( resp ) {
-						me.treePanel.getStore().load();
 						me.treePanel.setLoading( false );
+						me.treePanel.getStore().load({
+							callback: function(records, operation, success) {
+								me.treePanel.expandAll();
+							}
+						});
 					})
 					.fail( function( jqXHR, textStatus, response ) {
 						Ext.Msg.alert( mw.message( 'bs-categorymanager-addcategory-dialog-error-title' ).plain(), response.message );
@@ -172,7 +220,7 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 				ok: function(){
 					var data = new Array();
 					var element = oButton.element;
-					var category = element.get( 'text' );
+					var category = element.get( 'categoryName' );
 					var categoryEntire = 'Category:' + category;
 
 					var api = new mw.Api();
@@ -199,7 +247,11 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 						batchDialog.show();
 						batchDialog.startProcessing();
 						batchDialog.on( 'ok', function() {
-							me.treePanel.getStore().load();
+							me.treePanel.getStore().load({
+								callback: function(records, operation, success) {
+									me.treePanel.expandAll();
+								}
+							});
 						}, this );
 					})
 					.fail( function(){

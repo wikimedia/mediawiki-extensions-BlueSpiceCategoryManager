@@ -35,6 +35,9 @@
 			"scripts": [
 				"bluespice.categorymanager.js"
 			],
+			"styles": [
+				"bluespice.categorymanager.css"
+			],
 			"dependencies": [
 				"ext.bluespice.extjs",
 				"ext.bluespice.extjs.BS.deferred",
