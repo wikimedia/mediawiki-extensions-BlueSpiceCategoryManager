@@ -10,7 +10,7 @@
 	"bluespicecategorymanager-desc": "Used in [{{canonicalurl:Special:ExtensionInfo}} Special:ExtensionInfo], description of category manager extension",
 	"action-categorymanager-viewspecialpage": "{{doc-action|categorymanager-viewspecialpage}}\nLabel for denied page access, with name of special page",
 	"bs-categorymanager-draganddrop-text": "Hint for the user when dragging a tree node",
-	"bs-categorymanager-label": "Anchor text for user manager\\n{{Identical|Category manager}}",
+	"bs-categorymanager-label": "Anchor text for user manager\n{{Identical|Category manager}}",
 	"bs-categorymanager-dlg-new-title": "Title of dialog window that allows creation of new category",
 	"bs-categorymanager-dlg-new-prompt": "Label of the input field for the new category name",
 	"bs-categorymanager-removecategoryconfirm-text": "Prompt message in case a user tries to delete a category",

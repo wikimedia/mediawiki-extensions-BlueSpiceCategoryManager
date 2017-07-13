@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Ljonka",
-			"Dejan Savuljesku"
+			"Dejan Savuljesku",
+			"Metalhead64"
 		]
 	},
 	"bluespicecategorymanager": "Kategorieverwaltung",
@@ -14,5 +15,5 @@
 	"bs-categorymanager-dlg-new-prompt": "Bitte gib den Namen ein:",
 	"bs-categorymanager-removecategoryconfirm-text": "Bist du sicher, dass du diese Kategorie löschen willst?",
 	"bs-categorymanager-removecategoryconfirm-title": "Kategorie löschen",
-	"bs-categorymanager-addcategory-dialog-error-title": "Kategorie erstellen fehlgeschlagen"
+	"bs-categorymanager-addcategory-dialog-error-title": "Die Erstellung der Kategorie ist fehlgeschlagen"
 }

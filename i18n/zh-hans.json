@@ -6,11 +6,12 @@
 	},
 	"bluespicecategorymanager": "分类管理器",
 	"bluespicecategorymanager-desc": "管理分类的可视化工具",
-	"action-categorymanager-viewspecialpage": "查看分类过滤器",
+	"action-categorymanager-viewspecialpage": "查看分类管理器",
 	"bs-categorymanager-draganddrop-text": "通过拖放来整理",
 	"bs-categorymanager-label": "分类管理器",
 	"bs-categorymanager-dlg-new-title": "创建分类",
 	"bs-categorymanager-dlg-new-prompt": "请输入名称：",
 	"bs-categorymanager-removecategoryconfirm-text": "您确定要删除此分类吗？",
-	"bs-categorymanager-removecategoryconfirm-title": "移除分类"
+	"bs-categorymanager-removecategoryconfirm-title": "移除分类",
+	"bs-categorymanager-addcategory-dialog-error-title": "创建分类失败"
 }

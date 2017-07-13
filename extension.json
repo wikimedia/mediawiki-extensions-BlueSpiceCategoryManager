@@ -6,7 +6,7 @@
 	],
 	"url": "https://www.mediawiki.org/wiki/Extension:BlueSpiceCategoryManager",
 	"descriptionmsg": "bluespicecategorymanager-desc",
-	"version": "2.27.1",
+	"version": "2.27.1-alpha",
 	"license-name": "GPL-2.0+",
 	"type": "bluespice",
 	"SpecialPages": {
@@ -34,6 +34,9 @@
 		"ext.bluespice.categorymanager": {
 			"scripts": [
 				"bluespice.categorymanager.js"
+			],
+			"styles": [
+				"bluespice.categorymanager.css"
 			],
 			"dependencies": [
 				"ext.bluespice.extjs",

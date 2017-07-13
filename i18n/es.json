@@ -13,5 +13,6 @@
 	"bs-categorymanager-dlg-new-title": "Crear categoría",
 	"bs-categorymanager-dlg-new-prompt": "Escribe el nombre:",
 	"bs-categorymanager-removecategoryconfirm-text": "¿Estás seguro de que quieres eliminar esta categoría?",
-	"bs-categorymanager-removecategoryconfirm-title": "Eliminar categoría"
+	"bs-categorymanager-removecategoryconfirm-title": "Eliminar categoría",
+	"bs-categorymanager-addcategory-dialog-error-title": "Falló la creación de la categoría"
 }

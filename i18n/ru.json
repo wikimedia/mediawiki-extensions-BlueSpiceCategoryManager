@@ -2,14 +2,19 @@
 	"@metadata": {
 		"authors": [
 			"Kareyac",
-			"Mailman"
+			"Mailman",
+			"Facenapalm",
+			"DevilishSkull"
 		]
 	},
 	"bluespicecategorymanager": "Менеджер категорий",
 	"bluespicecategorymanager-desc": "Инструмент для управления группами",
+	"action-categorymanager-viewspecialpage": "просмотр менеджера категорий",
+	"bs-categorymanager-draganddrop-text": "Переделывайте с помощью drag-and-drop",
 	"bs-categorymanager-label": "Менеджер категорий",
 	"bs-categorymanager-dlg-new-title": "Создать категорию",
 	"bs-categorymanager-dlg-new-prompt": "Пожалуйста, введите имя:",
 	"bs-categorymanager-removecategoryconfirm-text": "Вы уверены, что хотите удалить эту категорию?",
-	"bs-categorymanager-removecategoryconfirm-title": "Удалить категорию"
+	"bs-categorymanager-removecategoryconfirm-title": "Удалить категорию",
+	"bs-categorymanager-addcategory-dialog-error-title": "Не удалось создать категорию"
 }
