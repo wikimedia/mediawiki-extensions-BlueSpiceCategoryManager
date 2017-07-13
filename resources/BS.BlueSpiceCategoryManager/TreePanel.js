@@ -70,6 +70,15 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 						handler: function() {
 							me.onBtnRemoveClick( me.btnRemove, null);
 						}
+					},
+					{
+						tooltip: mw.message('bs-categorymanager-action-show-category').plain(),
+						iconCls: 'bs-extjs-actioncolumn-icon bs-icon-eye',
+						dataIndex: 'link',
+						glyph: true,
+						handler: function( onject, index, col, object2, object3, store) {
+							window.open( store.data.link, '_blank' );
+						}
 					}
 				],
 				menuDisabled: true,

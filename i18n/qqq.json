@@ -15,5 +15,6 @@
 	"bs-categorymanager-dlg-new-prompt": "Label of the input field for the new category name",
 	"bs-categorymanager-removecategoryconfirm-text": "Prompt message in case a user tries to delete a category",
 	"bs-categorymanager-removecategoryconfirm-title": "Title of the prompt that is shown to the user before a category gets deleted",
-	"bs-categorymanager-addcategory-dialog-error-title": "Title of the error dialog if something went wrong at new categorie"
+	"bs-categorymanager-addcategory-dialog-error-title": "Title of the error dialog if something went wrong at new categorie",
+	"bs-categorymanager-action-show-category": "The action in the action column to open this category in a new tab/window."
 }

@@ -15,5 +15,6 @@
 	"bs-categorymanager-dlg-new-prompt": "Bitte gib den Namen ein:",
 	"bs-categorymanager-removecategoryconfirm-text": "Bist du sicher, dass du diese Kategorie löschen willst?",
 	"bs-categorymanager-removecategoryconfirm-title": "Kategorie löschen",
-	"bs-categorymanager-addcategory-dialog-error-title": "Die Erstellung der Kategorie ist fehlgeschlagen"
+	"bs-categorymanager-addcategory-dialog-error-title": "Die Erstellung der Kategorie ist fehlgeschlagen",
+	"bs-categorymanager-action-show-category": "Kategorie anzeigen"
 }
