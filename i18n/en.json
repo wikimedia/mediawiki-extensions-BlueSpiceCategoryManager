@@ -14,5 +14,6 @@
 	"bs-categorymanager-dlg-new-prompt": "Please enter the name:",
 	"bs-categorymanager-removecategoryconfirm-text": "Are you sure you want to delete this category?",
 	"bs-categorymanager-removecategoryconfirm-title": "Remove category",
-	"bs-categorymanager-addcategory-dialog-error-title": "Creation of category failed"
+	"bs-categorymanager-addcategory-dialog-error-title": "Creation of category failed",
+	"bs-categorymanager-action-show-category": "Show category"
 }

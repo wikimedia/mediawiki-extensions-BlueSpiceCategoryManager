@@ -10,7 +10,7 @@ class SpecialBlueSpiceCategoryManager extends BsSpecialPage {
 		parent::execute( $sParameter );
 
 		$this->getOutput()->addModules("ext.bluespice.categorymanager");
-		$this->getOutput()->addHTML( '<div id="bs-categorymanager-grid"/></div>' );
+		$this->getOutput()->addHTML( '<div id="bs-categorymanager-grid" class="bs-manager-container"/></div>' );
 
 		return true;
 	}
