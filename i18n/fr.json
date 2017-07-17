@@ -14,5 +14,6 @@
 	"bs-categorymanager-dlg-new-prompt": "Veuillez saisir le nom :",
 	"bs-categorymanager-removecategoryconfirm-text": "Êtes-vous sûr de vouloir supprimer cette catégorie ?",
 	"bs-categorymanager-removecategoryconfirm-title": "Supprimer la catégorie",
-	"bs-categorymanager-addcategory-dialog-error-title": "Echec dans la création de catégorie"
+	"bs-categorymanager-addcategory-dialog-error-title": "Echec dans la création de catégorie",
+	"bs-categorymanager-action-show-category": "Afficher la catégorie"
 }
