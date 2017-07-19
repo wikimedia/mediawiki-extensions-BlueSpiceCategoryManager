@@ -4,9 +4,9 @@
 		"Leonid Verhovskij",
 		"Dejan Savuljesku"
 	],
-	"url": "https://www.mediawiki.org/wiki/Extension:BlueSpiceCategoryManager",
+	"url": "https://help.bluespice.com/wiki/CategoryManager",
 	"descriptionmsg": "bluespicecategorymanager-desc",
-	"version": "2.27.1-alpha",
+	"version": "2.27.2",
 	"license-name": "GPL-2.0+",
 	"type": "bluespice",
 	"SpecialPages": {
