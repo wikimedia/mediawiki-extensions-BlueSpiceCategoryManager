@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kareyac"
+			"Kareyac",
+			"Aram1985"
 		]
 	},
-	"bs-categorymanager-removecategoryconfirm-title": "Հեռացնել կատեգորիան"
+	"bs-categorymanager-removecategoryconfirm-title": "Հեռացնել կատեգորիան",
+	"bs-categorymanager-action-show-category": "Ցուցադրել կատեգորիան"
 }
