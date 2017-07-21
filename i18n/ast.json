@@ -13,5 +13,6 @@
 	"bs-categorymanager-dlg-new-prompt": "Escribe'l nome:",
 	"bs-categorymanager-removecategoryconfirm-text": "¿Tas seguru de que quies desaniciar esta categoría?",
 	"bs-categorymanager-removecategoryconfirm-title": "Desaniciar categoría",
-	"bs-categorymanager-addcategory-dialog-error-title": "Falló la creación de la categoría"
+	"bs-categorymanager-addcategory-dialog-error-title": "Falló la creación de la categoría",
+	"bs-categorymanager-action-show-category": "Amosar categoría"
 }
