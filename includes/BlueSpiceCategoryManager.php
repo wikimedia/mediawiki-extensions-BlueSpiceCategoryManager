@@ -7,7 +7,8 @@ class BlueSpiceCategoryManager extends BsExtensionMW {
 			'image' => '/extensions/BlueSpiceCategoryManager/resources/images/bs-btn_categorymanager.png',
 			'level' => 'wikiadmin',
 			'message' => 'bs-categorymanager-label',
-			'iconCls' => 'bs-icon-tag'
+			'iconCls' => 'bs-icon-tag',
+			'permissions' => [ 'categorymanager-viewspecialpage' ],
 		) );
 		wfProfileOut( 'BS::'.__METHOD__ );
 	}
