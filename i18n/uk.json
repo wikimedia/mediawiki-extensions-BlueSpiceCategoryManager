@@ -12,5 +12,7 @@
 	"bs-categorymanager-dlg-new-title": "Створити категорію",
 	"bs-categorymanager-dlg-new-prompt": "Будь ласка, введіть назву:",
 	"bs-categorymanager-removecategoryconfirm-text": "Ви впевнені, що хочете вилучити цю категорію?",
-	"bs-categorymanager-removecategoryconfirm-title": "Вилучити категорію"
+	"bs-categorymanager-removecategoryconfirm-title": "Вилучити категорію",
+	"bs-categorymanager-addcategory-dialog-error-title": "Створення категорії провалилось",
+	"bs-categorymanager-action-show-category": "Показати категорію"
 }
