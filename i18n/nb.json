@@ -12,5 +12,7 @@
 	"bs-categorymanager-dlg-new-title": "Opprett kategori",
 	"bs-categorymanager-dlg-new-prompt": "Skriv inn navnet:",
 	"bs-categorymanager-removecategoryconfirm-text": "Er du sikker på at du vil slette denne kategorien?",
-	"bs-categorymanager-removecategoryconfirm-title": "Fjern kategori"
+	"bs-categorymanager-removecategoryconfirm-title": "Fjern kategori",
+	"bs-categorymanager-addcategory-dialog-error-title": "Opprettelse av kategori feilet",
+	"bs-categorymanager-action-show-category": "Vis kategori"
 }
