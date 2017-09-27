@@ -1,0 +1,8 @@
+{
+	"name": "mediawiki/blue-spice-category-manager",
+	"type": "mediawiki-extension",
+	"description": "Visual tool to manage categories",
+	"require": {
+		"composer/installers": "~1.0"
+	}
+}
