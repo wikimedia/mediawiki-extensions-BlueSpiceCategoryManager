@@ -6,14 +6,45 @@
 	],
 	"url": "https://help.bluespice.com/wiki/CategoryManager",
 	"descriptionmsg": "bluespicecategorymanager-desc",
-	"version": "2.27.2",
-	"license-name": "GPL-2.0-or-later",
+	"version": "3.0.0-alpha",
+	"license-name": "GPL-3.0-only",
 	"type": "bluespice",
+	"attributes": {
+		"BlueSpiceFoundation": {
+			"Extensions": {
+				"BlueSpiceCategoryManager": {
+					"className": "\\BlueSpice\\CategoryManager\\Extension",
+					"extPath": "/BlueSpiceCategoryManager"
+				}
+			},
+			"PermissionRegistry": {
+				"categorymanager-viewspecialpage": {
+					"type": "global",
+					"roles": [
+						"admin"
+					]
+				}
+			}
+		}
+	},
+	"GroupPermissions": {
+		"*": {
+			"categorymanager-viewspecialpage": false
+		},
+		"user": {
+			"categorymanager-viewspecialpage": false
+		},
+		"sysop": {
+			"categorymanager-viewspecialpage": true
+		}
+	},
 	"SpecialPages": {
 		"BlueSpiceCategoryManager": "SpecialBlueSpiceCategoryManager"
 	},
+	"AutoloadNamespaces": {
+		"BlueSpice\\CategoryManager\\" : "src/"
+	},
 	"AutoloadClasses": {
-		"BlueSpiceCategoryManager": "includes/BlueSpiceCategoryManager.php",
 		"SpecialBlueSpiceCategoryManager": "includes/specials/SpecialBlueSpiceCategoryManager.php"
 	},
 	"ExtensionMessagesFiles": {
@@ -23,12 +54,6 @@
 		"BlueSpiceCategoryManager": [
 			"i18n"
 		]
-	},
-	"bsgExtensions": {
-		"BlueSpiceCategoryManager": {
-			"className": "BlueSpiceCategoryManager",
-			"extPath": "/BlueSpiceCategoryManager"
-		}
 	},
 	"ResourceModules": {
 		"ext.bluespice.categorymanager": {
@@ -59,5 +84,5 @@
 		"localBasePath": "resources",
 		"remoteExtPath": "BlueSpiceCategoryManager/resources"
 	},
-	"manifest_version": 1
+	"manifest_version": 2
 }
