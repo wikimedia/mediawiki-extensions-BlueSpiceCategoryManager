@@ -24,6 +24,9 @@
 						"admin"
 					]
 				}
+			},
+			"AdminToolRegistry": {
+				"bs-category-manager": "BlueSpice\\CategoryManager\\AdminTool"
 			}
 		}
 	},
@@ -38,6 +41,9 @@
 			"categorymanager-viewspecialpage": true
 		}
 	},
+	"AvailableRights": [
+		"categorymanager-viewspecialpage"
+	],
 	"SpecialPages": {
 		"BlueSpiceCategoryManager": "SpecialBlueSpiceCategoryManager"
 	},

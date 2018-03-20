@@ -2,21 +2,19 @@ Ext.define( 'BS.BlueSpiceCategoryManager.Model', {
 	extend: 'BS.model.Category',
 	fields: [
 		{
-			name: 'text', type: 'string', convert: function ( value, record ) {
-				return mw.html.element( 'span', {
-					'class': (record.raw.leaf ? 'bs-icon-tag' : 'bs-icon-tags' )
-				},
-				value );
-			}
+			name: 'text', type: 'string'
 		},
 		{
 			name: 'link', type: 'string', convert: function ( value, record ) {
-				return mw.Title.makeTitle( bs.ns.NS_CATEGORY, record.raw.text ).getUrl();
+				return mw.Title.makeTitle(
+					bs.ns.NS_CATEGORY,
+					record.get( 'text' )
+				).getUrl();
 			}
 		},
 		{
 			name: 'categoryName', type: 'string', convert: function ( value, record ) {
-				return record.raw.text;
+				return record.get( 'text' )
 			}
 		},
 		{
@@ -26,7 +24,7 @@ Ext.define( 'BS.BlueSpiceCategoryManager.Model', {
 		},
 		{
 			name: 'loaded', type: 'boolean', convert: function ( value, record ) {
-				return record.raw.leaf;
+				return record.get( 'leaf' );
 			}
 		}
 	]
