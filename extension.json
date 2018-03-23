@@ -9,6 +9,12 @@
 	"version": "3.0.0-alpha",
 	"license-name": "GPL-3.0-only",
 	"type": "bluespice",
+	"requires": {
+		"MediaWiki": ">= 1.31.0",
+		"extensions": {
+			"BlueSpiceFoundation": "*"
+		}
+	},
 	"attributes": {
 		"BlueSpiceFoundation": {
 			"Extensions": {
