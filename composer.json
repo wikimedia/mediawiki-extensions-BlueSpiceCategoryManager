@@ -1,5 +1,5 @@
 {
-	"name": "mediawiki/blue-spice-category-manager",
+	"name": "bluespice/categorymanager",
 	"type": "mediawiki-extension",
 	"description": "Visual tool to manage categories",
 	"license": "GPL-3.0-only",
@@ -19,5 +19,8 @@
 		"fix": [
 			"minus-x fix ."
 		]
+	},
+	"extra": {
+		"installer-name": "BlueSpiceCategoryManager"
 	}
 }
