@@ -67,8 +67,8 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 						tooltip: mw.message('bs-extjs-delete').plain(),
 						iconCls: 'bs-extjs-actioncolumn-icon bs-icon-cross destructive',
 						glyph: true,
-						handler: function() {
-							me.onBtnRemoveClick( me.btnRemove, null);
+						handler: function( object, index, col, object2, object3, store) {
+							me.onBtnRemoveClick( me.btnRemove, store, null);
 						}
 					},
 					{
@@ -76,7 +76,7 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 						iconCls: 'bs-extjs-actioncolumn-icon bs-icon-eye',
 						dataIndex: 'link',
 						glyph: true,
-						handler: function( onject, index, col, object2, object3, store) {
+						handler: function( object, index, col, object2, object3, store) {
 							window.open( store.data.link, '_blank' );
 						}
 					}
@@ -219,7 +219,7 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 		);
 	},
 
-	onBtnRemoveClick: function ( oButton, oEvent ) {
+	onBtnRemoveClick: function ( oButton, oStore, oEvent ) {
 		var me = this;
 		bs.util.confirm( 'RemoveCategory', {
 				text: mw.message( 'bs-categorymanager-removecategoryconfirm-text' ).plain(),
@@ -228,8 +228,13 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 			{
 				ok: function(){
 					var data = new Array();
-					var element = oButton.element;
-					var category = element.get( 'categoryName' );
+					var category;
+					if ( oStore.data && oStore.data.text ) {
+						category = oStore.data.text;
+					} else {
+						var element = oButton.element;
+						category = element.get( 'categoryName' );
+					}
 					var categoryEntire = 'Category:' + category;
 
 					var api = new mw.Api();
