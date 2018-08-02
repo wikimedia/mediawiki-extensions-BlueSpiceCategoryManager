@@ -16,5 +16,6 @@
 	"bs-categorymanager-removecategoryconfirm-text": "Prompt message in case a user tries to delete a category",
 	"bs-categorymanager-removecategoryconfirm-title": "Title of the prompt that is shown to the user before a category gets deleted",
 	"bs-categorymanager-addcategory-dialog-error-title": "Title of the error dialog if something went wrong at new categorie",
-	"bs-categorymanager-action-show-category": "The action in the action column to open this category in a new tab/window."
+	"bs-categorymanager-action-show-category": "The action in the action column to open this category in a new tab/window.",
+	"right-categorymanager-viewspecialpage": "Grants access to the special page [[Special:BlueSpiceCategoryManager]].\n{{doc-right|categorymanager-viewspecialpage}}"
 }
