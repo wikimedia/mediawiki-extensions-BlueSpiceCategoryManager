@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Piramidion"
+			"Piramidion",
+			"Vlad5250"
 		]
 	},
 	"bluespicecategorymanager": "Менеджер категорій",
@@ -14,5 +15,6 @@
 	"bs-categorymanager-removecategoryconfirm-text": "Ви впевнені, що хочете вилучити цю категорію?",
 	"bs-categorymanager-removecategoryconfirm-title": "Вилучити категорію",
 	"bs-categorymanager-addcategory-dialog-error-title": "Створення категорії провалилось",
-	"bs-categorymanager-action-show-category": "Показати категорію"
+	"bs-categorymanager-action-show-category": "Показати категорію",
+	"right-categorymanager-viewspecialpage": "доступ до спеціальної сторінки [[Special:BlueSpiceCategoryManager]]."
 }

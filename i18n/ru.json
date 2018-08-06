@@ -4,7 +4,8 @@
 			"Kareyac",
 			"Mailman",
 			"Facenapalm",
-			"DevilishSkull"
+			"DevilishSkull",
+			"Vlad5250"
 		]
 	},
 	"bluespicecategorymanager": "Менеджер категорий",
@@ -17,5 +18,6 @@
 	"bs-categorymanager-removecategoryconfirm-text": "Вы уверены, что хотите удалить эту категорию?",
 	"bs-categorymanager-removecategoryconfirm-title": "Удалить категорию",
 	"bs-categorymanager-addcategory-dialog-error-title": "Не удалось создать категорию",
-	"bs-categorymanager-action-show-category": "Показать категорию"
+	"bs-categorymanager-action-show-category": "Показать категорию",
+	"right-categorymanager-viewspecialpage": "доступ к служебной странице [[Special:BlueSpiceCategoryManager]]"
 }
