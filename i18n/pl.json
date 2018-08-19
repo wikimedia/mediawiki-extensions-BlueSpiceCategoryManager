@@ -12,5 +12,6 @@
 	"bs-categorymanager-dlg-new-prompt": "Podaj nazwę:",
 	"bs-categorymanager-removecategoryconfirm-title": "Usuń kategorię",
 	"bs-categorymanager-addcategory-dialog-error-title": "Tworzenie kategorii nie powiodło się",
-	"bs-categorymanager-action-show-category": "Pokaż kategorię"
+	"bs-categorymanager-action-show-category": "Pokaż kategorię",
+	"right-categorymanager-viewspecialpage": "Przyznawanie dostępu do strony specjalnej [[Special:BlueSpiceCategoryManager]]."
 }
