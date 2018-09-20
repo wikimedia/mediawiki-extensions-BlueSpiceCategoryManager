@@ -27,7 +27,10 @@
 				"categorymanager-viewspecialpage": {
 					"type": "global",
 					"roles": [
-						"admin"
+						"admin",
+						"editor",
+						"maintenanceadmin",
+						"structuremanager"
 					]
 				}
 			},
