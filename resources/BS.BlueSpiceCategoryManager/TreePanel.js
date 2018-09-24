@@ -241,7 +241,9 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 					api.get({
 						action: 'query',
 						list: 'categorymembers',
-						cmtitle: categoryEntire
+						cmtitle: categoryEntire,
+						titles: categoryEntire,
+						prop: 'pageprops'
 					})
 					.done( function ( response ){
 						$.each(response.query.categorymembers, function( index, val ){
@@ -252,9 +254,14 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 							data.push( action );
 						});
 
-						data.push( new BS.action.APIDeletePage({
-							pageTitle: categoryEntire
-						}) );
+						$.each( response.query.pages, function( index, val ) {
+							if( index > 0 ) {
+								// Only delete category page if it actually exists
+								data.push( new BS.action.APIDeletePage({
+									pageTitle: categoryEntire
+								}) );
+							}
+						} );
 
 						var batchDialog = new BS.dialog.BatchActions({});
 						batchDialog.setData( data );
