@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"A Chinese Wikipedian"
 		]
 	},
 	"bluespicecategorymanager": "分类管理器",
@@ -14,5 +15,6 @@
 	"bs-categorymanager-removecategoryconfirm-text": "您确定要删除此分类吗？",
 	"bs-categorymanager-removecategoryconfirm-title": "移除分类",
 	"bs-categorymanager-addcategory-dialog-error-title": "创建分类失败",
-	"bs-categorymanager-action-show-category": "显示分类"
+	"bs-categorymanager-action-show-category": "显示分类",
+	"right-categorymanager-viewspecialpage": "授予访问特殊页面[[Special:BlueSpiceCategoryManager]]的权限。"
 }
