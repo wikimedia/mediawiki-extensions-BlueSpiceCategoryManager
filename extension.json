@@ -81,7 +81,7 @@
 			"dependencies": [
 				"ext.bluespice.extjs",
 				"ext.bluespice.extjs.BS.deferred",
-				"mediawiki.api.edit",
+				"mediawiki.api",
 				"mediawiki.Title"
 			],
 			"messages": [
