@@ -1,6 +1,6 @@
 <?php
 
-class SpecialBlueSpiceCategoryManager extends BsSpecialPage {
+class SpecialBlueSpiceCategoryManager extends \BlueSpice\SpecialPage {
 
 	public function __construct() {
 		parent::__construct( 'BlueSpiceCategoryManager', 'categorymanager-viewspecialpage' );
