@@ -4,5 +4,16 @@
 			"Joetaras"
 		]
 	},
-	"bs-categorymanager-action-show-category": "Fà 'ndrucà 'a categorije"
+	"bluespicecategorymanager": "Gestore de categorije",
+	"bluespicecategorymanager-desc": "Strumende visuale pe gestì le categorije",
+	"action-categorymanager-viewspecialpage": "'ndruche 'u Gestore de categorije",
+	"bs-categorymanager-draganddrop-text": "Pigghie e spuèste pe organizzà arrete",
+	"bs-categorymanager-label": "Gestore de categorije",
+	"bs-categorymanager-dlg-new-title": "Ccreje 'na categorije",
+	"bs-categorymanager-dlg-new-prompt": "Pe piacere mitte 'u nome:",
+	"bs-categorymanager-removecategoryconfirm-text": "Sì secure ca vuè ccu scangille sta categorije?",
+	"bs-categorymanager-removecategoryconfirm-title": "Live 'a categorije",
+	"bs-categorymanager-addcategory-dialog-error-title": "Ccrejazione d'a categorije sciute male",
+	"bs-categorymanager-action-show-category": "Fà 'ndrucà 'a categorije",
+	"right-categorymanager-viewspecialpage": "Le deritte de accesse a 'a pàgena speciale [[Special:BlueSpiceCategoryManager]]."
 }
