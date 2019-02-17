@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Saederup92"
+		]
+	},
+	"bs-categorymanager-dlg-new-title": "Opret kategori",
+	"bs-categorymanager-removecategoryconfirm-title": "Fjern kategori",
+	"bs-categorymanager-action-show-category": "Vis kategori"
+}
