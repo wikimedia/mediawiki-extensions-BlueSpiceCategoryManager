@@ -16,7 +16,7 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 				url: mw.util.wikiScript( 'api' ),
 				reader: {
 					type: 'json',
-					root: 'results',
+					rootProperty: 'results',
 					totalProperty: 'total'
 				},
 				extraParams: {
