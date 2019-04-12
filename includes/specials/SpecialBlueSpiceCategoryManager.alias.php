@@ -1,13 +1,13 @@
 <?php
 
-$specialPageAliases = array();
+$specialPageAliases = [];
 
 /** English */
-$specialPageAliases['en'] = array(
-	'BlueSpiceCategoryManager' => array( 'Category manager' ),
-);
+$specialPageAliases['en'] = [
+	'BlueSpiceCategoryManager' => [ 'Category manager' ],
+];
 
 /** German (Deutsch) */
-$specialPageAliases['de'] = array(
-	'BlueSpiceCategoryManager' => array( 'Kategorieverwaltung', ),
-);
+$specialPageAliases['de'] = [
+	'BlueSpiceCategoryManager' => [ 'Kategorieverwaltung', ],
+];
