@@ -6,13 +6,13 @@
 	],
 	"url": "https://en.wiki.bluespice.com/wiki/Reference:CategoryManager",
 	"descriptionmsg": "bluespicecategorymanager-desc",
-	"version": "3.1.0-alpha",
+	"version": "3.2.0-alpha",
 	"license-name": "GPL-3.0-only",
 	"type": "bluespice",
 	"requires": {
-		"MediaWiki": ">= 1.31.0",
+		"MediaWiki": ">= 1.34.0",
 		"extensions": {
-			"BlueSpiceFoundation": "*"
+			"BlueSpiceFoundation": ">= 3.2"
 		}
 	},
 	"attributes": {
