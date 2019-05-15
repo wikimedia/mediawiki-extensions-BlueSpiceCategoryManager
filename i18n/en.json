@@ -16,5 +16,5 @@
 	"bs-categorymanager-removecategoryconfirm-title": "Remove category",
 	"bs-categorymanager-addcategory-dialog-error-title": "Creation of category failed",
 	"bs-categorymanager-action-show-category": "Show category",
-	"right-categorymanager-viewspecialpage": "Grants access to the special page [[Special:BlueSpiceCategoryManager]]."
+	"right-categorymanager-viewspecialpage": "Access to the special page [[Special:BlueSpiceCategoryManager]]"
 }
