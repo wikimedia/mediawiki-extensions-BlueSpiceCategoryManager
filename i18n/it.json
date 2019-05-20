@@ -6,5 +6,6 @@
 	},
 	"bs-categorymanager-dlg-new-title": "Creare categoria",
 	"bs-categorymanager-removecategoryconfirm-title": "Rimuovere categoria",
-	"bs-categorymanager-action-show-category": "Mostra categoria"
+	"bs-categorymanager-action-show-category": "Mostra categoria",
+	"right-categorymanager-viewspecialpage": "Accede alla pagina speciale [[Special:BlueSpiceCategoryManager]]"
 }
