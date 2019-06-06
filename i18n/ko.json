@@ -5,7 +5,9 @@
 		]
 	},
 	"bluespicecategorymanager": "분류 관리자",
+	"bluespicecategorymanager-desc": "분류 관리를 위한 시각 도구",
 	"action-categorymanager-viewspecialpage": "분류 관리자 보기",
+	"bs-categorymanager-draganddrop-text": "다시 정리하려면 끌어 놓으십시오",
 	"bs-categorymanager-label": "분류 관리자",
 	"bs-categorymanager-dlg-new-title": "분류 만들기",
 	"bs-categorymanager-dlg-new-prompt": "이름을 입력하십시오:",
