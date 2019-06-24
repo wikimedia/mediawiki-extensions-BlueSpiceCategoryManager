@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Zoranzoki21"
+			"Zoranzoki21",
+			"BadDog"
 		]
 	},
 	"bluespicecategorymanager": "Менаџер категорија",
@@ -15,5 +16,5 @@
 	"bs-categorymanager-removecategoryconfirm-title": "Уклони категорију",
 	"bs-categorymanager-addcategory-dialog-error-title": "Креирање категорије није успело",
 	"bs-categorymanager-action-show-category": "Прикажи категорију",
-	"right-categorymanager-viewspecialpage": "Додељује приступ специјалној страници [[Special:BlueSpiceCategoryManager]]."
+	"right-categorymanager-viewspecialpage": "приступ посебној страници [[Special:BlueSpiceCategoryManager]]"
 }
