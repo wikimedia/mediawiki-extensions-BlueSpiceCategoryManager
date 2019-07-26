@@ -16,5 +16,5 @@
 	"bs-categorymanager-removecategoryconfirm-title": "刪除分類",
 	"bs-categorymanager-addcategory-dialog-error-title": "分類建立失敗",
 	"bs-categorymanager-action-show-category": "顯示分類",
-	"right-categorymanager-viewspecialpage": "授予存取特殊頁面 [[Special:BlueSpiceCategoryManager]] 的權限。"
+	"right-categorymanager-viewspecialpage": "存取特殊頁面 [[Special:BlueSpiceCategoryManager]] 的權限。"
 }
