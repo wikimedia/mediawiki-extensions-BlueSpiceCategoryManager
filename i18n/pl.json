@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Chrumps",
-			"InternerowyGołąb"
+			"InternerowyGołąb",
+			"Railfail536"
 		]
 	},
 	"bluespicecategorymanager": "Menedżer kategorii",
@@ -13,5 +14,5 @@
 	"bs-categorymanager-removecategoryconfirm-title": "Usuń kategorię",
 	"bs-categorymanager-addcategory-dialog-error-title": "Tworzenie kategorii nie powiodło się",
 	"bs-categorymanager-action-show-category": "Pokaż kategorię",
-	"right-categorymanager-viewspecialpage": "Przyznawanie dostępu do strony specjalnej [[Special:BlueSpiceCategoryManager]]."
+	"right-categorymanager-viewspecialpage": "Dostęp do strony specjalnej [[Special:BlueSpiceCategoryManager]]."
 }
