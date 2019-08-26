@@ -1,13 +1,15 @@
 {
 	"@metadata": {
 		"authors": [
-			"WikiPhoenix"
+			"WikiPhoenix",
+			"Josve05a"
 		]
 	},
 	"bluespicecategorymanager": "Kategorihanterare",
 	"action-categorymanager-viewspecialpage": "visa kategorihanterare",
 	"bs-categorymanager-label": "Kategorihanterare",
 	"bs-categorymanager-dlg-new-title": "Skapa kategori",
+	"bs-categorymanager-dlg-new-prompt": "Vänligen ange namnet:",
 	"bs-categorymanager-removecategoryconfirm-title": "Ta bort kategori",
 	"bs-categorymanager-addcategory-dialog-error-title": "Misslyckades att skapa kategori",
 	"bs-categorymanager-action-show-category": "Visa kategori",
