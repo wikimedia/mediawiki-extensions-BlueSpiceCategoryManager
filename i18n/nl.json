@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Mainframe98"
+			"Mainframe98",
+			"Siebrand"
 		]
 	},
 	"bluespicecategorymanager": "Categoriebeheer",
@@ -12,5 +13,6 @@
 	"bs-categorymanager-dlg-new-prompt": "Voer de naam in:",
 	"bs-categorymanager-removecategoryconfirm-text": "Weet u zeker dat u deze categorie wilt verwijderen?",
 	"bs-categorymanager-removecategoryconfirm-title": "Categorie verwijderen",
+	"bs-categorymanager-action-show-category": "Categorie weergeven",
 	"right-categorymanager-viewspecialpage": "Toegang hebben tot de speciale pagina [[Special:BlueSpiceCategoryManager]]"
 }
