@@ -196,7 +196,7 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 					me.treePanel.setLoading( true );
 
 					var addCategoryAction = new BS.action.APIAddCategories({
-						pageTitle: input.value,
+						pageTitle: 'Category:' + input.value,
 						categories: []
 					});
 					addCategoryAction.execute()
