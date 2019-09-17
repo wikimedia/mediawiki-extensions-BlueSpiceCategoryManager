@@ -241,8 +241,7 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 				title: mw.message( 'bs-categorymanager-removecategoryconfirm-title' ).plain(),
 			},
 			{
-				ok: function(){
-					var data = new Array();
+				ok: function() {
 					var category;
 					if ( oStore.data && oStore.data.text ) {
 						category = oStore.data.text;
@@ -252,51 +251,99 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 					}
 					var categoryEntire = 'Category:' + category;
 
-					var api = new mw.Api();
-					api.get({
-						action: 'query',
-						list: 'categorymembers',
-						cmtitle: categoryEntire,
-						titles: categoryEntire,
-						prop: 'pageprops'
-					})
-					.done( function ( response ){
-						$.each(response.query.categorymembers, function( index, val ){
-							var action = new BS.action.APIRemoveCategories({
-											pageTitle: val.title,
-											categories: [category]
-										});
-							data.push( action );
-						});
-
-						$.each( response.query.pages, function( index, val ) {
-							if( index > 0 ) {
-								// Only delete category page if it actually exists
-								data.push( new BS.action.APIDeletePage({
-									pageTitle: categoryEntire
-								}) );
-							}
-						} );
-
-						var batchDialog = new BS.dialog.BatchActions({});
-						batchDialog.setData( data );
-						batchDialog.show();
-						batchDialog.startProcessing();
-						batchDialog.on( 'ok', function() {
-							me.treePanel.getStore().load({
-								callback: function(records, operation, success) {
-									me.treePanel.expandAll();
+					me.treePanel.setLoading( true );
+					me.getRemoveCategoryActions( categoryEntire )
+						.done( function( categoryActions ) {
+							me.getRemoveCategoryPageAction( categoryEntire ).done( function( action ) {
+								if ( action ) {
+									categoryActions.push( action );
 								}
-							});
-						}, this );
-					})
-					.fail( function(){
-						me.treePanel.setLoading( false );
-					});
+								var batchDialog = new BS.dialog.BatchActions( {} );
+								batchDialog.setData( categoryActions );
+								batchDialog.show();
+								batchDialog.startProcessing();
+								batchDialog.on( 'ok', function() {
+									me.treePanel.getStore().load( {
+										callback: function( records, operation, success ) {
+											me.treePanel.expandAll();
+										}
+									} );
+								}, this );
+							} ).fail( function() {
+								me.treePanel.setLoading( false );
+							} );
+						} )
+						.fail( function() {
+							me.treePanel.setLoading( false );
+						} );
 				},
 				scope: this
 			}
 		);
+	},
+
+	getRemoveCategoryActions: function( category ) {
+		var dfd = $.Deferred(),
+			queryData = {
+				cmtitle: category,
+				titles: category,
+			},
+			categoryActions = [];
+		this.getRemoveCategoryActionsRecursive( dfd, queryData, categoryActions );
+		return dfd.promise();
+	},
+
+	getRemoveCategoryActionsRecursive: function( dfd, queryData, categoryActions ) {
+		var api = new mw.Api();
+		queryData = $.extend( {
+			action: 'query',
+			list: 'categorymembers',
+			prop: 'pageprops'
+		}, queryData );
+		api.get( queryData ).done( function ( response ) {
+			if ( response.query.categorymembers.length === 0 ){
+				dfd.resolve( categoryActions );
+			}
+			for ( var i = 0; i < response.query.categorymembers.length; i++ ) {
+				var action = new BS.action.APIRemoveCategories( {
+					pageTitle: response.query.categorymembers[i].title,
+					categories: [ queryData.cmtitle ]
+				} );
+				categoryActions.push( action );
+			}
+
+			if ( response.hasOwnProperty( 'continue' ) ) {
+				queryData = $.extend( queryData, response.continue );
+				this.getRemoveCategoriesActionsRecursive( dfd, queryData, categoryActions );
+			} else {
+				dfd.resolve( categoryActions );
+			}
+		}.bind( this ) ).fail( function() {
+			dfd.reject();
+		} );
+	},
+
+	getRemoveCategoryPageAction: function( category ) {
+		var dfd = $.Deferred();
+
+		new mw.Api().get( {
+			action: 'query',
+			prop: 'pageprops',
+			titles: category
+		} ).done( function( response ) {
+			for ( var pageId in response.query.pages ) {
+				if ( pageId > 0 ) {
+					dfd.resolve( new BS.action.APIDeletePage( {
+						pageTitle: category
+					} ) );
+				}
+				dfd.resolve( null );
+			}
+		} ).fail( function() {
+			dfd.reject();
+		} );
+
+		return dfd.promise();
 	},
 
 	opPermitted: function( operation ) {
