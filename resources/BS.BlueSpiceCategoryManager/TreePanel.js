@@ -195,9 +195,11 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 				ok: function( input ) {
 					me.treePanel.setLoading( true );
 
+					var titleToAdd = mw.Title.makeTitle( bs.ns.NS_CATEGORY, input.value );
+					var parentCat = me.getSelectedCategoryTitle();
 					var addCategoryAction = new BS.action.APIAddCategories({
-						pageTitle: 'Category:' + input.value,
-						categories: []
+						pageTitle: titleToAdd.getPrefixedDb(),
+						categories: parentCat ? [ parentCat.getPrefixedDb() ] : []
 					});
 					addCategoryAction.execute()
 					.done( function( resp ) {
@@ -217,6 +219,19 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 				scope: this
 			}
 		);
+	},
+
+	getSelectedCategoryTitle: function() {
+		var selectedNode,
+			selectedCategory = '',
+			selection = this.treePanel.getSelection();
+		if ( selection.length === 0 ) {
+			return null;
+		}
+		selectedNode = selection[0];
+		selectedCategory = selectedNode.getData().categoryName;
+
+		return mw.Title.makeTitle( bs.ns.NS_CATEGORY, selectedCategory );
 	},
 
 	onBtnRemoveClick: function ( oButton, oStore, oEvent ) {
