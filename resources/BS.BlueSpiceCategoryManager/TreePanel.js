@@ -301,7 +301,8 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 			prop: 'pageprops'
 		}, queryData );
 		api.get( queryData ).done( function ( response ) {
-			if ( response.query.categorymembers.length === 0 ){
+			if ( !response.query.hasOwnProperty( 'categorymembers' ) ||
+				response.query.categorymembers.length === 0 ){
 				dfd.resolve( categoryActions );
 			}
 			for ( var i = 0; i < response.query.categorymembers.length; i++ ) {
