@@ -315,7 +315,7 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 
 			if ( response.hasOwnProperty( 'continue' ) ) {
 				queryData = $.extend( queryData, response.continue );
-				this.getRemoveCategoriesActionsRecursive( dfd, queryData, categoryActions );
+				this.getRemoveCategoryActionsRecursive( dfd, queryData, categoryActions );
 			} else {
 				dfd.resolve( categoryActions );
 			}
