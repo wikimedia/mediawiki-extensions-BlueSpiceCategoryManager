@@ -263,6 +263,7 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 								batchDialog.show();
 								batchDialog.startProcessing();
 								batchDialog.on( 'ok', function() {
+									me.treePanel.setLoading( false );
 									me.treePanel.getStore().load( {
 										callback: function( records, operation, success ) {
 											me.treePanel.expandAll();
@@ -338,8 +339,8 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 						pageTitle: category
 					} ) );
 				}
-				dfd.resolve( null );
 			}
+			dfd.resolve( null );
 		} ).fail( function() {
 			dfd.reject();
 		} );
