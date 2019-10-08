@@ -36,6 +36,14 @@
 			},
 			"AdminToolRegistry": {
 				"bs-category-manager": "BlueSpice\\CategoryManager\\AdminTool"
+			},
+			"EntityRegistry": {
+				"categorizedpages": "\\BlueSpice\\CategoryManager\\EntityConfig\\Collection\\CategorizedPages"
+			}
+		},
+		"BlueSpiceExtendedStatistics": {
+			"SnapshotDataCollectorRegistry": {
+				"categorizedpages": "\\BlueSpice\\CategoryManager\\DataCollector\\StoreSourced\\CategorizedPages::factory"
 			}
 		}
 	},
@@ -92,6 +100,14 @@
 				"bs-categorymanager-removecategoryconfirm-title",
 				"bs-categorymanager-addcategory-dialog-error-title",
 				"bs-categorymanager-action-show-category"
+			]
+		},
+		"ext.bluespice.categorymanager.collection.categorizedpages": {
+			"messages": [
+				"bs-categorymanager-collection-type-categorizedpages",
+				"bs-categorymanager-collection-var-namespacename",
+				"bs-categorymanager-collection-var-categorizedpages",
+				"bs-categorymanager-collection-var-uncategorizedpages"
 			]
 		}
 	},
