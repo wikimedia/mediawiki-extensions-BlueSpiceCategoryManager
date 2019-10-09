@@ -2,12 +2,32 @@
 
 namespace BlueSpice\CategoryManager\EntityConfig\Collection;
 
+use Config;
+use BlueSpice\Services;
+use BlueSpice\EntityConfig;
 use BlueSpice\ExtendedStatistics\Data\Entity\Collection\Schema;
 use BlueSpice\Data\FieldType;
 use BlueSpice\ExtendedStatistics\EntityConfig\Collection;
 use BlueSpice\CategoryManager\Entity\Collection\CategorizedPages as Entity;
 
-class CategorizedPages extends Collection {
+class CategorizedPages extends EntityConfig {
+
+	/**
+	 *
+	 * @param Config $config
+	 * @param string $key
+	 * @param Services $services
+	 * @return EntityConfig
+	 */
+	public static function factory( $config, $key, $services ) {
+		$extension = $services->getBSExtensionFactory()->getExtension(
+			'BlueSpiceExtendedStatistics'
+		);
+		if ( !$extension ) {
+			return null;
+		}
+		return new static( new Collection( $config ), $key );
+	}
 
 	/**
 	 *
@@ -22,7 +42,7 @@ class CategorizedPages extends Collection {
 	 * @return array
 	 */
 	protected function get_VarMessageKeys() {
-		return array_merge( parent::get_VarMessageKeys(), [
+		return array_merge( $this->getConfig()->get( 'VarMessageKeys' ), [
 			Entity::ATTR_NAMESPACE_NAME => 'bs-categorymanager-collection-var-namespacename',
 			Entity::ATTR_CATEGORIZED_PAGES => 'bs-categorymanager-collection-var-categorizedpages',
 			Entity::ATTR_UNCATEGORIZED_PAGES => 'bs-categorymanager-collection-var-uncategorizedpages',
@@ -31,10 +51,20 @@ class CategorizedPages extends Collection {
 
 	/**
 	 *
+	 * @return array
+	 */
+	protected function get_PrimaryAttributeDefinitions() {
+		return array_filter( $this->get_AttributeDefinitions(), function ( $e ) {
+			return isset( $e[Schema::PRIMARY] ) && $e[Schema::PRIMARY] === true;
+		} );
+	}
+
+	/**
+	 *
 	 * @return string[]
 	 */
 	protected function get_Modules() {
-		return array_merge( parent::get_Modules(), [
+		return array_merge( $this->getConfig()->get( 'Modules' ), [
 			'ext.bluespice.categorymanager.collection.categorizedpages',
 		] );
 	}
@@ -52,7 +82,7 @@ class CategorizedPages extends Collection {
 	 * @return array
 	 */
 	protected function get_AttributeDefinitions() {
-		$attributes = array_merge( parent::get_AttributeDefinitions(), [
+		$attributes = array_merge( $this->getConfig()->get( 'AttributeDefinitions' ), [
 			Entity::ATTR_NAMESPACE_NAME => [
 				Schema::FILTERABLE => true,
 				Schema::SORTABLE => true,
