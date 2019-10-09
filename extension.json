@@ -38,7 +38,7 @@
 				"bs-category-manager": "BlueSpice\\CategoryManager\\AdminTool"
 			},
 			"EntityRegistry": {
-				"categorizedpages": "\\BlueSpice\\CategoryManager\\EntityConfig\\Collection\\CategorizedPages"
+				"categorizedpages": "\\BlueSpice\\CategoryManager\\EntityConfig\\Collection\\CategorizedPages::factory"
 			}
 		},
 		"BlueSpiceExtendedStatistics": {
