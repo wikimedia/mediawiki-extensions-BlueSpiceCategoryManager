@@ -33,6 +33,14 @@ class CategorizedPages extends EntityConfig {
 	 *
 	 * @return string
 	 */
+	protected function get_StoreClass() {
+		return $this->getConfig()->get( 'StoreClass' );
+	}
+
+	/**
+	 *
+	 * @return string
+	 */
 	protected function get_TypeMessageKey() {
 		return 'bs-categorymanager-collection-type-categorizedpages';
 	}
