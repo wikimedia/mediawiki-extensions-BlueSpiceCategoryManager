@@ -12,5 +12,8 @@
 	"bs-categorymanager-removecategoryconfirm-text": "이 분류를 삭제하겠습니까?",
 	"bs-categorymanager-removecategoryconfirm-title": "분류 제거",
 	"bs-categorymanager-addcategory-dialog-error-title": "분류 만들기를 실패했습니다",
-	"bs-categorymanager-action-show-category": "분류 표시"
+	"bs-categorymanager-action-show-category": "분류 표시",
+	"bluespicecategorymanager-desc": "분류 관리를 위한 시각 도구",
+	"bs-categorymanager-draganddrop-text": "다시 정리하려면 끌어 놓으십시오",
+	"right-categorymanager-viewspecialpage": "[[Special:BlueSpiceCategoryManager]] 특수 문서로 접근"
 }
