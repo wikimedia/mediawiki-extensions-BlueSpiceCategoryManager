@@ -13,7 +13,7 @@
 	"bs-categorymanager-label": "Gestionnaire de catégories",
 	"bs-categorymanager-dlg-new-title": "Créer une catégorie",
 	"bs-categorymanager-dlg-new-prompt": "Veuillez saisir le nom :",
-	"bs-categorymanager-removecategoryconfirm-text": "Échec dans la création de catégorie",
+	"bs-categorymanager-removecategoryconfirm-text": "Êtes-vous sûr de vouloir supprimer cette catégorie ?",
 	"bs-categorymanager-removecategoryconfirm-title": "Supprimer la catégorie",
 	"bs-categorymanager-addcategory-dialog-error-title": "Échec dans la création de catégorie",
 	"bs-categorymanager-action-show-category": "Afficher la catégorie",
