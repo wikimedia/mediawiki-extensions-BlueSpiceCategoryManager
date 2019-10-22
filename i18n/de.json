@@ -3,7 +3,8 @@
 		"authors": [
 			"Ljonka",
 			"Dejan Savuljesku",
-			"Metalhead64"
+			"Metalhead64",
+			"Ferdinand0101"
 		]
 	},
 	"bluespicecategorymanager": "Kategorieverwaltung",
@@ -17,5 +18,6 @@
 	"bs-categorymanager-removecategoryconfirm-title": "Kategorie löschen",
 	"bs-categorymanager-addcategory-dialog-error-title": "Die Erstellung der Kategorie ist fehlgeschlagen",
 	"bs-categorymanager-action-show-category": "Kategorie anzeigen",
-	"right-categorymanager-viewspecialpage": "Zugriff auf die Spezialseite [[Special:BlueSpiceCategoryManager]]"
+	"right-categorymanager-viewspecialpage": "Zugriff auf die Spezialseite [[Special:BlueSpiceCategoryManager]]",
+	"bs-categorymanager-collection-var-uncategorizedpages": "Seiten ohne Kategorien"
 }
