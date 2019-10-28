@@ -16,6 +16,8 @@
 	"bs-categorymanager-addcategory-dialog-error-title": "분류 만들기를 실패했습니다",
 	"bs-categorymanager-action-show-category": "분류 표시",
 	"right-categorymanager-viewspecialpage": "[[Special:BlueSpiceCategoryManager]] 특수 문서로 접근",
+	"bs-categorymanager-collection-type-categorizedpages": "분류 할당",
 	"bs-categorymanager-collection-var-namespacename": "이름공간",
+	"bs-categorymanager-collection-var-categorizedpages": "분류가 있는 문서",
 	"bs-categorymanager-collection-var-uncategorizedpages": "분류가 없는 문서"
 }
