@@ -15,5 +15,9 @@
 	"bs-categorymanager-removecategoryconfirm-title": "Fjern kategori",
 	"bs-categorymanager-addcategory-dialog-error-title": "Opprettelse av kategori feilet",
 	"bs-categorymanager-action-show-category": "Vis kategori",
-	"right-categorymanager-viewspecialpage": "Gir tilgang til spesialsiden [[Special:BlueSpiceCategoryManager]]."
+	"right-categorymanager-viewspecialpage": "Gir tilgang til spesialsiden [[Special:BlueSpiceCategoryManager]]",
+	"bs-categorymanager-collection-type-categorizedpages": "Kategoritildeling",
+	"bs-categorymanager-collection-var-namespacename": "Navnerom",
+	"bs-categorymanager-collection-var-categorizedpages": "Sider med kategorier",
+	"bs-categorymanager-collection-var-uncategorizedpages": "Sider uten kategorier"
 }
