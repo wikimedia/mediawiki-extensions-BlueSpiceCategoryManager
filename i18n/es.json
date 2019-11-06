@@ -16,5 +16,8 @@
 	"bs-categorymanager-removecategoryconfirm-title": "Eliminar categoría",
 	"bs-categorymanager-addcategory-dialog-error-title": "Falló la creación de la categoría",
 	"bs-categorymanager-action-show-category": "Mostrar categoría",
-	"right-categorymanager-viewspecialpage": "Otorga acceso a la página especial [[Special:BlueSpiceCategoryManager]]."
+	"right-categorymanager-viewspecialpage": "Otorga acceso a la página especial [[Special:BlueSpiceCategoryManager]].",
+	"bs-categorymanager-collection-var-namespacename": "Espacio de nombres",
+	"bs-categorymanager-collection-var-categorizedpages": "Páginas con categorías",
+	"bs-categorymanager-collection-var-uncategorizedpages": "Páginas sin categorías"
 }
