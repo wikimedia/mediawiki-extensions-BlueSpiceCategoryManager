@@ -16,5 +16,9 @@
 	"bs-categorymanager-removecategoryconfirm-title": "Уклони категорију",
 	"bs-categorymanager-addcategory-dialog-error-title": "Креирање категорије није успело",
 	"bs-categorymanager-action-show-category": "Прикажи категорију",
-	"right-categorymanager-viewspecialpage": "приступ посебној страници [[Special:BlueSpiceCategoryManager]]"
+	"right-categorymanager-viewspecialpage": "приступ посебној страници [[Special:BlueSpiceCategoryManager]]",
+	"bs-categorymanager-collection-type-categorizedpages": "Додела категорија",
+	"bs-categorymanager-collection-var-namespacename": "Именски простор",
+	"bs-categorymanager-collection-var-categorizedpages": "Странице са категоријама",
+	"bs-categorymanager-collection-var-uncategorizedpages": "Странице без категорија"
 }

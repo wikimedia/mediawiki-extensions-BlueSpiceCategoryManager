@@ -15,5 +15,9 @@
 	"bs-categorymanager-removecategoryconfirm-title": "أزل التصنيف",
 	"bs-categorymanager-addcategory-dialog-error-title": "فشل إنشاء التصنيف",
 	"bs-categorymanager-action-show-category": "إظهار التصنيف",
-	"right-categorymanager-viewspecialpage": "الوصول إلى الصفحة الخاصة [[Special:BlueSpiceCategoryManager]]."
+	"right-categorymanager-viewspecialpage": "الوصول إلى الصفحة الخاصة [[Special:BlueSpiceCategoryManager]].",
+	"bs-categorymanager-collection-type-categorizedpages": "تخصيص التصنيف",
+	"bs-categorymanager-collection-var-namespacename": "النطاق",
+	"bs-categorymanager-collection-var-categorizedpages": "الصفحات في هذه التصنيفات",
+	"bs-categorymanager-collection-var-uncategorizedpages": "الصفحات دون هذه التصنيفات"
 }

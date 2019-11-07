@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Pyscowicz"
+			"Pyscowicz",
+			"Cxz"
 		]
 	},
-	"bs-categorymanager-removecategoryconfirm-title": "Poista luokka"
+	"bs-categorymanager-removecategoryconfirm-title": "Poista luokka",
+	"bs-categorymanager-action-show-category": "Näytä luokka",
+	"bs-categorymanager-collection-var-namespacename": "Nimiavaruus"
 }

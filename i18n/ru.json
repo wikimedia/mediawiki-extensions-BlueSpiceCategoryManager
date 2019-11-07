@@ -19,5 +19,9 @@
 	"bs-categorymanager-removecategoryconfirm-title": "Удалить категорию",
 	"bs-categorymanager-addcategory-dialog-error-title": "Не удалось создать категорию",
 	"bs-categorymanager-action-show-category": "Показать категорию",
-	"right-categorymanager-viewspecialpage": "доступ к служебной странице [[Special:BlueSpiceCategoryManager]]"
+	"right-categorymanager-viewspecialpage": "доступ к служебной странице [[Special:BlueSpiceCategoryManager]]",
+	"bs-categorymanager-collection-type-categorizedpages": "Размещение категории",
+	"bs-categorymanager-collection-var-namespacename": "Пространство имён",
+	"bs-categorymanager-collection-var-categorizedpages": "Страницы с категориями",
+	"bs-categorymanager-collection-var-uncategorizedpages": "Страницы без категорий"
 }

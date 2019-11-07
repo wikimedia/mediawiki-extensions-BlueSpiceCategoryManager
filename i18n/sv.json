@@ -13,5 +13,8 @@
 	"bs-categorymanager-addcategory-dialog-error-title": "Misslyckades att skapa kategori",
 	"bs-categorymanager-action-show-category": "Visa kategori",
 	"right-categorymanager-viewspecialpage": "Ger åtkomst till specialsidan [[Special:BlueSpiceCategoryManager]].",
-	"bs-categorymanager-dlg-new-prompt": "Vänligen ange namnet:"
+	"bs-categorymanager-dlg-new-prompt": "Vänligen ange namnet:",
+	"bs-categorymanager-collection-var-namespacename": "Namnrymd",
+	"bs-categorymanager-collection-var-categorizedpages": "Sidor med kategorier",
+	"bs-categorymanager-collection-var-uncategorizedpages": "Sidor utan kategorier"
 }

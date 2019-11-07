@@ -16,5 +16,9 @@
 	"bs-categorymanager-removecategoryconfirm-title": "刪除分類",
 	"bs-categorymanager-addcategory-dialog-error-title": "分類建立失敗",
 	"bs-categorymanager-action-show-category": "顯示分類",
-	"right-categorymanager-viewspecialpage": "存取特殊頁面 [[Special:BlueSpiceCategoryManager]] 的權限。"
+	"right-categorymanager-viewspecialpage": "存取特殊頁面 [[Special:BlueSpiceCategoryManager]] 的權限。",
+	"bs-categorymanager-collection-type-categorizedpages": "分類分配",
+	"bs-categorymanager-collection-var-namespacename": "命名空間",
+	"bs-categorymanager-collection-var-categorizedpages": "帶有分類的頁面",
+	"bs-categorymanager-collection-var-uncategorizedpages": "不帶分類的頁面"
 }

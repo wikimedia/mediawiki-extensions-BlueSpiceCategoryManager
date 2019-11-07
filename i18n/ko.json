@@ -15,5 +15,9 @@
 	"bs-categorymanager-action-show-category": "분류 표시",
 	"bluespicecategorymanager-desc": "분류 관리를 위한 시각 도구",
 	"bs-categorymanager-draganddrop-text": "다시 정리하려면 끌어 놓으십시오",
-	"right-categorymanager-viewspecialpage": "[[Special:BlueSpiceCategoryManager]] 특수 문서로 접근"
+	"right-categorymanager-viewspecialpage": "[[Special:BlueSpiceCategoryManager]] 특수 문서로 접근",
+	"bs-categorymanager-collection-type-categorizedpages": "분류 할당",
+	"bs-categorymanager-collection-var-namespacename": "이름공간",
+	"bs-categorymanager-collection-var-categorizedpages": "분류가 있는 문서",
+	"bs-categorymanager-collection-var-uncategorizedpages": "분류가 없는 문서"
 }

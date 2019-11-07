@@ -6,7 +6,7 @@
 	},
 	"bluespicecategorymanager": "Gestore de categorije",
 	"bluespicecategorymanager-desc": "Strumende visuale pe gestì le categorije",
-	"action-categorymanager-viewspecialpage": "'ndruche 'u Gestore de categorije",
+	"action-categorymanager-viewspecialpage": "'ndruche 'u gestore de categorije",
 	"bs-categorymanager-draganddrop-text": "Pigghie e spuèste pe organizzà arrete",
 	"bs-categorymanager-label": "Gestore de categorije",
 	"bs-categorymanager-dlg-new-title": "Ccreje 'na categorije",
@@ -15,5 +15,9 @@
 	"bs-categorymanager-removecategoryconfirm-title": "Live 'a categorije",
 	"bs-categorymanager-addcategory-dialog-error-title": "Ccrejazione d'a categorije sciute male",
 	"bs-categorymanager-action-show-category": "Fà 'ndrucà 'a categorije",
-	"right-categorymanager-viewspecialpage": "Tràse jndr'à pàgena speciale [[Special:BlueSpiceCategoryManager]]"
+	"right-categorymanager-viewspecialpage": "Tràse jndr'à pàgena speciale [[Special:BlueSpiceCategoryManager]]",
+	"bs-categorymanager-collection-type-categorizedpages": "Posizione d'a categorije",
+	"bs-categorymanager-collection-var-namespacename": "Namespace",
+	"bs-categorymanager-collection-var-categorizedpages": "Pàggene cu categorije",
+	"bs-categorymanager-collection-var-uncategorizedpages": "Pàggene senze categorije"
 }

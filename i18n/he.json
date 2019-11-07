@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Guycn2"
+			"Guycn2",
+			"Steeve815"
 		]
 	},
 	"bluespicecategorymanager": "ניהול קטגוריות",
@@ -14,5 +15,8 @@
 	"bs-categorymanager-removecategoryconfirm-text": "האם ברצונך למחוק קטגוריה זו?",
 	"bs-categorymanager-removecategoryconfirm-title": "הסרת קטגוריה",
 	"bs-categorymanager-addcategory-dialog-error-title": "יצירת הקטגוריה נכשלה",
-	"bs-categorymanager-action-show-category": "הצגת הקטגוריה"
+	"bs-categorymanager-action-show-category": "הצגת הקטגוריה",
+	"bs-categorymanager-collection-var-namespacename": "מרחב שם",
+	"bs-categorymanager-collection-var-categorizedpages": "דפים עם קטגוריות",
+	"bs-categorymanager-collection-var-uncategorizedpages": "דפים ללא קטגוריות"
 }

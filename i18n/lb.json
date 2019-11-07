@@ -14,5 +14,8 @@
 	"bs-categorymanager-removecategoryconfirm-text": "Sidd Dir sécher datt Dir dës Kategorie läsche wëllt?",
 	"bs-categorymanager-removecategoryconfirm-title": "Kategorie ewechhuelen",
 	"bs-categorymanager-addcategory-dialog-error-title": "Uleeë vun der Kategorie huet net funktionéiert",
-	"bs-categorymanager-action-show-category": "Kategorie weisen"
+	"bs-categorymanager-action-show-category": "Kategorie weisen",
+	"bs-categorymanager-collection-var-namespacename": "Nummraum",
+	"bs-categorymanager-collection-var-categorizedpages": "Säite mat Kategorien",
+	"bs-categorymanager-collection-var-uncategorizedpages": "Säiten ouni Kategorie"
 }
