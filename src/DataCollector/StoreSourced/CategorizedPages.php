@@ -133,6 +133,12 @@ class CategorizedPages extends NamespaceCollector {
 			if ( !isset( $uncategorizedAgg[$canonicalName] ) ) {
 				$uncategorizedAgg[$canonicalName] = 0;
 			}
+			if ( !isset( $categorized[$nsName] ) ) {
+				$categorized[$nsName] = 0;
+			}
+			if ( !isset( $uncategorized[$nsName] ) ) {
+				$uncategorized[$nsName] = 0;
+			}
 			$categorized[$nsName] =
 				$categorized[$nsName]
 				- $collection->get( Collection::ATTR_CATEGORIZED_PAGES_AGGREGATED, 0 );
