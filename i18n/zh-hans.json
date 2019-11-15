@@ -22,5 +22,7 @@
 	"bs-categorymanager-action-show-category": "显示分类",
 	"right-categorymanager-viewspecialpage": "访问特殊页面[[Special:BlueSpiceCategoryManager]]",
 	"bs-categorymanager-collection-type-categorizedpages": "分类分配",
-	"bs-categorymanager-collection-var-namespacename": "命名空间"
+	"bs-categorymanager-collection-var-namespacename": "命名空间",
+	"bs-categorymanager-collection-var-categorizedpages": "带有分类的页面",
+	"bs-categorymanager-collection-var-uncategorizedpages": "不带分类的页面"
 }
