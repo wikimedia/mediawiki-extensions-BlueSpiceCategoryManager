@@ -2,18 +2,22 @@
 	"@metadata": {
 		"authors": [
 			"WikiPhoenix",
-			"Josve05a"
+			"Josve05a",
+			"Mjälten"
 		]
 	},
 	"bluespicecategorymanager": "Kategorihanterare",
 	"action-categorymanager-viewspecialpage": "visa kategorihanterare",
+	"bs-categorymanager-draganddrop-text": "Dra och släpp för att omorganisera",
 	"bs-categorymanager-label": "Kategorihanterare",
 	"bs-categorymanager-dlg-new-title": "Skapa kategori",
 	"bs-categorymanager-dlg-new-prompt": "Vänligen ange namnet:",
+	"bs-categorymanager-removecategoryconfirm-text": "Är du säker på att du vill radera kategorin \"%1$s\"?",
 	"bs-categorymanager-removecategoryconfirm-title": "Ta bort kategori",
 	"bs-categorymanager-addcategory-dialog-error-title": "Misslyckades att skapa kategori",
 	"bs-categorymanager-action-show-category": "Visa kategori",
-	"right-categorymanager-viewspecialpage": "Ger åtkomst till specialsidan [[Special:BlueSpiceCategoryManager]].",
+	"right-categorymanager-viewspecialpage": "Ger åtkomst till specialsidan [[Special:BlueSpiceAbout]].",
+	"bs-categorymanager-collection-type-categorizedpages": "Kategoriinformation",
 	"bs-categorymanager-collection-var-namespacename": "Namnrymd",
 	"bs-categorymanager-collection-var-categorizedpages": "Sidor med kategorier",
 	"bs-categorymanager-collection-var-uncategorizedpages": "Sidor utan kategorier"
