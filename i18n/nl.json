@@ -14,5 +14,7 @@
 	"bs-categorymanager-removecategoryconfirm-text": "Weet u zeker dat u deze categorie wilt verwijderen?",
 	"bs-categorymanager-removecategoryconfirm-title": "Categorie verwijderen",
 	"bs-categorymanager-action-show-category": "Categorie weergeven",
-	"right-categorymanager-viewspecialpage": "Toegang hebben tot de speciale pagina [[Special:BlueSpiceCategoryManager]]"
+	"right-categorymanager-viewspecialpage": "Toegang hebben tot de speciale pagina [[Special:BlueSpiceCategoryManager]]",
+	"bs-categorymanager-collection-var-namespacename": "Naamruimte",
+	"bs-categorymanager-collection-var-uncategorizedpages": "Pagina's zonder categorieën"
 }
