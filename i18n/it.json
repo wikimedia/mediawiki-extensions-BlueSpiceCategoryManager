@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"Beta16"
+			"Beta16",
+			"Dansita"
 		]
 	},
 	"bs-categorymanager-dlg-new-title": "Creare categoria",
+	"bs-categorymanager-dlg-new-prompt": "Per favore inserisci un nome:",
 	"bs-categorymanager-removecategoryconfirm-title": "Rimuovere categoria",
 	"bs-categorymanager-action-show-category": "Mostra categoria",
 	"right-categorymanager-viewspecialpage": "Accede alla pagina speciale [[Special:BlueSpiceCategoryManager]]"
