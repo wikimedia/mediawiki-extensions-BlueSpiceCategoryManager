@@ -2,8 +2,8 @@
 
 namespace BlueSpice\CategoryManager;
 
-use Message;
 use BlueSpice\IAdminTool;
+use Message;
 
 class AdminTool implements IAdminTool {
 

@@ -2,20 +2,20 @@
 
 namespace BlueSpice\CategoryManager\DataCollector\StoreSourced;
 
-use BlueSpice\CategoryManager\Data\Page\Store;
-use Config;
-use RequestContext;
-use BlueSpice\Services;
-use BlueSpice\Data\IRecord;
-use BlueSpice\Data\RecordSet;
-use BlueSpice\Data\IStore;
-use BlueSpice\EntityFactory;
-use BlueSpice\ExtendedStatistics\SnapshotFactory;
-use BlueSpice\ExtendedStatistics\Entity\Snapshot;
-use BlueSpice\ExtendedStatistics\DataCollector\StoreSourced\NamespaceCollector;
 use BlueSpice\CategoryManager\Data\Page\Record;
+use BlueSpice\CategoryManager\Data\Page\Store;
 use BlueSpice\CategoryManager\Entity\Collection\CategorizedPages as Collection;
+use BlueSpice\Data\IRecord;
+use BlueSpice\Data\IStore;
+use BlueSpice\Data\RecordSet;
+use BlueSpice\EntityFactory;
+use BlueSpice\ExtendedStatistics\DataCollector\StoreSourced\NamespaceCollector;
+use BlueSpice\ExtendedStatistics\Entity\Snapshot;
+use BlueSpice\ExtendedStatistics\SnapshotFactory;
+use BlueSpice\Services;
+use Config;
 use MWException;
+use RequestContext;
 
 class CategorizedPages extends NamespaceCollector {
 

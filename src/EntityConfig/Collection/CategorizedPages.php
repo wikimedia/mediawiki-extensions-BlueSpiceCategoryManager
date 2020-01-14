@@ -2,13 +2,13 @@
 
 namespace BlueSpice\CategoryManager\EntityConfig\Collection;
 
-use Config;
-use BlueSpice\Services;
+use BlueSpice\CategoryManager\Entity\Collection\CategorizedPages as Entity;
+use BlueSpice\Data\FieldType;
 use BlueSpice\EntityConfig;
 use BlueSpice\ExtendedStatistics\Data\Entity\Collection\Schema;
-use BlueSpice\Data\FieldType;
 use BlueSpice\ExtendedStatistics\EntityConfig\Collection;
-use BlueSpice\CategoryManager\Entity\Collection\CategorizedPages as Entity;
+use BlueSpice\Services;
+use Config;
 
 class CategorizedPages extends EntityConfig {
 

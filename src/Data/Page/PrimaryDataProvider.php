@@ -2,14 +2,14 @@
 
 namespace BlueSpice\CategoryManager\Data\Page;
 
-use Hooks;
-use Title;
-use BsStringHelper;
 use BlueSpice\Data\Filter;
 use BlueSpice\Data\Filter\StringValue;
 use BlueSpice\Data\FilterFinder;
-use BlueSpice\Data\ReaderParams;
 use BlueSpice\Data\Page\PrimaryDataProvider as PageDataProvider;
+use BlueSpice\Data\ReaderParams;
+use BsStringHelper;
+use Hooks;
+use Title;
 
 class PrimaryDataProvider extends PageDataProvider {
 
