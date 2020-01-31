@@ -4,7 +4,8 @@
 			"Ljonka",
 			"Dejan Savuljesku",
 			"Metalhead64",
-			"Ferdinand0101"
+			"Ferdinand0101",
+			"Tiin"
 		]
 	},
 	"bluespicecategorymanager": "Kategorieverwaltung",
@@ -19,5 +20,7 @@
 	"bs-categorymanager-addcategory-dialog-error-title": "Die Erstellung der Kategorie ist fehlgeschlagen",
 	"bs-categorymanager-action-show-category": "Kategorie anzeigen",
 	"right-categorymanager-viewspecialpage": "Zugriff auf die Spezialseite [[Special:BlueSpiceCategoryManager]]",
+	"bs-categorymanager-collection-var-namespacename": "Namensraum",
+	"bs-categorymanager-collection-var-categorizedpages": "Seiten mit Kategorien",
 	"bs-categorymanager-collection-var-uncategorizedpages": "Seiten ohne Kategorien"
 }
