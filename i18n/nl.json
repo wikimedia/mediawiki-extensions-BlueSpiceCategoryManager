@@ -16,5 +16,7 @@
 	"right-categorymanager-viewspecialpage": "Toegang hebben tot de speciale pagina [[Special:BlueSpiceCategoryManager]]",
 	"bs-categorymanager-action-show-category": "Categorie weergeven",
 	"bs-categorymanager-collection-var-namespacename": "Naamruimte",
-	"bs-categorymanager-collection-var-uncategorizedpages": "Pagina's zonder categorieën"
+	"bs-categorymanager-collection-var-uncategorizedpages": "Pagina's zonder categorieën",
+	"bs-categorymanager-addcategory-dialog-error-title": "Kon de categorie niet aanmaken",
+	"bs-categorymanager-collection-var-categorizedpages": "Pagina's met categorieën"
 }
