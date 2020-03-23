@@ -3,13 +3,15 @@
 		"authors": [
 			"Otokoume",
 			"Suyama",
-			"Shirayuki"
+			"Shirayuki",
+			"Aefgh39622"
 		]
 	},
 	"bluespicecategorymanager": "カテゴリマネージャー",
 	"action-categorymanager-viewspecialpage": "カテゴリマネージャーの閲覧",
 	"bs-categorymanager-label": "カテゴリマネージャー",
 	"bs-categorymanager-dlg-new-title": "カテゴリの作成",
+	"bs-categorymanager-dlg-new-prompt": "名前を入力してください:",
 	"bs-categorymanager-removecategoryconfirm-text": "このカテゴリを削除してよろしいですか？",
 	"bs-categorymanager-removecategoryconfirm-title": "カテゴリの削除",
 	"bs-categorymanager-addcategory-dialog-error-title": "カテゴリの作成に失敗しました",
