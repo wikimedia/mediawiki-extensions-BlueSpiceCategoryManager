@@ -3,7 +3,8 @@
 		"authors": [
 			"WikiPhoenix",
 			"Josve05a",
-			"Mjälten"
+			"Mjälten",
+			"Technic2"
 		]
 	},
 	"bluespicecategorymanager": "Kategorihanterare",
@@ -16,7 +17,7 @@
 	"bs-categorymanager-removecategoryconfirm-title": "Ta bort kategori",
 	"bs-categorymanager-addcategory-dialog-error-title": "Misslyckades att skapa kategori",
 	"bs-categorymanager-action-show-category": "Visa kategori",
-	"right-categorymanager-viewspecialpage": "Ger åtkomst till specialsidan [[Special:BlueSpiceAbout]].",
+	"right-categorymanager-viewspecialpage": "Åtkomst till specialsidan [[Special:BlueSpiceCategoryManager]].",
 	"bs-categorymanager-collection-type-categorizedpages": "Kategoriinformation",
 	"bs-categorymanager-collection-var-namespacename": "Namnrymd",
 	"bs-categorymanager-collection-var-categorizedpages": "Sidor med kategorier",
