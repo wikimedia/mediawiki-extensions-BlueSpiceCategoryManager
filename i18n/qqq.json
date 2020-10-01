@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Liuxinyu970226",
+			"MuratTheTurkish",
 			"Robert Vogel",
 			"Umherirrender"
 		]
@@ -10,7 +11,7 @@
 	"bluespicecategorymanager-desc": "Used in [{{canonicalurl:Special:ExtensionInfo}} Special:ExtensionInfo], description of category manager extension",
 	"action-categorymanager-viewspecialpage": "{{doc-action|categorymanager-viewspecialpage}}\nLabel for denied page access, with name of special page",
 	"bs-categorymanager-draganddrop-text": "Hint for the user when dragging a tree node",
-	"bs-categorymanager-label": "Anchor text for user manager\n{{Identical|Category manager}}",
+	"bs-categorymanager-label": "Anchor text for user manager",
 	"bs-categorymanager-dlg-new-title": "Title of dialog window that allows creation of new category",
 	"bs-categorymanager-dlg-new-prompt": "Label of the input field for the new category name",
 	"bs-categorymanager-removecategoryconfirm-text": "Prompt message in case a user tries to delete a category",
@@ -18,7 +19,7 @@
 	"bs-categorymanager-addcategory-dialog-error-title": "Title of the error dialog if something went wrong at new categorie",
 	"bs-categorymanager-action-show-category": "The action in the action column to open this category in a new tab/window.",
 	"right-categorymanager-viewspecialpage": "Grants access to the special page [[Special:BlueSpiceCategoryManager]].\n{{doc-right|categorymanager-viewspecialpage}}",
-	"bs-categorymanager-collection-type-categorizedpages": "Label for source type \"categorizedpages\" in entry field \"type\"\n{{Identical|Category allocation}}",
+	"bs-categorymanager-collection-type-categorizedpages": "Label for source type \"categorizedpages\" in entry field \"type\"",
 	"bs-categorymanager-collection-var-namespacename": "Label for entry field \"namespacename\"\n{{Identical|Namespace}}",
 	"bs-categorymanager-collection-var-categorizedpages": "Label for entry field \"categorizedpages\"\n{{Identical|Pages with categories}}",
 	"bs-categorymanager-collection-var-uncategorizedpages": "Label for entry field \"uncategorizedpages\"\n{{Identical|Pages without categories}}"
