@@ -69,9 +69,11 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 						glyph: true,
 						handler: function( object, index, col, object2, object3, store) {
 							me.onBtnRemoveClick( me.btnRemove, store, null);
+						},
+						isDisabled: function( view, rowIndex, colIndex, item, record ) {
+							return record.get( 'tracking' ) ? true : false;
 						}
-					},
-					{
+					}, {
 						tooltip: mw.message('bs-categorymanager-action-show-category').plain(),
 						iconCls: 'bs-extjs-actioncolumn-icon bs-icon-eye',
 						dataIndex: 'link',
