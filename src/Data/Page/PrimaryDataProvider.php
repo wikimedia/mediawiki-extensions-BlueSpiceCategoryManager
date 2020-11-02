@@ -8,7 +8,7 @@ use BlueSpice\Data\FilterFinder;
 use BlueSpice\Data\Page\PrimaryDataProvider as PageDataProvider;
 use BlueSpice\Data\ReaderParams;
 use BsStringHelper;
-use Hooks;
+use MediaWiki\MediaWikiServices;
 use Title;
 
 class PrimaryDataProvider extends PageDataProvider {
@@ -88,11 +88,14 @@ class PrimaryDataProvider extends PageDataProvider {
 			return;
 		}
 
-		Hooks::run( 'BSPageStoreDataProviderBeforeAppendRow', [
-			$this,
-			$record,
-			$title,
-		] );
+		MediaWikiServices::getInstance()->getHookContainer()->run(
+			'BSPageStoreDataProviderBeforeAppendRow',
+			[
+				$this,
+				$record,
+				$title,
+			]
+		);
 		if ( !$record ) {
 			return;
 		}
