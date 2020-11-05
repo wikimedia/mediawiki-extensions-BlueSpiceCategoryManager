@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"A2y4",
 			"Aefgh39622",
 			"Otokoume",
 			"Shirayuki",
@@ -16,5 +17,6 @@
 	"bs-categorymanager-addcategory-dialog-error-title": "カテゴリの作成に失敗しました",
 	"bs-categorymanager-action-show-category": "カテゴリを表示",
 	"right-categorymanager-viewspecialpage": "特別ページ [[Special:BlueSpiceCategoryManager]] を利用",
-	"bs-categorymanager-dlg-new-prompt": "名前を入力してください:"
+	"bs-categorymanager-dlg-new-prompt": "名前を入力してください:",
+	"bs-categorymanager-collection-var-namespacename": "名前空間"
 }
