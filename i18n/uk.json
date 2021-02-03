@@ -1,9 +1,9 @@
 {
 	"@metadata": {
 		"authors": [
+			"Movses",
 			"Piramidion",
-			"Vlad5250",
-			"Movses"
+			"Vlad5250"
 		]
 	},
 	"bluespicecategorymanager": "Менеджер категорій",
@@ -17,7 +17,7 @@
 	"bs-categorymanager-removecategoryconfirm-title": "Вилучити категорію",
 	"bs-categorymanager-addcategory-dialog-error-title": "Не вдалось створити категорію",
 	"bs-categorymanager-action-show-category": "Показати категорію",
-	"right-categorymanager-viewspecialpage": "доступ до спеціальної сторінки [[Special:BlueSpiceCategoryManager]]",
+	"right-categorymanager-viewspecialpage": "Доступ до спеціальної сторінки [[Special:BlueSpiceCategoryManager]]",
 	"bs-categorymanager-collection-type-categorizedpages": "Розміщення категорій",
 	"bs-categorymanager-collection-var-namespacename": "Простір назв",
 	"bs-categorymanager-collection-var-categorizedpages": "Сторінки з категоріями",

@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"FarsiNevis"
+			"FarsiNevis",
+			"Jeeputer"
 		]
 	},
 	"bluespicecategorymanager": "مدیر رده",
@@ -12,5 +13,11 @@
 	"bs-categorymanager-removecategoryconfirm-text": "آیا اطمینان دارید که می‌خواهید این رده را حذف کنید؟",
 	"bs-categorymanager-removecategoryconfirm-title": "حذف رده",
 	"bs-categorymanager-action-show-category": "نمایش رده",
-	"right-categorymanager-viewspecialpage": "دسترسی به صفحهٔ ویژهٔ [[Special:BlueSpiceCategoryManager]]"
+	"right-categorymanager-viewspecialpage": "دسترسی به صفحهٔ ویژهٔ [[Special:BlueSpiceCategoryManager]]",
+	"bluespicecategorymanager-desc": "ابزار دیداری برای مدیریت رده‌ها",
+	"bs-categorymanager-addcategory-dialog-error-title": "ایجاد رده ناموفق بود",
+	"bs-categorymanager-collection-type-categorizedpages": "تخصیص رده",
+	"bs-categorymanager-collection-var-namespacename": "فضای نام",
+	"bs-categorymanager-collection-var-categorizedpages": "صفحه‌ها با این رده‌ها",
+	"bs-categorymanager-collection-var-uncategorizedpages": "صفحه‌های بدون رده"
 }

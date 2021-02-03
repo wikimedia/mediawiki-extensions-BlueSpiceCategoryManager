@@ -1,5 +1,7 @@
 {
-	"@metadata": [],
+	"@metadata": {
+		"authors": []
+	},
 	"bluespicecategorymanager": "Menadžer kategorija",
 	"bluespicecategorymanager-desc": "Vizuelna alatka za upravljanje kategorijama",
 	"action-categorymanager-viewspecialpage": "vidi upravitelja kategorija",
