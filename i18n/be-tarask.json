@@ -1,8 +1,13 @@
 {
 	"@metadata": {
 		"authors": [
-			"Renessaince"
+			"Renessaince",
+			"W"
 		]
 	},
-	"bs-categorymanager-collection-var-categorizedpages": "Старонкі з катэгорыямі"
+	"bs-categorymanager-dlg-new-title": "Стварыць катэгорыю",
+	"bs-categorymanager-removecategoryconfirm-title": "Прыбраць катэгорыю",
+	"bs-categorymanager-action-show-category": "Паказаць катэгорыю",
+	"bs-categorymanager-collection-var-categorizedpages": "Старонкі з катэгорыямі",
+	"bs-categorymanager-collection-var-uncategorizedpages": "Старонкі без катэгорыяў"
 }
