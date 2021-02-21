@@ -65,7 +65,7 @@
 		"BlueSpiceCategoryManager": "SpecialBlueSpiceCategoryManager"
 	},
 	"AutoloadNamespaces": {
-		"BlueSpice\\CategoryManager\\" : "src/"
+		"BlueSpice\\CategoryManager\\": "src/"
 	},
 	"AutoloadClasses": {
 		"SpecialBlueSpiceCategoryManager": "includes/specials/SpecialBlueSpiceCategoryManager.php"
