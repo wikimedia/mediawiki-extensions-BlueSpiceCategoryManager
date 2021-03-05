@@ -99,7 +99,11 @@
 				"bs-categorymanager-removecategoryconfirm-text",
 				"bs-categorymanager-removecategoryconfirm-title",
 				"bs-categorymanager-addcategory-dialog-error-title",
-				"bs-categorymanager-action-show-category"
+				"bs-categorymanager-action-show-category",
+				"bs-categorymanager-rename-category",
+				"bs-categorymanager-rename-category-new-name",
+				"bs-categorymanager-move-new-name",
+				"bs-categorymanager-replace-in-pages"
 			]
 		},
 		"ext.bluespice.categorymanager.collection.categorizedpages": {

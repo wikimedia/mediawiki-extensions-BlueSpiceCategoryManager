@@ -6,7 +6,10 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 		'BS.action.APIDeletePage',
 		'BS.BlueSpiceCategoryManager.Model',
 		'BS.dialog.BatchActions',
-		'Ext.data.TreeStore'
+		'Ext.data.TreeStore',
+		'BS.BlueSpiceCategoryManager.dialog.RenameCategory',
+		'BS.BlueSpiceCategoryManager.action.ReplaceCategoryInPage',
+		'BS.BlueSpiceCategoryManager.action.MoveCategoryPage'
 	],
 	originalParent: undefined,
 	afterInitComponent: function () {
@@ -81,6 +84,60 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 						handler: function( object, index, col, object2, object3, store) {
 							window.open( store.data.link, '_blank' );
 						}
+					}, {
+						tooltip: mw.message('bs-categorymanager-rename-category').plain(),
+						iconCls: 'bs-extjs-actioncolumn-icon bs-icon-wrench',
+						dataIndex: 'link',
+						glyph: true,
+						handler: function( object, index, col, object2, object3, store) {
+							var oldCategory = store.data.categoryName,
+								newCategory = '',
+								dialog = new BS.BlueSpiceCategoryManager.dialog.RenameCategory();
+
+							dialog.setData(oldCategory);
+							dialog.on( 'ok', function (){
+								newCategory = dialog.getData();
+
+								if(newCategory != oldCategory){
+									this.treePanel.setLoading( true );
+									this.getPages(oldCategory).done(function (pages){
+										var dlgBatchActions = new BS.dialog.BatchActions( {
+											id: this.makeId( 'dialog-batchactions-save' )
+										} );
+										dlgBatchActions.on( 'ok', function() {
+											this.store.reload();
+										}, this );
+
+										var actions = [];
+										var moveCategory = new BS.BlueSpiceCategoryManager.action.MoveCategoryPage({
+											oldCategory: oldCategory,
+											newCategory: newCategory
+										});
+										actions.push(moveCategory);
+										if(pages.length > 0) {
+											var action;
+											for(var i = 0; i < pages.length; i++) {
+												action = new BS.BlueSpiceCategoryManager.action.ReplaceCategoryInPage({
+													pageTitle: pages[i].title,
+													oldCategory: oldCategory,
+													newCategory: newCategory,
+
+												});
+												actions.push(action);
+											}
+										}
+										this.treePanel.setLoading( false );
+										dlgBatchActions.setData( actions );
+										dlgBatchActions.show();
+										dlgBatchActions.startProcessing();
+									}.bind(this))
+								}
+							}.bind(this));
+							dialog.on('close', function() {
+								Ext.destroy(dialog);
+							});
+							dialog.show();
+						}.bind(this)
 					}
 				],
 				menuDisabled: true,
@@ -357,5 +414,41 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 			return false;
 		}
 		return this.callParent( arguments );
+	},
+
+	getPages: function (category) {
+		var dfd = $.Deferred();
+
+		var pages = [];
+	
+		this.getPagesFromAPI(category, pages, dfd);
+	
+		return dfd.promise();
+	},
+
+	getPagesFromAPI: function (category, pages, dfd, cmcontinueValue) {
+		var params = {
+			action: "query",
+			list: "categorymembers",
+			cmtitle: "category:" + category,
+			format: "json",
+			cmcontinue: cmcontinueValue
+		};
+
+		new mw.Api().get(params).done(function (json) {
+			if(json.query.categorymembers){
+				for(var i = 0; i < json.query.categorymembers.length; i++) {
+					pages.push(json.query.categorymembers[i]);
+				}
+			}
+			if(json.continue && json.continue.cmcontinue != "") {
+				cmcontinueValue = json.continue.cmcontinue;
+				this.getPagesFromAPI(category, pages, dfd, cmcontinueValue);
+			}
+			else{
+				cmcontinueValue = "";
+				dfd.resolve(pages);
+			}
+		}.bind(this));
 	}
 } );
