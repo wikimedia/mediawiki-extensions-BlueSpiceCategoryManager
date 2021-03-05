@@ -22,5 +22,9 @@
 	"bs-categorymanager-collection-type-categorizedpages": "Label for source type \"categorizedpages\" in entry field \"type\"",
 	"bs-categorymanager-collection-var-namespacename": "Label for entry field \"namespacename\"\n{{Identical|Namespace}}",
 	"bs-categorymanager-collection-var-categorizedpages": "Label for entry field \"categorizedpages\"\n{{Identical|Pages with categories}}",
-	"bs-categorymanager-collection-var-uncategorizedpages": "Label for entry field \"uncategorizedpages\"\n{{Identical|Pages without categories}}"
+	"bs-categorymanager-collection-var-uncategorizedpages": "Label for entry field \"uncategorizedpages\"\n{{Identical|Pages without categories}}",
+	"bs-categorymanager-rename-category": "Label for the icon in the category manager to rename a category. Also Used in the dialog as title.",
+	"bs-categorymanager-rename-category-new-name": "Label for the textfild where the user enter a ner category name.",
+	"bs-categorymanager-move-new-name": "Info message druging the renaming process that the category is renamed. At the end the new category name is displayed.",
+	"bs-categorymanager-replace-in-pages": "Info message druging the renaming process that a page with the old category is renamed. At the end the pagename will be displayed."
 }

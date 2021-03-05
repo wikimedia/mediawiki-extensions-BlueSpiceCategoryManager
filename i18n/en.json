@@ -20,5 +20,9 @@
 	"bs-categorymanager-collection-type-categorizedpages": "Category allocation",
 	"bs-categorymanager-collection-var-namespacename": "Namespace",
 	"bs-categorymanager-collection-var-categorizedpages": "Pages with categories",
-	"bs-categorymanager-collection-var-uncategorizedpages": "Pages without categories"
+	"bs-categorymanager-collection-var-uncategorizedpages": "Pages without categories",
+	"bs-categorymanager-rename-category": "Rename category",
+	"bs-categorymanager-rename-category-new-name": "New category name:",
+	"bs-categorymanager-move-new-name": "Set the new category name. New name: ",
+	"bs-categorymanager-replace-in-pages": "Rename in page: "
 }
