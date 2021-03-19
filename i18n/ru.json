@@ -23,5 +23,6 @@
 	"bs-categorymanager-collection-type-categorizedpages": "Размещение категории",
 	"bs-categorymanager-collection-var-namespacename": "Пространство имён",
 	"bs-categorymanager-collection-var-categorizedpages": "Страницы с категориями",
-	"bs-categorymanager-collection-var-uncategorizedpages": "Страницы без категорий"
+	"bs-categorymanager-collection-var-uncategorizedpages": "Страницы без категорий",
+	"bs-categorymanager-rename-category": "Переименовать категорию"
 }

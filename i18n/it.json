@@ -20,5 +20,6 @@
 	"right-categorymanager-viewspecialpage": "Accede alla pagina speciale [[Special:BlueSpiceCategoryManager]]",
 	"bs-categorymanager-collection-var-namespacename": "Namespace",
 	"bs-categorymanager-collection-var-categorizedpages": "Pagine con categorie",
-	"bs-categorymanager-collection-var-uncategorizedpages": "Pagine senza categorie"
+	"bs-categorymanager-collection-var-uncategorizedpages": "Pagine senza categorie",
+	"bs-categorymanager-rename-category": "Rinomina categoria"
 }
