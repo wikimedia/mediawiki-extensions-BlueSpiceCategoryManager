@@ -20,5 +20,6 @@
 	"bs-categorymanager-addcategory-dialog-error-title": "Creazione della categoria non riuscita",
 	"bs-categorymanager-collection-var-namespacename": "Namespace",
 	"bs-categorymanager-collection-var-categorizedpages": "Pagine con categorie",
-	"bs-categorymanager-collection-var-uncategorizedpages": "Pagine senza categorie"
+	"bs-categorymanager-collection-var-uncategorizedpages": "Pagine senza categorie",
+	"bs-categorymanager-rename-category": "Rinomina categoria"
 }

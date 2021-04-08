@@ -19,5 +19,9 @@
 	"bs-categorymanager-collection-type-categorizedpages": "분류 할당",
 	"bs-categorymanager-collection-var-namespacename": "이름공간",
 	"bs-categorymanager-collection-var-categorizedpages": "분류가 있는 문서",
-	"bs-categorymanager-collection-var-uncategorizedpages": "분류가 없는 문서"
+	"bs-categorymanager-collection-var-uncategorizedpages": "분류가 없는 문서",
+	"bs-categorymanager-rename-category": "분류 이름 바꾸기",
+	"bs-categorymanager-rename-category-new-name": "새 분류 이름:",
+	"bs-categorymanager-move-new-name": "새 분류 이름을 설정합니다. 새 이름:",
+	"bs-categorymanager-replace-in-pages": "문서에서 이름 바꾸기:"
 }

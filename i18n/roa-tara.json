@@ -19,5 +19,9 @@
 	"bs-categorymanager-collection-type-categorizedpages": "Posizione d'a categorije",
 	"bs-categorymanager-collection-var-namespacename": "Namespace",
 	"bs-categorymanager-collection-var-categorizedpages": "Pàggene cu categorije",
-	"bs-categorymanager-collection-var-uncategorizedpages": "Pàggene senze categorije"
+	"bs-categorymanager-collection-var-uncategorizedpages": "Pàggene senze categorije",
+	"bs-categorymanager-rename-category": "Renomene 'a categorije",
+	"bs-categorymanager-rename-category-new-name": "Nome d'a categorije nove:",
+	"bs-categorymanager-move-new-name": "'Mboste 'u nome d'a categorije nove. Nome nuève:",
+	"bs-categorymanager-replace-in-pages": "Renomene jndrìà pàgene:"
 }

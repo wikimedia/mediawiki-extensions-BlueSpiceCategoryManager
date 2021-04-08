@@ -19,5 +19,9 @@
 	"bs-categorymanager-collection-type-categorizedpages": "Kategoritildeling",
 	"bs-categorymanager-collection-var-namespacename": "Navnerom",
 	"bs-categorymanager-collection-var-categorizedpages": "Sider med kategorier",
-	"bs-categorymanager-collection-var-uncategorizedpages": "Sider uten kategorier"
+	"bs-categorymanager-collection-var-uncategorizedpages": "Sider uten kategorier",
+	"bs-categorymanager-rename-category": "Døp om kategori",
+	"bs-categorymanager-rename-category-new-name": "Nytt kategorinavn:",
+	"bs-categorymanager-move-new-name": "Sett det nye kategorinavnet. Nytt navn:",
+	"bs-categorymanager-replace-in-pages": "Døp om i siden:"
 }

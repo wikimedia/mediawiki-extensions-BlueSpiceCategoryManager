@@ -3,6 +3,7 @@
 		"authors": [
 			"Josve05a",
 			"Mjälten",
+			"Sabelöga",
 			"Technic2",
 			"WikiPhoenix"
 		]
@@ -21,5 +22,6 @@
 	"bs-categorymanager-collection-var-uncategorizedpages": "Sidor utan kategorier",
 	"bs-categorymanager-draganddrop-text": "Dra och släpp för att omorganisera",
 	"bs-categorymanager-removecategoryconfirm-text": "Är du säker på att du vill radera kategorin \"%1$s\"?",
-	"bs-categorymanager-collection-type-categorizedpages": "Kategoriinformation"
+	"bs-categorymanager-collection-type-categorizedpages": "Kategoriinformation",
+	"bs-categorymanager-rename-category-new-name": "Nytt kategorinamn:"
 }
