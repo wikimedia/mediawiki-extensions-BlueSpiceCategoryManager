@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"ديفيد"
+			"ديفيد",
+			"محمد أحمد عبد الفتاح"
 		]
 	},
 	"bluespicecategorymanager": "مدير التصنيف",
@@ -19,5 +20,6 @@
 	"bs-categorymanager-collection-type-categorizedpages": "تخصيص التصنيف",
 	"bs-categorymanager-collection-var-namespacename": "النطاق",
 	"bs-categorymanager-collection-var-categorizedpages": "الصفحات في هذه التصنيفات",
-	"bs-categorymanager-collection-var-uncategorizedpages": "الصفحات دون هذه التصنيفات"
+	"bs-categorymanager-collection-var-uncategorizedpages": "الصفحات دون هذه التصنيفات",
+	"bs-categorymanager-rename-category-new-name": "اسم التصنيف الجديد:"
 }

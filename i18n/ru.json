@@ -5,6 +5,7 @@
 			"Facenapalm",
 			"Kareyac",
 			"Mailman",
+			"Okras",
 			"Vlad5250"
 		]
 	},
@@ -24,5 +25,7 @@
 	"bs-categorymanager-collection-var-namespacename": "Пространство имён",
 	"bs-categorymanager-collection-var-categorizedpages": "Страницы с категориями",
 	"bs-categorymanager-collection-var-uncategorizedpages": "Страницы без категорий",
-	"bs-categorymanager-rename-category": "Переименовать категорию"
+	"bs-categorymanager-rename-category": "Переименовать категорию",
+	"bs-categorymanager-rename-category-new-name": "Новое название категории:",
+	"bs-categorymanager-move-new-name": "Задайте новое название категории. Новое название:"
 }

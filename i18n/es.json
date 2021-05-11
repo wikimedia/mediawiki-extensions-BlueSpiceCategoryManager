@@ -3,7 +3,8 @@
 		"authors": [
 			"DannyS712",
 			"Fitoschido",
-			"Macofe"
+			"Macofe",
+			"Rodney Araujo"
 		]
 	},
 	"bluespicecategorymanager": "Gestor de categorías",
@@ -20,5 +21,8 @@
 	"right-categorymanager-viewspecialpage": "Acceso a la página especial [[Special:BlueSpiceCategoryManager]]",
 	"bs-categorymanager-collection-var-namespacename": "Espacio de nombres",
 	"bs-categorymanager-collection-var-categorizedpages": "Páginas con categorías",
-	"bs-categorymanager-collection-var-uncategorizedpages": "Páginas sin categorías"
+	"bs-categorymanager-collection-var-uncategorizedpages": "Páginas sin categorías",
+	"bs-categorymanager-rename-category": "Renombrar categoría:",
+	"bs-categorymanager-rename-category-new-name": "Nuevo nombre de categoría:",
+	"bs-categorymanager-move-new-name": "Elige el nuevo nombre de categoría. Nuevo nombre:"
 }
