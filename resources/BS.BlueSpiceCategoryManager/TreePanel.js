@@ -247,8 +247,8 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 		bs.util.prompt(
 			"bs-categorymanager",
 			{
-				title: mw.message( 'bs-categorymanager-dlg-new-title' ).plain(),
-				text: mw.message( 'bs-categorymanager-dlg-new-prompt' ).plain()
+				titleMsg: 'bs-categorymanager-dlg-new-title',
+				textMsg: 'bs-categorymanager-dlg-new-prompt'
 			},
 			{
 				ok: function( input ) {
@@ -270,8 +270,13 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 						});
 					})
 					.fail( function( jqXHR, textStatus, response ) {
-						Ext.Msg.alert( mw.message( 'bs-categorymanager-addcategory-dialog-error-title' ).plain(), response.message );
-
+						bs.util.alert(
+							"bs-categorymanager",
+							{
+								titleMsg: 'bs-categorymanager-addcategory-dialog-error-title',
+								text: response.message
+							}
+						);
 						me.treePanel.setLoading( false );
 					});
 				},
