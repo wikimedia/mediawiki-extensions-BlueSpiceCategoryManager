@@ -20,5 +20,9 @@
 	"bs-categorymanager-collection-type-categorizedpages": "分類分配",
 	"bs-categorymanager-collection-var-namespacename": "命名空間",
 	"bs-categorymanager-collection-var-categorizedpages": "帶有分類的頁面",
-	"bs-categorymanager-collection-var-uncategorizedpages": "不帶分類的頁面"
+	"bs-categorymanager-collection-var-uncategorizedpages": "不帶分類的頁面",
+	"bs-categorymanager-rename-category": "重新命名分類",
+	"bs-categorymanager-rename-category-new-name": "新分類名稱：",
+	"bs-categorymanager-move-new-name": "設定新分類名稱。新名稱：",
+	"bs-categorymanager-replace-in-pages": "在頁面裡重新命名："
 }

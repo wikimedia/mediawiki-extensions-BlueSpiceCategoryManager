@@ -11,5 +11,6 @@
 	"bs-categorymanager-action-show-category": "Vis kategori",
 	"bs-categorymanager-collection-var-namespacename": "Navnerum",
 	"bs-categorymanager-collection-var-categorizedpages": "Sider med kategorier",
-	"bs-categorymanager-collection-var-uncategorizedpages": "Sider uden kategorier"
+	"bs-categorymanager-collection-var-uncategorizedpages": "Sider uden kategorier",
+	"bs-categorymanager-rename-category": "Omdøb kategori"
 }

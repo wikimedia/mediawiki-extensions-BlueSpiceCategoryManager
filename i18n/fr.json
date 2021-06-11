@@ -13,8 +13,8 @@
 	"bs-categorymanager-draganddrop-text": "Glisser et déposer pour réorganiser",
 	"bs-categorymanager-label": "Gestionnaire de catégories",
 	"bs-categorymanager-dlg-new-title": "Créer une catégorie",
-	"bs-categorymanager-dlg-new-prompt": "Veuillez saisir le nom :",
-	"bs-categorymanager-removecategoryconfirm-text": "Êtes-vous sûr de vouloir supprimer cette catégorie ?",
+	"bs-categorymanager-dlg-new-prompt": "Veuillez saisir le nom :",
+	"bs-categorymanager-removecategoryconfirm-text": "Voulez-vous vraiment supprimer cette catégorie ?",
 	"bs-categorymanager-removecategoryconfirm-title": "Supprimer la catégorie",
 	"bs-categorymanager-addcategory-dialog-error-title": "Échec dans la création de catégorie",
 	"bs-categorymanager-action-show-category": "Afficher la catégorie",
@@ -22,5 +22,9 @@
 	"bs-categorymanager-collection-type-categorizedpages": "Allocation de catégorie",
 	"bs-categorymanager-collection-var-namespacename": "Espace de noms",
 	"bs-categorymanager-collection-var-categorizedpages": "Pages catégorisées",
-	"bs-categorymanager-collection-var-uncategorizedpages": "Pages non catégorisées"
+	"bs-categorymanager-collection-var-uncategorizedpages": "Pages non catégorisées",
+	"bs-categorymanager-rename-category": "Renommer la catégorie",
+	"bs-categorymanager-rename-category-new-name": "Nouveau nom de la catégorie :",
+	"bs-categorymanager-move-new-name": "Définit le nouveau nom de la catégorie. Nouveau nom :",
+	"bs-categorymanager-replace-in-pages": "Renommer dans la page :"
 }

@@ -3,6 +3,7 @@
 		"authors": [
 			"Josve05a",
 			"Mjälten",
+			"Sabelöga",
 			"Technic2",
 			"WikiPhoenix"
 		]
@@ -21,5 +22,6 @@
 	"bs-categorymanager-collection-type-categorizedpages": "Kategoriinformation",
 	"bs-categorymanager-collection-var-namespacename": "Namnrymd",
 	"bs-categorymanager-collection-var-categorizedpages": "Sidor med kategorier",
-	"bs-categorymanager-collection-var-uncategorizedpages": "Sidor utan kategorier"
+	"bs-categorymanager-collection-var-uncategorizedpages": "Sidor utan kategorier",
+	"bs-categorymanager-rename-category-new-name": "Nytt kategorinamn:"
 }
