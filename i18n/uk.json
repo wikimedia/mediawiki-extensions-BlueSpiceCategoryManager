@@ -3,7 +3,8 @@
 		"authors": [
 			"Movses",
 			"Piramidion",
-			"Vlad5250"
+			"Vlad5250",
+			"Ата"
 		]
 	},
 	"bluespicecategorymanager": "Менеджер категорій",
@@ -21,5 +22,9 @@
 	"bs-categorymanager-collection-type-categorizedpages": "Розміщення категорій",
 	"bs-categorymanager-collection-var-namespacename": "Простір назв",
 	"bs-categorymanager-collection-var-categorizedpages": "Сторінки з категоріями",
-	"bs-categorymanager-collection-var-uncategorizedpages": "Сторінки без категорій"
+	"bs-categorymanager-collection-var-uncategorizedpages": "Сторінки без категорій",
+	"bs-categorymanager-rename-category": "Перейменувати категорію",
+	"bs-categorymanager-rename-category-new-name": "Нова назва категорії:",
+	"bs-categorymanager-move-new-name": "Вкажіть нову назву категорії. Нова назва:",
+	"bs-categorymanager-replace-in-pages": "Перейменування на сторінці:"
 }
