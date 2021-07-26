@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DDPAT",
 			"Movses",
 			"Piramidion",
 			"Vlad5250",
@@ -9,7 +10,7 @@
 	},
 	"bluespicecategorymanager": "Менеджер категорій",
 	"bluespicecategorymanager-desc": "Візуальний інструмент для керування категоріями",
-	"action-categorymanager-viewspecialpage": "перегляд Менеджера категорій",
+	"action-categorymanager-viewspecialpage": "перегляд менеджера категорій",
 	"bs-categorymanager-draganddrop-text": "Перетягніть, щоб реорганізувати",
 	"bs-categorymanager-label": "Менеджер категорій",
 	"bs-categorymanager-dlg-new-title": "Створити категорію",
