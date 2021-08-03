@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Mainframe98",
+			"Romaine",
 			"Siebrand"
 		]
 	},
@@ -18,5 +19,9 @@
 	"bs-categorymanager-addcategory-dialog-error-title": "Kon de categorie niet aanmaken",
 	"bs-categorymanager-collection-var-namespacename": "Naamruimte",
 	"bs-categorymanager-collection-var-categorizedpages": "Pagina's met categorieën",
-	"bs-categorymanager-collection-var-uncategorizedpages": "Pagina's zonder categorieën"
+	"bs-categorymanager-collection-var-uncategorizedpages": "Pagina's zonder categorieën",
+	"bs-categorymanager-rename-category": "Categorie hernoemen",
+	"bs-categorymanager-rename-category-new-name": "Nieuwe categorienaam:",
+	"bs-categorymanager-move-new-name": "Stel de nieuwe categorienaam in. Nieuwe naam:",
+	"bs-categorymanager-replace-in-pages": "Naam in pagina wijzigen:"
 }
