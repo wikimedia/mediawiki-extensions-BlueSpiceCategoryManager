@@ -119,5 +119,13 @@
 		"localBasePath": "resources",
 		"remoteExtPath": "BlueSpiceCategoryManager/resources"
 	},
+	"HookHandlers": {
+		"main" : {
+			"class" : "\\BlueSpice\\CategoryManager\\HookHandler\\Main"
+		}
+	},
+	"Hooks": {
+		"MWStakeCommonUIRegisterSkinSlotComponents": "main"
+	},
 	"manifest_version": 2
 }
