@@ -3,7 +3,8 @@
 		"authors": [
 			"Beta16",
 			"Dansita",
-			"Gianfranco"
+			"Gianfranco",
+			"Stefano"
 		]
 	},
 	"bluespicecategorymanager": "Gestore delle categorie",
@@ -21,5 +22,6 @@
 	"bs-categorymanager-collection-var-namespacename": "Namespace",
 	"bs-categorymanager-collection-var-categorizedpages": "Pagine con categorie",
 	"bs-categorymanager-collection-var-uncategorizedpages": "Pagine senza categorie",
-	"bs-categorymanager-rename-category": "Rinomina categoria"
+	"bs-categorymanager-rename-category": "Rinomina categoria",
+	"bs-categorymanager-rename-category-new-name": "Nome nuova Categoria"
 }
