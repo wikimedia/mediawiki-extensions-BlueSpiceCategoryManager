@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Mainframe98",
+			"McDutchie",
 			"Romaine",
 			"Siebrand"
 		]
@@ -23,5 +24,7 @@
 	"bs-categorymanager-rename-category": "Categorie hernoemen",
 	"bs-categorymanager-rename-category-new-name": "Nieuwe categorienaam:",
 	"bs-categorymanager-move-new-name": "Stel de nieuwe categorienaam in. Nieuwe naam:",
-	"bs-categorymanager-replace-in-pages": "Naam in pagina wijzigen:"
+	"bs-categorymanager-replace-in-pages": "Naam in pagina wijzigen:",
+	"bs-categorymanager-draganddrop-text": "Slepen en neerzetten om opnieuw te rangschikken",
+	"bs-categorymanager-collection-type-categorizedpages": "Categorietoewijzing"
 }

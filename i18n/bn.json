@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Aftabuzzaman",
+			"Md. Golam Mukit Khan",
 			"আফতাবুজ্জামান"
 		]
 	},
@@ -10,5 +11,6 @@
 	"bs-categorymanager-label": "বিষয়শ্রেণী ব্যবস্থাপক",
 	"bs-categorymanager-dlg-new-title": "বিষয়শ্রেণী তৈরি করুন",
 	"bs-categorymanager-removecategoryconfirm-title": "বিষয়শ্রেণী সরান",
-	"bs-categorymanager-action-show-category": "বিষয়শ্রেণী দেখান"
+	"bs-categorymanager-action-show-category": "বিষয়শ্রেণী দেখান",
+	"bs-categorymanager-collection-var-namespacename": "নামস্থান"
 }
