@@ -36,14 +36,19 @@
 			},
 			"AdminToolRegistry": {
 				"bs-category-manager": "BlueSpice\\CategoryManager\\AdminTool"
-			},
-			"EntityRegistry": {
-				"categorizedpages": "\\BlueSpice\\CategoryManager\\EntityConfig\\Collection\\CategorizedPages::factory"
 			}
 		},
 		"BlueSpiceExtendedStatistics": {
-			"SnapshotDataCollectorRegistry": {
-				"categorizedpages": "\\BlueSpice\\CategoryManager\\DataCollector\\StoreSourced\\CategorizedPages::factory"
+			"SnapshotProviders": {
+				"cm-categories": {
+					"class": "\\BlueSpice\\CategoryManager\\Statistics\\SnapshotProvider\\Categories",
+					"services": [ "DBLoadBalancer" ]
+				}
+			},
+			"Reports": {
+				"cm-categorypages": {
+					"class": "\\BlueSpice\\CategoryManager\\Statistics\\Report\\CategoryPages"
+				}
 			}
 		}
 	},
@@ -102,12 +107,12 @@
 				"bs-categorymanager-action-show-category"
 			]
 		},
-		"ext.bluespice.categorymanager.collection.categorizedpages": {
+		"ext.bluespice.categorymanager.statistics": {
+			"scripts": [
+				"statistics/CategoryPagesReport.js"
+			],
 			"messages": [
-				"bs-categorymanager-collection-type-categorizedpages",
-				"bs-categorymanager-collection-var-namespacename",
-				"bs-categorymanager-collection-var-categorizedpages",
-				"bs-categorymanager-collection-var-uncategorizedpages"
+				"bs-categorymanager-statistics-report-category-pages"
 			]
 		}
 	},
