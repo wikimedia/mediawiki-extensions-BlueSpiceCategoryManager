@@ -4,7 +4,7 @@ namespace BlueSpice\CategoryManager\Statistics\Report;
 
 use BlueSpice\ExtendedStatistics\ClientReportHandler;
 use BlueSpice\ExtendedStatistics\IReport;
-use MWNamespace;
+use MediaWiki\MediaWikiServices;
 
 class CategoryPages implements IReport {
 
@@ -81,6 +81,8 @@ class CategoryPages implements IReport {
 			return '-';
 		}
 
-		return MWNamespace::getCanonicalName( $namespace );
+		return MediaWikiServices::getInstance()
+			->getNamespaceInfo()
+			->getCanonicalName( $namespace );
 	}
 }
