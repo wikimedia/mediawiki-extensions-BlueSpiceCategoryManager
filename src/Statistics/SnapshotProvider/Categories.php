@@ -5,7 +5,7 @@ namespace BlueSpice\CategoryManager\Statistics\SnapshotProvider;
 use BlueSpice\ExtendedStatistics\ISnapshotProvider;
 use BlueSpice\ExtendedStatistics\Snapshot;
 use BlueSpice\ExtendedStatistics\SnapshotDate;
-use MWNamespace;
+use MediaWiki\MediaWikiServices;
 use Wikimedia\Rdbms\LoadBalancer;
 
 class Categories implements ISnapshotProvider {
@@ -65,11 +65,12 @@ class Categories implements ISnapshotProvider {
 		);
 
 		$namespaces = [];
+		$namespaceInfo = MediaWikiServices::getInstance()->getNamespaceInfo();
 		foreach ( $res as $row ) {
 			if ( (int)$row->page_namespace === 0 ) {
 				$ns = '-';
 			} else {
-				$ns = MWNamespace::getCanonicalName( $row->page_namespace );
+				$ns = $namespaceInfo->getCanonicalName( $row->page_namespace );
 			}
 			$cat = $row->cat_title;
 
