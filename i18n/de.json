@@ -6,6 +6,7 @@
 			"Ljonka",
 			"Metalhead64",
 			"Mglaser",
+			"Mschlindwein",
 			"Tiin"
 		]
 	},
@@ -28,5 +29,6 @@
 	"bs-categorymanager-rename-category": "Kategorie umbenennen",
 	"bs-categorymanager-rename-category-new-name": "Neuer Kategoriename:",
 	"bs-categorymanager-move-new-name": "Die neue Kategorie wird umbenannt. Neuer Name:",
-	"bs-categorymanager-replace-in-pages": "Umbenennen in der Seite:"
+	"bs-categorymanager-replace-in-pages": "Umbenennen in der Seite:",
+	"bs-categorymanager-statistics-report-category-pages": "Seiten in Kategorien"
 }
