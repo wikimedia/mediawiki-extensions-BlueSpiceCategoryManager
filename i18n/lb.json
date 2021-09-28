@@ -18,5 +18,6 @@
 	"bs-categorymanager-action-show-category": "Kategorie weisen",
 	"bs-categorymanager-collection-var-namespacename": "Nummraum",
 	"bs-categorymanager-collection-var-categorizedpages": "Säite mat Kategorien",
-	"bs-categorymanager-collection-var-uncategorizedpages": "Säiten ouni Kategorie"
+	"bs-categorymanager-collection-var-uncategorizedpages": "Säiten ouni Kategorie",
+	"bs-categorymanager-statistics-report-category-pages": "Säiten an der Kategorie"
 }

@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"DreZhsh",
 			"Gomoko",
 			"Thibaut120094",
 			"Verdy p",
@@ -26,5 +27,6 @@
 	"bs-categorymanager-rename-category": "Renommer la catégorie",
 	"bs-categorymanager-rename-category-new-name": "Nouveau nom de la catégorie :",
 	"bs-categorymanager-move-new-name": "Définit le nouveau nom de la catégorie. Nouveau nom :",
-	"bs-categorymanager-replace-in-pages": "Renommer dans la page :"
+	"bs-categorymanager-replace-in-pages": "Renommer dans la page :",
+	"bs-categorymanager-statistics-report-category-pages": "Pages dans les catégories"
 }
