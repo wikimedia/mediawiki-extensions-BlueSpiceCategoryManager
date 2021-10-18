@@ -23,5 +23,6 @@
 	"bs-categorymanager-rename-category": "Døp om kategori",
 	"bs-categorymanager-rename-category-new-name": "Nytt kategorinavn:",
 	"bs-categorymanager-move-new-name": "Sett det nye kategorinavnet. Nytt navn:",
-	"bs-categorymanager-replace-in-pages": "Døp om i siden:"
+	"bs-categorymanager-replace-in-pages": "Døp om i siden:",
+	"bs-categorymanager-statistics-report-category-pages": "Sider i kategorier"
 }
