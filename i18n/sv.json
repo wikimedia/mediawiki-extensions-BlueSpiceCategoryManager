@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Belteshassar",
 			"Josve05a",
 			"Mjälten",
 			"Sabelöga",
@@ -23,5 +24,6 @@
 	"bs-categorymanager-collection-var-namespacename": "Namnrymd",
 	"bs-categorymanager-collection-var-categorizedpages": "Sidor med kategorier",
 	"bs-categorymanager-collection-var-uncategorizedpages": "Sidor utan kategorier",
-	"bs-categorymanager-rename-category-new-name": "Nytt kategorinamn:"
+	"bs-categorymanager-rename-category-new-name": "Nytt kategorinamn:",
+	"bs-categorymanager-rename-category": "Byt namn på kategori"
 }

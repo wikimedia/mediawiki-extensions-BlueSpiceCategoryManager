@@ -24,5 +24,6 @@
 	"bs-categorymanager-rename-category": "Renomear categoria",
 	"bs-categorymanager-rename-category-new-name": "Novo nome de categoria:",
 	"bs-categorymanager-move-new-name": "Defina o novo nome da categoria. Novo nome:",
-	"bs-categorymanager-replace-in-pages": "Renomear na página:"
+	"bs-categorymanager-replace-in-pages": "Renomear na página:",
+	"bs-categorymanager-statistics-report-category-pages": "Páginas em categorias"
 }
