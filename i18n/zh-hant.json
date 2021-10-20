@@ -24,5 +24,6 @@
 	"bs-categorymanager-rename-category": "重新命名分類",
 	"bs-categorymanager-rename-category-new-name": "新分類名稱：",
 	"bs-categorymanager-move-new-name": "設定新分類名稱。新名稱：",
-	"bs-categorymanager-replace-in-pages": "在頁面裡重新命名："
+	"bs-categorymanager-replace-in-pages": "在頁面裡重新命名：",
+	"bs-categorymanager-statistics-report-category-pages": "在分類裡的頁面"
 }
