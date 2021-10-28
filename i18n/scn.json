@@ -1,0 +1,12 @@
+{
+	"@metadata": {
+		"authors": [
+			"Ajeje Brazorf"
+		]
+	},
+	"bs-categorymanager-dlg-new-prompt": "Pi favuri nzirisci nu nomu:",
+	"bs-categorymanager-action-show-category": "Ammustra catigurìa",
+	"bs-categorymanager-collection-var-namespacename": "Namespace",
+	"bs-categorymanager-collection-var-categorizedpages": "Pàggini cu catigurìi",
+	"bs-categorymanager-collection-var-uncategorizedpages": "Pàggini senza catigurìi"
+}
