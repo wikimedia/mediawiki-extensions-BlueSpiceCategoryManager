@@ -6,7 +6,8 @@
 			"Otokoume",
 			"Shirayuki",
 			"Suyama",
-			"Tamaki Wakita"
+			"Tamaki Wakita",
+			"RYOUMA1117"
 		]
 	},
 	"bluespicecategorymanager": "カテゴリマネージャー",
@@ -22,5 +23,6 @@
 	"bs-categorymanager-collection-var-namespacename": "名前空間",
 	"bs-categorymanager-rename-category": "カテゴリの名前を変更",
 	"bs-categorymanager-rename-category-new-name": "新しい名前：",
-	"bs-categorymanager-move-new-name": "新しいカテゴリーの名前を設定。新しい名前："
+	"bs-categorymanager-move-new-name": "新しいカテゴリーの名前を設定。新しい名前：",
+	"bs-categorymanager-replace-in-pages": "ページの名前を変更"
 }
