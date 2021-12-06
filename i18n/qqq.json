@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Ajeje Brazorf",
 			"Bebiezaza",
 			"Liuxinyu970226",
 			"MuratTheTurkish",
@@ -11,7 +12,7 @@
 	"bluespicecategorymanager": "Page title for special page of category manager",
 	"bluespicecategorymanager-desc": "Used in [{{canonicalurl:Special:ExtensionInfo}} Special:ExtensionInfo], description of category manager extension",
 	"action-categorymanager-viewspecialpage": "{{doc-action|categorymanager-viewspecialpage}}\nLabel for denied page access, with name of special page",
-	"bs-categorymanager-text": "Label for global actions menu",
+	"bs-categorymanager-text": "Label for global actions menu\n\n{{Identical|Category}}",
 	"bs-categorymanager-draganddrop-text": "Hint for the user when dragging a tree node",
 	"bs-categorymanager-label": "Anchor text for user manager",
 	"bs-categorymanager-dlg-new-title": "Title of dialog window that allows creation of new category",
