@@ -11,6 +11,8 @@
 	"bluespicecategorymanager": "Categoriebeheer",
 	"bluespicecategorymanager-desc": "Visueel hulpmiddel voor het beheren van categorieën",
 	"action-categorymanager-viewspecialpage": "om Categoriebeheer te bekijken",
+	"bs-categorymanager-text": "Categorieën",
+	"bs-categorymanager-draganddrop-text": "Slepen en neerzetten om opnieuw te rangschikken",
 	"bs-categorymanager-label": "Categoriebeheer",
 	"bs-categorymanager-dlg-new-title": "Categorie aanmaken",
 	"bs-categorymanager-dlg-new-prompt": "Voer de naam in:",
@@ -19,6 +21,7 @@
 	"bs-categorymanager-addcategory-dialog-error-title": "Kon de categorie niet aanmaken",
 	"bs-categorymanager-action-show-category": "Categorie weergeven",
 	"right-categorymanager-viewspecialpage": "Toegang hebben tot de speciale pagina [[Special:BlueSpiceCategoryManager]]",
+	"bs-categorymanager-collection-type-categorizedpages": "Categorietoewijzing",
 	"bs-categorymanager-collection-var-namespacename": "Naamruimte",
 	"bs-categorymanager-collection-var-categorizedpages": "Pagina's met categorieën",
 	"bs-categorymanager-collection-var-uncategorizedpages": "Pagina's zonder categorieën",
@@ -26,7 +29,5 @@
 	"bs-categorymanager-rename-category-new-name": "Nieuwe categorienaam:",
 	"bs-categorymanager-move-new-name": "Stel de nieuwe categorienaam in. Nieuwe naam:",
 	"bs-categorymanager-replace-in-pages": "Naam in pagina wijzigen:",
-	"bs-categorymanager-draganddrop-text": "Slepen en neerzetten om opnieuw te rangschikken",
-	"bs-categorymanager-collection-type-categorizedpages": "Categorietoewijzing",
 	"bs-categorymanager-statistics-report-category-pages": "Pagina's in categorieën"
 }
