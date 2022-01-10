@@ -8,12 +8,14 @@
 			"TsuyaMarisa",
 			"予弦",
 			"沈澄心",
-			"神樂坂秀吉"
+			"神樂坂秀吉",
+			"Hydra"
 		]
 	},
 	"bluespicecategorymanager": "分类管理器",
 	"bluespicecategorymanager-desc": "管理分类的可视化工具",
 	"action-categorymanager-viewspecialpage": "查看分类管理器",
+	"bs-categorymanager-text": "分类",
 	"bs-categorymanager-draganddrop-text": "通过拖放来整理",
 	"bs-categorymanager-label": "分类管理器",
 	"bs-categorymanager-dlg-new-title": "创建分类",
