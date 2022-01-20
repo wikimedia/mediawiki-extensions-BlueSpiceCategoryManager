@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"BaRaN6161 TURK",
+			"Can",
 			"Joseph",
 			"Melissadilara"
 		]
@@ -9,6 +10,7 @@
 	"bluespicecategorymanager": "Kategori yöneticisi",
 	"bluespicecategorymanager-desc": "Kategorileri yönetmek için görsel araç",
 	"action-categorymanager-viewspecialpage": "Kategori yöneticisini görüntüle",
+	"bs-categorymanager-text": "Kategoriler",
 	"bs-categorymanager-draganddrop-text": "Yeniden düzenlemek için sürükleyip bırakın",
 	"bs-categorymanager-label": "Kategori yöneticisi",
 	"bs-categorymanager-dlg-new-title": "Kategori oluştur",
