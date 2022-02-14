@@ -2,12 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"FarsiNevis",
-			"Jeeputer"
+			"Jeeputer",
+			"LordProfo"
 		]
 	},
 	"bluespicecategorymanager": "مدیر رده",
 	"bluespicecategorymanager-desc": "ابزار دیداری برای مدیریت رده‌ها",
 	"action-categorymanager-viewspecialpage": "مشاهدهٔ مدیر رده",
+	"bs-categorymanager-text": "رده‌ها",
 	"bs-categorymanager-label": "مدیر رده",
 	"bs-categorymanager-dlg-new-title": "ایجاد رده",
 	"bs-categorymanager-dlg-new-prompt": "لطفاً نام را وارد کنید:",
