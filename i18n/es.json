@@ -4,12 +4,14 @@
 			"DannyS712",
 			"Fitoschido",
 			"Macofe",
-			"Rodney Araujo"
+			"Rodney Araujo",
+			"TehFrog"
 		]
 	},
 	"bluespicecategorymanager": "Gestor de categorías",
 	"bluespicecategorymanager-desc": "Herramienta visual para gestionar categorías",
 	"action-categorymanager-viewspecialpage": "ver el gestor de categorías",
+	"bs-categorymanager-text": "Categorías",
 	"bs-categorymanager-draganddrop-text": "Arrastra y suelta para reorganizar",
 	"bs-categorymanager-label": "Gestor de categorías",
 	"bs-categorymanager-dlg-new-title": "Crear categoría",
@@ -19,10 +21,13 @@
 	"bs-categorymanager-addcategory-dialog-error-title": "Falló la creación de la categoría",
 	"bs-categorymanager-action-show-category": "Mostrar categoría",
 	"right-categorymanager-viewspecialpage": "Acceso a la página especial [[Special:BlueSpiceCategoryManager]]",
+	"bs-categorymanager-collection-type-categorizedpages": "Asignación de la categoría",
 	"bs-categorymanager-collection-var-namespacename": "Espacio de nombres",
 	"bs-categorymanager-collection-var-categorizedpages": "Páginas con categorías",
 	"bs-categorymanager-collection-var-uncategorizedpages": "Páginas sin categorías",
 	"bs-categorymanager-rename-category": "Renombrar categoría:",
 	"bs-categorymanager-rename-category-new-name": "Nuevo nombre de categoría:",
-	"bs-categorymanager-move-new-name": "Elige el nuevo nombre de categoría. Nuevo nombre:"
+	"bs-categorymanager-move-new-name": "Elige el nuevo nombre de categoría. Nuevo nombre:",
+	"bs-categorymanager-replace-in-pages": "Renombrar en la página:",
+	"bs-categorymanager-statistics-report-category-pages": "Páginas en categorías"
 }
