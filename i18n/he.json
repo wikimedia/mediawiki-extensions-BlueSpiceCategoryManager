@@ -3,12 +3,14 @@
 		"authors": [
 			"Guycn2",
 			"Steeve815",
-			"YaronSh"
+			"YaronSh",
+			"שוקו מוקה"
 		]
 	},
 	"bluespicecategorymanager": "ניהול קטגוריות",
 	"bluespicecategorymanager-desc": "כלי חזותי לניהול קטגוריות",
 	"action-categorymanager-viewspecialpage": "לצפות בדף ניהול הקטגוריות",
+	"bs-categorymanager-text": "קטגוריות",
 	"bs-categorymanager-draganddrop-text": "יש לגרור ולשחרר כדי לארגן מחדש",
 	"bs-categorymanager-label": "ניהול קטגוריות",
 	"bs-categorymanager-dlg-new-title": "יצירת קטגוריה",
