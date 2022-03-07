@@ -2,12 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Eduardo Addad de Oliveira",
-			"Eduardoaddad"
+			"Eduardoaddad",
+			"Juan90264"
 		]
 	},
 	"bluespicecategorymanager": "Gerente de categoria",
 	"bluespicecategorymanager-desc": "Ferramenta visual para gerenciar categorias",
 	"action-categorymanager-viewspecialpage": "Exibir o Gerenciador de categorias",
+	"bs-categorymanager-text": "Categorias",
 	"bs-categorymanager-draganddrop-text": "Arrastar e largar para reorganizar",
 	"bs-categorymanager-label": "Gerente de categoria",
 	"bs-categorymanager-dlg-new-title": "Criar categoria",
