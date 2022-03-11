@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Eduardo Addad de Oliveira",
-			"Eduardoaddad"
+			"Eduardoaddad",
+			"Juan90264"
 		]
 	},
 	"bluespicecategorymanager": "Gerente de categoria",
@@ -25,5 +26,6 @@
 	"bs-categorymanager-rename-category-new-name": "Novo nome de categoria:",
 	"bs-categorymanager-move-new-name": "Defina o novo nome da categoria. Novo nome:",
 	"bs-categorymanager-replace-in-pages": "Renomear na página:",
-	"bs-categorymanager-statistics-report-category-pages": "Páginas em categorias"
+	"bs-categorymanager-statistics-report-category-pages": "Páginas em categorias",
+	"bs-categorymanager-text": "Categorias"
 }

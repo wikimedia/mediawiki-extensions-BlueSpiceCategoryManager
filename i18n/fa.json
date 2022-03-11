@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"FarsiNevis",
-			"Jeeputer"
+			"Jeeputer",
+			"LordProfo"
 		]
 	},
 	"bluespicecategorymanager": "مدیر رده",
@@ -24,5 +25,6 @@
 	"bs-categorymanager-rename-category-new-name": "نام جدید رده:",
 	"bs-categorymanager-move-new-name": "نام جدید رده را انتخاب کنید. نام جدید:",
 	"bs-categorymanager-replace-in-pages": "نام‌گذاری مجدد در صفحهٔ:",
-	"bs-categorymanager-statistics-report-category-pages": "صفحه‌های موجود در رده‌ها"
+	"bs-categorymanager-statistics-report-category-pages": "صفحه‌های موجود در رده‌ها",
+	"bs-categorymanager-text": "رده‌ها"
 }

@@ -4,7 +4,8 @@
 			"DannyS712",
 			"Fitoschido",
 			"Macofe",
-			"Rodney Araujo"
+			"Rodney Araujo",
+			"TehFrog"
 		]
 	},
 	"bluespicecategorymanager": "Gestor de categorías",
@@ -24,5 +25,9 @@
 	"bs-categorymanager-collection-var-uncategorizedpages": "Páginas sin categorías",
 	"bs-categorymanager-rename-category": "Renombrar categoría:",
 	"bs-categorymanager-rename-category-new-name": "Nuevo nombre de categoría:",
-	"bs-categorymanager-move-new-name": "Elige el nuevo nombre de categoría. Nuevo nombre:"
+	"bs-categorymanager-move-new-name": "Elige el nuevo nombre de categoría. Nuevo nombre:",
+	"bs-categorymanager-text": "Categorías",
+	"bs-categorymanager-collection-type-categorizedpages": "Asignación de la categoría",
+	"bs-categorymanager-replace-in-pages": "Renombrar en la página:",
+	"bs-categorymanager-statistics-report-category-pages": "Páginas en categorías"
 }

@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"FiberAhmed",
 			"ديفيد",
 			"محمد أحمد عبد الفتاح"
 		]
@@ -21,5 +22,6 @@
 	"bs-categorymanager-collection-var-namespacename": "النطاق",
 	"bs-categorymanager-collection-var-categorizedpages": "الصفحات في هذه التصنيفات",
 	"bs-categorymanager-collection-var-uncategorizedpages": "الصفحات دون هذه التصنيفات",
-	"bs-categorymanager-rename-category-new-name": "اسم التصنيف الجديد:"
+	"bs-categorymanager-rename-category-new-name": "اسم التصنيف الجديد:",
+	"bs-categorymanager-text": "التصنيفات"
 }
