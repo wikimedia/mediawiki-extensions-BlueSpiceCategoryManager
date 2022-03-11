@@ -6,7 +6,7 @@
 	],
 	"url": "https://en.wiki.bluespice.com/wiki/Reference:CategoryManager",
 	"descriptionmsg": "bluespicecategorymanager-desc",
-	"version": "4.1.1",
+	"version": "4.1.2",
 	"license-name": "GPL-3.0-only",
 	"type": "bluespice",
 	"requires": {
