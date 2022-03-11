@@ -4,6 +4,7 @@
 			"DDPAT",
 			"DevilishSkull",
 			"Facenapalm",
+			"Ice bulldog",
 			"Kareyac",
 			"Mailman",
 			"Okras",
@@ -30,5 +31,6 @@
 	"bs-categorymanager-rename-category-new-name": "Новое название категории:",
 	"bs-categorymanager-move-new-name": "Задайте новое название категории. Новое название:",
 	"bs-categorymanager-replace-in-pages": "Переименовать на странице:",
-	"bs-categorymanager-statistics-report-category-pages": "Страницы в категориях"
+	"bs-categorymanager-statistics-report-category-pages": "Страницы в категориях",
+	"bs-categorymanager-text": "Категории"
 }

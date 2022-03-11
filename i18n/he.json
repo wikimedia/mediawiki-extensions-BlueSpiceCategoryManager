@@ -3,7 +3,8 @@
 		"authors": [
 			"Guycn2",
 			"Steeve815",
-			"YaronSh"
+			"YaronSh",
+			"שוקו מוקה"
 		]
 	},
 	"bluespicecategorymanager": "ניהול קטגוריות",
@@ -21,5 +22,6 @@
 	"bs-categorymanager-collection-var-categorizedpages": "דפים עם קטגוריות",
 	"bs-categorymanager-collection-var-uncategorizedpages": "דפים ללא קטגוריות",
 	"bs-categorymanager-collection-type-categorizedpages": "הקצאת קטגוריות",
-	"bs-categorymanager-rename-category-new-name": "שם לקטגוריה החדשה:"
+	"bs-categorymanager-rename-category-new-name": "שם לקטגוריה החדשה:",
+	"bs-categorymanager-text": "קטגוריות"
 }

@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Cwlin0416",
-			"Kly"
+			"Kly",
+			"Winston Sung"
 		]
 	},
 	"bluespicecategorymanager": "分類管理員",
@@ -25,5 +26,6 @@
 	"bs-categorymanager-rename-category-new-name": "新分類名稱：",
 	"bs-categorymanager-move-new-name": "設定新分類名稱。新名稱：",
 	"bs-categorymanager-replace-in-pages": "在頁面裡重新命名：",
-	"bs-categorymanager-statistics-report-category-pages": "在分類裡的頁面"
+	"bs-categorymanager-statistics-report-category-pages": "在分類裡的頁面",
+	"bs-categorymanager-text": "分類"
 }

@@ -4,6 +4,7 @@
 			"A Chinese Wikipedian",
 			"A Retired User",
 			"Hmgrmb",
+			"Hydra",
 			"Liuxinyu970226",
 			"TsuyaMarisa",
 			"予弦",
@@ -31,5 +32,6 @@
 	"bs-categorymanager-rename-category-new-name": "新类别名称：",
 	"bs-categorymanager-move-new-name": "设置新类别名字。新名字：",
 	"bs-categorymanager-replace-in-pages": "页面内改名：",
-	"bs-categorymanager-statistics-report-category-pages": "带有分类的页面"
+	"bs-categorymanager-statistics-report-category-pages": "带有分类的页面",
+	"bs-categorymanager-text": "分类"
 }

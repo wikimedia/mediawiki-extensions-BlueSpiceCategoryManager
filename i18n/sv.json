@@ -25,5 +25,7 @@
 	"bs-categorymanager-removecategoryconfirm-text": "Är du säker på att du vill radera kategorin \"%1$s\"?",
 	"bs-categorymanager-collection-type-categorizedpages": "Kategoriinformation",
 	"bs-categorymanager-rename-category-new-name": "Nytt kategorinamn:",
-	"bs-categorymanager-rename-category": "Byt namn på kategori"
+	"bs-categorymanager-rename-category": "Byt namn på kategori",
+	"bs-categorymanager-text": "Kategorier",
+	"bs-categorymanager-move-new-name": "Anger kategorinamnet. Nytt namn:"
 }

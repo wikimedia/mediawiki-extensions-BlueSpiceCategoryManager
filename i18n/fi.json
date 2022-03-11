@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Cxz",
+			"MITO",
 			"Pyscowicz"
 		]
 	},
@@ -11,5 +12,6 @@
 	"bs-categorymanager-dlg-new-title": "Luo luokka",
 	"bs-categorymanager-dlg-new-prompt": "Anna nimi:",
 	"bs-categorymanager-removecategoryconfirm-text": "Haluatko varmasti poistaa tämän luokan?",
-	"bs-categorymanager-addcategory-dialog-error-title": "Luokan luonti epäonnistui"
+	"bs-categorymanager-addcategory-dialog-error-title": "Luokan luonti epäonnistui",
+	"bs-categorymanager-text": "Luokat"
 }
