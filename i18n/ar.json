@@ -2,12 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"ديفيد",
-			"محمد أحمد عبد الفتاح"
+			"محمد أحمد عبد الفتاح",
+			"FiberAhmed"
 		]
 	},
 	"bluespicecategorymanager": "مدير التصنيف",
 	"bluespicecategorymanager-desc": "أداة مرئية لإدارة التصنيفات",
 	"action-categorymanager-viewspecialpage": "عرض مدير التصنيف",
+	"bs-categorymanager-text": "التصنيفات",
 	"bs-categorymanager-draganddrop-text": "قم بالسحب والإفلات لإعادة التنظيم",
 	"bs-categorymanager-label": "مدير التصنيف",
 	"bs-categorymanager-dlg-new-title": "أنشئ تصنيفا",
