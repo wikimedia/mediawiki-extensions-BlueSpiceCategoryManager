@@ -1,4 +1,5 @@
 {
+	"name": "BlueSpiceCategoryManager",
 	"private": true,
 	"scripts": {
 		"test": "grunt test"
