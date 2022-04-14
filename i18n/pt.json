@@ -7,6 +7,7 @@
 	"bluespicecategorymanager": "Gestor de categorias",
 	"bluespicecategorymanager-desc": "Ferramenta visual para gerir categorias",
 	"action-categorymanager-viewspecialpage": "ver o gestor de categorias",
+	"bs-categorymanager-text": "Categorias",
 	"bs-categorymanager-draganddrop-text": "Arrastar e largar para reorganizar",
 	"bs-categorymanager-label": "Gestor de categorias",
 	"bs-categorymanager-dlg-new-title": "Criar categoria",
@@ -19,5 +20,10 @@
 	"bs-categorymanager-collection-type-categorizedpages": "Atribuição de categoria",
 	"bs-categorymanager-collection-var-namespacename": "Espaço nominal",
 	"bs-categorymanager-collection-var-categorizedpages": "Páginas com categorias",
-	"bs-categorymanager-collection-var-uncategorizedpages": "Páginas sem categorias"
+	"bs-categorymanager-collection-var-uncategorizedpages": "Páginas sem categorias",
+	"bs-categorymanager-rename-category": "Alterar nome da categoria",
+	"bs-categorymanager-rename-category-new-name": "Nome novo da categoria:",
+	"bs-categorymanager-move-new-name": "Definir o nome novo da categoria. Nome novo:",
+	"bs-categorymanager-replace-in-pages": "Alteração de nome na página:",
+	"bs-categorymanager-statistics-report-category-pages": "Páginas em categorias"
 }
