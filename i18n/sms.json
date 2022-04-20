@@ -5,5 +5,9 @@
 		]
 	},
 	"bs-categorymanager-action-show-category": "Čuäʹjet kategoria",
-	"bs-categorymanager-rename-category-new-name": "Ođđ kategorianõmm:"
+	"bs-categorymanager-rename-category-new-name": "Ođđ kategorianõmm:",
+	"bs-categorymanager-text": "Kategoria",
+	"bs-categorymanager-dlg-new-title": "Raaj kategoria",
+	"bs-categorymanager-dlg-new-prompt": "Ǩeeʹrjet ođđ kategoria nõõm:",
+	"bs-categorymanager-removecategoryconfirm-title": "Jaukkâd kategoria"
 }
