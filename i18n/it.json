@@ -4,12 +4,14 @@
 			"Beta16",
 			"Dansita",
 			"Gianfranco",
+			"GpieroMW",
 			"Stefano"
 		]
 	},
 	"bluespicecategorymanager": "Gestore delle categorie",
 	"bluespicecategorymanager-desc": "Strumento visuale per gestire categorie",
 	"action-categorymanager-viewspecialpage": "vedi il gestore di categorie",
+	"bs-categorymanager-text": "Categorie",
 	"bs-categorymanager-draganddrop-text": "Trascina e rilascia per riorganizzare",
 	"bs-categorymanager-label": "Gestore delle categorie",
 	"bs-categorymanager-dlg-new-title": "Creare categoria",
