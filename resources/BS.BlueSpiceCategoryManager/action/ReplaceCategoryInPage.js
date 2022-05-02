@@ -51,7 +51,7 @@ Ext.define( 'BS.BlueSpiceCategoryManager.action.ReplaceCategoryInPage', {
 	/**
 	* Build the category string for a regex.
 	* For the mediawiki is "_" and " " the same.
-	* So we need to bild both versions seperated with an "|".
+	* So we need to bild both versions separated with an "|".
 	*
 	* Example: Tag name is "sth_sth sth" result is "sth sth sth|sth_sth_sth"
 	*
