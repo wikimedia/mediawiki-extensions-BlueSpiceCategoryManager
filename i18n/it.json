@@ -4,6 +4,7 @@
 			"Beta16",
 			"Dansita",
 			"Gianfranco",
+			"GpieroMW",
 			"Stefano"
 		]
 	},
@@ -23,5 +24,6 @@
 	"bs-categorymanager-collection-var-categorizedpages": "Pagine con categorie",
 	"bs-categorymanager-collection-var-uncategorizedpages": "Pagine senza categorie",
 	"bs-categorymanager-rename-category": "Rinomina categoria",
-	"bs-categorymanager-rename-category-new-name": "Nome nuova Categoria"
+	"bs-categorymanager-rename-category-new-name": "Nome nuova Categoria",
+	"bs-categorymanager-text": "Categorie"
 }

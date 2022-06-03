@@ -9,5 +9,8 @@
 	"bs-categorymanager-text": "Kategoria",
 	"bs-categorymanager-dlg-new-title": "Raaj kategoria",
 	"bs-categorymanager-dlg-new-prompt": "Ǩeeʹrjet ođđ kategoria nõõm:",
-	"bs-categorymanager-removecategoryconfirm-title": "Jaukkâd kategoria"
+	"bs-categorymanager-removecategoryconfirm-title": "Jaukkâd kategoria",
+	"bs-categorymanager-collection-var-categorizedpages": "Seeid, koin lie kategoria",
+	"bs-categorymanager-collection-var-uncategorizedpages": "Seeid, koin jie leäkku kategoria",
+	"bs-categorymanager-statistics-report-category-pages": "Seeid kategoriain"
 }
