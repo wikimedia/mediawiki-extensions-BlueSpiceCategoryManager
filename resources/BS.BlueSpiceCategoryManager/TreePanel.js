@@ -106,6 +106,22 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 										} );
 										dlgBatchActions.on( 'ok', function() {
 											this.store.reload();
+											var recordFullName = 'Category:' + oldCategory;
+											var me = this;
+											$.when(
+												me.removeCategories( recordFullName, [newCategory] )
+											).always( function() {
+												$.when(
+													me.addCategories( recordFullName, [oldCategory] )
+												).always( function() {
+													me.treePanel.setLoading( false );
+													me.treePanel.getStore().load({
+														callback: function(records, operation, success) {
+															me.treePanel.expandAll();
+														}
+													});
+												});
+											});
 										}, this );
 
 										var actions = [];
