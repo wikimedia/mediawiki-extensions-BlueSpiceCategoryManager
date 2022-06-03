@@ -104,6 +104,8 @@
 				"bs-categorymanager-removecategoryconfirm-text",
 				"bs-categorymanager-removecategoryconfirm-title",
 				"bs-categorymanager-addcategory-dialog-error-title",
+				"bs-categorymanager-addcategory-dialog-error-duplicate-title",
+				"bs-categorymanager-addcategory-dialog-error-duplicate-text",
 				"bs-categorymanager-action-show-category",
 				"bs-categorymanager-rename-category",
 				"bs-categorymanager-rename-category-new-name",
