@@ -170,7 +170,7 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 		this.treePanel.getView().on( 'beforedrop', this.onBeforedrop, this );
 		this.treePanel.getView().on( 'itemclick', this.onItemclick, this );
 		this.treePanel.on( 'itemexpand', this.onItemexpand, this );
-		
+
 		this.items = [
 			this.treePanel
 		];
@@ -271,6 +271,42 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 		}).execute();
 	},
 
+	getCategoryNames: function() {
+		var dfd = $.Deferred();
+		var categoryData = [];
+		this.getCategoryNamesFromAPI( categoryData, dfd );
+		return dfd.promise();
+	},
+
+	getCategoryNamesFromAPI: function( categoryData, dfd, accontinueValue ) {
+		accontinueValue = accontinueValue || '';
+		var params = {
+			action: 'query',
+			format: 'json',
+			list: 'allcategories',
+			accontinue: accontinueValue
+		};
+		api = new mw.Api();
+		api.get( params ).done( function ( data ) {
+			if( data.query.allcategories ) {
+				for( var i = 0; i < data.query.allcategories.length; i++ ) {
+					categoryData.push( data.query.allcategories[i][ '*' ].toLowerCase() );
+				}
+			}
+			if(
+				data.hasOwnProperty( 'continue' ) && data.continue.hasOwnProperty( 'accontinue' ) &&
+				data.continue.accontinue !== ""
+			) {
+				accontinueValue = data.continue.accontinue;
+				this.getCategoryNamesFromAPI( categoryData, dfd, accontinueValue );
+			}
+			else{
+				accontinueValue = "";
+				dfd.resolve( categoryData );
+			}
+		}.bind( this ));
+	},
+
 	onBtnAddClick: function ( oButton, oEvent ) {
 		var me = this;
 		bs.util.prompt(
@@ -281,32 +317,45 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 			},
 			{
 				ok: function( input ) {
-					me.treePanel.setLoading( true );
+					this.getCategoryNames().done(function ( categoryData ) {
+						if ( categoryData.indexOf( input.value.toLowerCase()) !== -1 ) {
+							return bs.util.alert(
+								"bs-categorymanager",
+								{
+									titleMsg: 'bs-categorymanager-addcategory-dialog-error-duplicate-title',
+									text: mw.message( 'bs-categorymanager-addcategory-dialog-error-duplicate-text' ).plain()
+								}
+							);
+						}
+						else {
+							me.treePanel.setLoading( true );
+							var titleToAdd = mw.Title.makeTitle( bs.ns.NS_CATEGORY, input.value );
+							var parentCat = me.getSelectedCategoryTitle();
+							var addCategoryAction = new BS.action.APIAddCategories({
+								pageTitle: titleToAdd.getPrefixedDb(),
+								categories: parentCat ? [ parentCat.getPrefixedDb() ] : []
+							});
+							addCategoryAction.execute()
+							.done( function( resp ) {
+								me.treePanel.setLoading( false );
+								me.treePanel.getStore().load({
+									callback: function(records, operation, success) {
+										me.treePanel.expandAll();
+									}
+								});
+							})
+							.fail( function( jqXHR, textStatus, response ) {
+								bs.util.alert(
+									"bs-categorymanager",
+									{
+										titleMsg: 'bs-categorymanager-addcategory-dialog-error-title',
+										text: response.message
+									}
+								);
+								me.treePanel.setLoading( false );
 
-					var titleToAdd = mw.Title.makeTitle( bs.ns.NS_CATEGORY, input.value );
-					var parentCat = me.getSelectedCategoryTitle();
-					var addCategoryAction = new BS.action.APIAddCategories({
-						pageTitle: titleToAdd.getPrefixedDb(),
-						categories: parentCat ? [ parentCat.getPrefixedDb() ] : []
-					});
-					addCategoryAction.execute()
-					.done( function( resp ) {
-						me.treePanel.setLoading( false );
-						me.treePanel.getStore().load({
-							callback: function(records, operation, success) {
-								me.treePanel.expandAll();
-							}
-						});
-					})
-					.fail( function( jqXHR, textStatus, response ) {
-						bs.util.alert(
-							"bs-categorymanager",
-							{
-								titleMsg: 'bs-categorymanager-addcategory-dialog-error-title',
-								text: response.message
-							}
-						);
-						me.treePanel.setLoading( false );
+							});
+						}
 					});
 				},
 				scope: this
@@ -341,7 +390,7 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 					} else {
 						category = this.selectedRow.data.text;
 					}
-					
+
 					var categoryEntire = 'Category:' + category;
 
 					me.treePanel.setLoading( true );
@@ -454,9 +503,9 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 		var dfd = $.Deferred();
 
 		var pages = [];
-	
+
 		this.getPagesFromAPI(category, pages, dfd);
-	
+
 		return dfd.promise();
 	},
 
