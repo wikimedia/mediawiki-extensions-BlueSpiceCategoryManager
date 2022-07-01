@@ -5,5 +5,7 @@
 		]
 	},
 	"bluespicecategorymanager-desc": "Għodda viżwali għall-amministrazzjoni tal-kategoriji",
-	"bs-categorymanager-collection-var-categorizedpages": "Paġni b'kategoriji"
+	"bs-categorymanager-text": "Kategoriji",
+	"bs-categorymanager-collection-var-categorizedpages": "Paġni b'kategoriji",
+	"bs-categorymanager-collection-var-uncategorizedpages": "Paġni bla kategoriji"
 }
