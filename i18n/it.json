@@ -21,9 +21,13 @@
 	"bs-categorymanager-addcategory-dialog-error-title": "Creazione della categoria non riuscita",
 	"bs-categorymanager-action-show-category": "Mostra categoria",
 	"right-categorymanager-viewspecialpage": "Accede alla pagina speciale [[Special:BlueSpiceCategoryManager]]",
+	"bs-categorymanager-collection-type-categorizedpages": "Assegnazione della categoria",
 	"bs-categorymanager-collection-var-namespacename": "Namespace",
 	"bs-categorymanager-collection-var-categorizedpages": "Pagine con categorie",
 	"bs-categorymanager-collection-var-uncategorizedpages": "Pagine senza categorie",
 	"bs-categorymanager-rename-category": "Rinomina categoria",
-	"bs-categorymanager-rename-category-new-name": "Nome nuova Categoria"
+	"bs-categorymanager-rename-category-new-name": "Nome nuova Categoria",
+	"bs-categorymanager-move-new-name": "Imposta il nuovo nome della categoria. Nuovo nome:",
+	"bs-categorymanager-replace-in-pages": "Rinomina nella pagina:",
+	"bs-categorymanager-statistics-report-category-pages": "Pagine in categorie"
 }
