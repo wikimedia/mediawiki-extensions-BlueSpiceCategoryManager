@@ -25,5 +25,9 @@
 	"bs-categorymanager-collection-var-categorizedpages": "Pagine con categorie",
 	"bs-categorymanager-collection-var-uncategorizedpages": "Pagine senza categorie",
 	"bs-categorymanager-rename-category": "Rinomina categoria",
-	"bs-categorymanager-rename-category-new-name": "Nome nuova Categoria"
+	"bs-categorymanager-rename-category-new-name": "Nome nuova Categoria",
+	"bs-categorymanager-collection-type-categorizedpages": "Assegnazione della categoria",
+	"bs-categorymanager-move-new-name": "Imposta il nuovo nome della categoria. Nuovo nome:",
+	"bs-categorymanager-replace-in-pages": "Rinomina nella pagina:",
+	"bs-categorymanager-statistics-report-category-pages": "Pagine in categorie"
 }
