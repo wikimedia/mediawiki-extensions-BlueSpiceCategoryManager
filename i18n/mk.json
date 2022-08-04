@@ -14,5 +14,11 @@
 	"bs-categorymanager-collection-type-categorizedpages": "Разместување на категоријата",
 	"bs-categorymanager-collection-var-namespacename": "Именски простор",
 	"bs-categorymanager-collection-var-categorizedpages": "Страници со категории",
-	"bs-categorymanager-collection-var-uncategorizedpages": "Страници без категории"
+	"bs-categorymanager-collection-var-uncategorizedpages": "Страници без категории",
+	"bs-categorymanager-text": "Категории",
+	"bs-categorymanager-dlg-new-prompt": "Внесете име:",
+	"bs-categorymanager-rename-category": "Преименувај категорија",
+	"bs-categorymanager-rename-category-new-name": "Ново име на категоријата:",
+	"bs-categorymanager-replace-in-pages": "Преименувај во страницата:",
+	"bs-categorymanager-statistics-report-category-pages": "Страници во категории"
 }
