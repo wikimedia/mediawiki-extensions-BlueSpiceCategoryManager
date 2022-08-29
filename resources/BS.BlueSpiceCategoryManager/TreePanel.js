@@ -37,6 +37,8 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 
 		var me = this;
 
+		this.selectedRow =  null;
+
 		this.treePanel = new Ext.tree.Panel({
 			useArrows: true,
 			height: 500,
@@ -180,8 +182,14 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 		});
 	},
 	onItemclick: function ( obj, record, item, index, e, eOpts ) {
-		this.btnRemove.enable();
-		this.btnRemove.element = record;
+		if((this.selectedRow === this.treePanel.getSelection()[0])) {
+			this.btnRemove.disable();
+			this.treePanel.setSelection(null);
+			this.selectedRow = null;
+		} else {
+			this.btnRemove.enable();
+			this.selectedRow = record;
+		}
 	},
 	onDrop: function ( node, data, overModel, dropPosition, dropHandler, eOpts ) {
 		var me = this;
@@ -326,9 +334,9 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 					if ( oStore.data && oStore.data.text ) {
 						category = oStore.data.text;
 					} else {
-						var element = oButton.element;
-						category = element.get( 'categoryName' );
+						category = this.selectedRow.data.text;
 					}
+					
 					var categoryEntire = 'Category:' + category;
 
 					me.treePanel.setLoading( true );
