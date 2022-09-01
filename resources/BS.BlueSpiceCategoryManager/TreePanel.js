@@ -167,12 +167,17 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 		this.treePanel.getView().on( 'drop', this.onDrop, this );
 		this.treePanel.getView().on( 'beforedrop', this.onBeforedrop, this );
 		this.treePanel.getView().on( 'itemclick', this.onItemclick, this );
-
+		this.treePanel.on( 'itemexpand', this.onItemexpand, this );
+		
 		this.items = [
 			this.treePanel
 		];
-
 		this.callParent();
+	},
+	onItemexpand: function  ( p, eOpts )   {
+		if (!p.hasChildNodes()){
+			p.collapse();
+		}
 	},
 	onBeforedrop: function( node, data, overModel, dropPosition, dropHandler, eOpts ){
 		Ext.Array.each( data.records, function ( record ) {
