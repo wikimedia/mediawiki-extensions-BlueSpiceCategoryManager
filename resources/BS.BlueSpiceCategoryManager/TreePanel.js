@@ -111,11 +111,12 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 											var recordFullName = 'Category:' + oldCategory;
 											var me = this;
 											$.when(
-												me.removeCategories( recordFullName, [newCategory] )
+												me.removeCategories( recordFullName, [oldCategory] )
 											).always( function() {
 												$.when(
-													me.addCategories( recordFullName, [oldCategory] )
+													me.addCategories( recordFullName, [newCategory] )
 												).always( function() {
+													me.removeCategoryPage(recordFullName);
 													me.treePanel.setLoading( false );
 													me.treePanel.getStore().load({
 														callback: function(records, operation, success) {
@@ -305,6 +306,14 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 				dfd.resolve( categoryData );
 			}
 		}.bind( this ));
+	},
+
+	removeCategoryPage: function( category ) {
+		this.treePanel.setLoading( true );
+
+		return new BS.action.APIDeletePage({
+			pageTitle: category
+		}).execute();
 	},
 
 	onBtnAddClick: function ( oButton, oEvent ) {
