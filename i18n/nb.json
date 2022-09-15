@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"EdoAug",
 			"Jon Harald Søby"
 		]
 	},
@@ -15,6 +16,8 @@
 	"bs-categorymanager-removecategoryconfirm-text": "Er du sikker på at du vil slette denne kategorien?",
 	"bs-categorymanager-removecategoryconfirm-title": "Fjern kategori",
 	"bs-categorymanager-addcategory-dialog-error-title": "Opprettelse av kategori feilet",
+	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "Kategori finnes allerede",
+	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "Vennligst prøv et annet kategorinavn",
 	"bs-categorymanager-action-show-category": "Vis kategori",
 	"right-categorymanager-viewspecialpage": "Gir tilgang til spesialsiden [[Special:BlueSpiceCategoryManager]]",
 	"bs-categorymanager-collection-type-categorizedpages": "Kategoritildeling",
