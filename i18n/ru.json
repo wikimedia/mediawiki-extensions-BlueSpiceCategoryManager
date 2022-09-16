@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"DDPAT",
+			"Deltaspace",
 			"DevilishSkull",
 			"Facenapalm",
 			"Ice bulldog",
@@ -32,5 +33,7 @@
 	"bs-categorymanager-move-new-name": "Задайте новое название категории. Новое название:",
 	"bs-categorymanager-replace-in-pages": "Переименовать на странице:",
 	"bs-categorymanager-statistics-report-category-pages": "Страницы в категориях",
-	"bs-categorymanager-text": "Категории"
+	"bs-categorymanager-text": "Категории",
+	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "Категория уже существует",
+	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "Пожалуйста, попробуйте другое название категории"
 }
