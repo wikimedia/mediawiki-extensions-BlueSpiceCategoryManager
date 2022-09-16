@@ -3,6 +3,7 @@
 		"authors": [
 			"Cwlin0416",
 			"Kly",
+			"Willy1018",
 			"Winston Sung"
 		]
 	},
@@ -17,6 +18,8 @@
 	"bs-categorymanager-removecategoryconfirm-text": "您確定要刪除此分類？",
 	"bs-categorymanager-removecategoryconfirm-title": "刪除分類",
 	"bs-categorymanager-addcategory-dialog-error-title": "分類建立失敗",
+	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "分類已存在",
+	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "請嘗試不同的分類名稱",
 	"bs-categorymanager-action-show-category": "顯示分類",
 	"right-categorymanager-viewspecialpage": "存取特殊頁面 [[Special:BlueSpiceCategoryManager]] 的權限。",
 	"bs-categorymanager-collection-type-categorizedpages": "分類分配",
