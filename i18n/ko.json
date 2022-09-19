@@ -15,6 +15,8 @@
 	"bs-categorymanager-removecategoryconfirm-text": "이 분류를 삭제하겠습니까?",
 	"bs-categorymanager-removecategoryconfirm-title": "분류 제거",
 	"bs-categorymanager-addcategory-dialog-error-title": "분류 만들기를 실패했습니다",
+	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "분류가 이미 존재합니다",
+	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "다른 분류 이름을 사용해 보십시오",
 	"bs-categorymanager-action-show-category": "분류 표시",
 	"right-categorymanager-viewspecialpage": "[[Special:BlueSpiceCategoryManager]] 특수 문서로 접근",
 	"bs-categorymanager-collection-type-categorizedpages": "분류 할당",

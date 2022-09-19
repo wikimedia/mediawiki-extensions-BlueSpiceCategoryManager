@@ -19,6 +19,7 @@
 	"bs-categorymanager-removecategoryconfirm-text": "Weet u zeker dat u deze categorie wilt verwijderen?",
 	"bs-categorymanager-removecategoryconfirm-title": "Categorie verwijderen",
 	"bs-categorymanager-addcategory-dialog-error-title": "Kon de categorie niet aanmaken",
+	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "Categorie bestaat al",
 	"bs-categorymanager-action-show-category": "Categorie weergeven",
 	"right-categorymanager-viewspecialpage": "Toegang hebben tot de speciale pagina [[Special:BlueSpiceCategoryManager]]",
 	"bs-categorymanager-collection-type-categorizedpages": "Categorietoewijzing",
