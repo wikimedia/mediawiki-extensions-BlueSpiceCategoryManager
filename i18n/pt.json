@@ -15,6 +15,8 @@
 	"bs-categorymanager-removecategoryconfirm-text": "Tem a certeza de que pretende eliminar esta categoria?",
 	"bs-categorymanager-removecategoryconfirm-title": "Eliminar categoria",
 	"bs-categorymanager-addcategory-dialog-error-title": "A criação da categoria falhou",
+	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "A categoria já existe",
+	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "Tente um nome de categoria diferente, por favor",
 	"bs-categorymanager-action-show-category": "Mostrar categoria",
 	"right-categorymanager-viewspecialpage": "Acesso à página especial [[Special:BlueSpiceCategoryManager]]",
 	"bs-categorymanager-collection-type-categorizedpages": "Atribuição de categoria",
