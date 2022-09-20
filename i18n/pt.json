@@ -25,5 +25,7 @@
 	"bs-categorymanager-rename-category-new-name": "Nome novo da categoria:",
 	"bs-categorymanager-move-new-name": "Definir o nome novo da categoria. Nome novo:",
 	"bs-categorymanager-replace-in-pages": "Alteração de nome na página:",
-	"bs-categorymanager-statistics-report-category-pages": "Páginas em categorias"
+	"bs-categorymanager-statistics-report-category-pages": "Páginas em categorias",
+	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "A categoria já existe",
+	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "Tente um nome de categoria diferente, por favor"
 }
