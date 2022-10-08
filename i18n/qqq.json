@@ -30,5 +30,7 @@
 	"bs-categorymanager-rename-category-new-name": "Label for the text field where the user enters a new category name.",
 	"bs-categorymanager-move-new-name": "Info message druging the renaming process that the category is renamed. At the end the new category name is displayed.",
 	"bs-categorymanager-replace-in-pages": "Info message druging the renaming process that a page with the old category is renamed. At the end the pagename will be displayed.",
-	"bs-categorymanager-statistics-report-category-pages": "Name of statistics report"
+	"bs-categorymanager-statistics-report-category-pages": "Name of statistics report",
+	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "Title of the error dialog if someone create a duplicate category",
+	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "Text of the error dialog if someone create a duplicate category"
 }

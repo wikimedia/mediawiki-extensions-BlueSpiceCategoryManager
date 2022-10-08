@@ -19,5 +19,6 @@
 	"bs-categorymanager-collection-var-namespacename": "Nummraum",
 	"bs-categorymanager-collection-var-categorizedpages": "Säite mat Kategorien",
 	"bs-categorymanager-collection-var-uncategorizedpages": "Säiten ouni Kategorie",
-	"bs-categorymanager-statistics-report-category-pages": "Säiten an der Kategorie"
+	"bs-categorymanager-statistics-report-category-pages": "Säiten an der Kategorie",
+	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "Kategorie gëtt et schonn"
 }
