@@ -3,6 +3,7 @@
 		"authors": [
 			"Dejan Savuljesku",
 			"Ferdinand0101",
+			"Hikemaniac",
 			"Ljonka",
 			"Metalhead64",
 			"Mglaser",
@@ -21,6 +22,7 @@
 	"bs-categorymanager-removecategoryconfirm-text": "Bist du sicher, dass du diese Kategorie löschen willst?",
 	"bs-categorymanager-removecategoryconfirm-title": "Kategorie löschen",
 	"bs-categorymanager-addcategory-dialog-error-title": "Die Erstellung der Kategorie ist fehlgeschlagen",
+	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "Kategorie existiert bereits",
 	"bs-categorymanager-action-show-category": "Kategorie anzeigen",
 	"right-categorymanager-viewspecialpage": "Zugriff auf die Spezialseite [[Special:BlueSpiceCategoryManager]]",
 	"bs-categorymanager-collection-type-categorizedpages": "Kategoriezuweisung",
