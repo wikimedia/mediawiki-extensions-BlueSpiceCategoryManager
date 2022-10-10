@@ -32,5 +32,6 @@
 	"bs-categorymanager-replace-in-pages": "Info message druging the renaming process that a page with the old category is renamed. At the end the pagename will be displayed.",
 	"bs-categorymanager-statistics-report-category-pages": "Name of statistics report",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "Title of the error dialog if someone create a duplicate category",
-	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "Text of the error dialog if someone create a duplicate category"
+	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "Text of the error dialog if someone create a duplicate category",
+	"bs-categorymanager-statistics-report-category-pages-axis-value": "Axis label which shows number of pages"
 }

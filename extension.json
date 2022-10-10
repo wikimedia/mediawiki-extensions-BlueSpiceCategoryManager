@@ -118,7 +118,8 @@
 				"statistics/CategoryPagesReport.js"
 			],
 			"messages": [
-				"bs-categorymanager-statistics-report-category-pages"
+				"bs-categorymanager-statistics-report-category-pages",
+				"bs-categorymanager-statistics-report-category-pages-axis-value"
 			]
 		}
 	},

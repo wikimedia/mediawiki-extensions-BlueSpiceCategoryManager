@@ -35,5 +35,6 @@
 	"bs-categorymanager-replace-in-pages": "Umbenennen in der Seite:",
 	"bs-categorymanager-statistics-report-category-pages": "Seiten in Kategorien",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "Kategorie existiert bereits",
-	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "Bitte verwende einen anderen Kategorienamen"
+	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "Bitte verwende einen anderen Kategorienamen",
+	"bs-categorymanager-statistics-report-category-pages-axis-value": "Anzahl an Seiten"
 }
