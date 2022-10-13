@@ -19,6 +19,7 @@
 	"bs-categorymanager-removecategoryconfirm-text": "Sei sicuro/a di voler cancellare questa categoria?",
 	"bs-categorymanager-removecategoryconfirm-title": "Rimuovere categoria",
 	"bs-categorymanager-addcategory-dialog-error-title": "Creazione della categoria non riuscita",
+	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "Prova con un nome di categoria diverso",
 	"bs-categorymanager-action-show-category": "Mostra categoria",
 	"right-categorymanager-viewspecialpage": "Accede alla pagina speciale [[Special:BlueSpiceCategoryManager]]",
 	"bs-categorymanager-collection-type-categorizedpages": "Assegnazione della categoria",
