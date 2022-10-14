@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hwboehm"
+			"Hwboehm",
+			"Vhoesl"
 		]
 	},
-	"bs-categorymanager-removecategoryconfirm-text": "Sind Sie sicher, dass Sie diese Kategorie löschen möchten?"
+	"bs-categorymanager-removecategoryconfirm-text": "Sind Sie sicher, dass Sie diese Kategorie löschen möchten?",
+	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "Bitte verwenden Sie einen anderen Kategorienamen"
 }

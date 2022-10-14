@@ -8,7 +8,8 @@
 			"Metalhead64",
 			"Mglaser",
 			"Mschlindwein",
-			"Tiin"
+			"Tiin",
+			"Vhoesl"
 		]
 	},
 	"bluespicecategorymanager": "Kategorieverwaltung",
@@ -23,6 +24,7 @@
 	"bs-categorymanager-removecategoryconfirm-title": "Kategorie löschen",
 	"bs-categorymanager-addcategory-dialog-error-title": "Die Erstellung der Kategorie ist fehlgeschlagen",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "Kategorie existiert bereits",
+	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "Bitte verwende einen anderen Kategorienamen",
 	"bs-categorymanager-action-show-category": "Kategorie anzeigen",
 	"right-categorymanager-viewspecialpage": "Zugriff auf die Spezialseite [[Special:BlueSpiceCategoryManager]]",
 	"bs-categorymanager-collection-type-categorizedpages": "Kategoriezuweisung",
