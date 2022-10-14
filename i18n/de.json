@@ -8,7 +8,8 @@
 			"Metalhead64",
 			"Mglaser",
 			"Mschlindwein",
-			"Tiin"
+			"Tiin",
+			"Vhoesl"
 		]
 	},
 	"bluespicecategorymanager": "Kategorieverwaltung",
@@ -33,5 +34,6 @@
 	"bs-categorymanager-move-new-name": "Die neue Kategorie wird umbenannt. Neuer Name:",
 	"bs-categorymanager-replace-in-pages": "Umbenennen in der Seite:",
 	"bs-categorymanager-statistics-report-category-pages": "Seiten in Kategorien",
-	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "Kategorie existiert bereits"
+	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "Kategorie existiert bereits",
+	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "Bitte verwende einen anderen Kategorienamen"
 }
