@@ -27,5 +27,6 @@
 	"bs-categorymanager-replace-in-pages": "Renominar in pagina:",
 	"bs-categorymanager-statistics-report-category-pages": "Paginas in categorias",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "Le categoria ja existe",
-	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "Tenta usar un altere nomine de categoria"
+	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "Tenta usar un altere nomine de categoria",
+	"bs-categorymanager-statistics-report-category-pages-axis-value": "Numero de paginas"
 }

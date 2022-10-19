@@ -31,5 +31,6 @@
 	"bs-categorymanager-statistics-report-category-pages": "Pages dans les catégories",
 	"bs-categorymanager-text": "Catégories",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "La catégorie existe déjà",
-	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "Veuillez essayer un autre nom de catégorie"
+	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "Veuillez essayer un autre nom de catégorie",
+	"bs-categorymanager-statistics-report-category-pages-axis-value": "Nombre de pages"
 }
