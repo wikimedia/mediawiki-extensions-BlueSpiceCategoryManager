@@ -7,5 +7,6 @@
 	"bs-categorymanager-text": "Kategorije",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "Kategorija že obstaja",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "Poskusite z drugim imenom kategorije",
-	"bs-categorymanager-collection-var-namespacename": "Imenski prostor"
+	"bs-categorymanager-collection-var-namespacename": "Imenski prostor",
+	"bs-categorymanager-statistics-report-category-pages-axis-value": "Število strani"
 }
