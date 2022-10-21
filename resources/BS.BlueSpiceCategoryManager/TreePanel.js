@@ -99,58 +99,68 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 							dialog.setData(oldCategory);
 							dialog.on( 'ok', function (){
 								newCategory = dialog.getData();
-
-								if(newCategory != oldCategory){
-									this.treePanel.setLoading( true );
-									this.getPages(oldCategory).done(function (pages){
-										var dlgBatchActions = new BS.dialog.BatchActions( {
-											id: this.makeId( 'dialog-batchactions-save' )
-										} );
-										dlgBatchActions.on( 'ok', function() {
-											this.store.reload();
-											var recordFullName = 'Category:' + oldCategory;
-											var me = this;
-											$.when(
-												me.removeCategories( recordFullName, [oldCategory] )
-											).always( function() {
+								this.getCategoryNames().done( function(allCategories) {
+									if ( allCategories.indexOf( newCategory.toLowerCase()) !== -1 ) {
+										bs.util.alert(
+											"bs-categorymanager",
+											{
+												titleMsg: 'bs-categorymanager-addcategory-dialog-error-duplicate-title',
+												text: mw.message( 'bs-categorymanager-addcategory-dialog-error-duplicate-text' ).plain()
+											}
+										);
+										return false;
+									} else {
+										this.treePanel.setLoading( true );
+										this.getPages(oldCategory).done(function (pages){
+											var dlgBatchActions = new BS.dialog.BatchActions( {
+												id: this.makeId( 'dialog-batchactions-save' )
+											} );
+											dlgBatchActions.on( 'ok', function() {
+												this.store.reload();
+												var recordFullName = 'Category:' + oldCategory;
+												var me = this;
 												$.when(
-													me.addCategories( recordFullName, [newCategory] )
+													me.removeCategories( recordFullName, [oldCategory] )
 												).always( function() {
-													me.removeCategoryPage(recordFullName);
-													me.treePanel.setLoading( false );
-													me.treePanel.getStore().load({
-														callback: function(records, operation, success) {
-															me.treePanel.expandAll();
-														}
+													$.when(
+														me.addCategories( recordFullName, [newCategory] )
+													).always( function() {
+														me.removeCategoryPage(recordFullName);
+														me.treePanel.setLoading( false );
+														me.treePanel.getStore().load({
+															callback: function(records, operation, success) {
+																me.treePanel.expandAll();
+															}
+														});
 													});
 												});
+											}, this );
+
+											var actions = [];
+											var moveCategory = new BS.BlueSpiceCategoryManager.action.MoveCategoryPage({
+												oldCategory: oldCategory,
+												newCategory: newCategory
 											});
-										}, this );
+											actions.push(moveCategory);
+											if(pages.length > 0) {
+												var action;
+												for(var i = 0; i < pages.length; i++) {
+													action = new BS.BlueSpiceCategoryManager.action.ReplaceCategoryInPage({
+														pageTitle: pages[i].title,
+														oldCategory: oldCategory,
+														newCategory: newCategory,
 
-										var actions = [];
-										var moveCategory = new BS.BlueSpiceCategoryManager.action.MoveCategoryPage({
-											oldCategory: oldCategory,
-											newCategory: newCategory
-										});
-										actions.push(moveCategory);
-										if(pages.length > 0) {
-											var action;
-											for(var i = 0; i < pages.length; i++) {
-												action = new BS.BlueSpiceCategoryManager.action.ReplaceCategoryInPage({
-													pageTitle: pages[i].title,
-													oldCategory: oldCategory,
-													newCategory: newCategory,
-
-												});
-												actions.push(action);
+													});
+													actions.push(action);
+												}
 											}
-										}
-										this.treePanel.setLoading( false );
-										dlgBatchActions.setData( actions );
-										dlgBatchActions.show();
-										dlgBatchActions.startProcessing();
-									}.bind(this))
-								}
+											this.treePanel.setLoading( false );
+											dlgBatchActions.setData( actions );
+											dlgBatchActions.show();
+											dlgBatchActions.startProcessing();
+										}.bind(this))
+									}
+								}.bind(this) );
 							}.bind(this));
 							dialog.on('close', function() {
 								Ext.destroy(dialog);
