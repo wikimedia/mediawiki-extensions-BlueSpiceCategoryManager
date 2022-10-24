@@ -6,7 +6,8 @@
 			"Movses",
 			"Piramidion",
 			"Vlad5250",
-			"Ата"
+			"Ата",
+			"Пан Хаунд"
 		]
 	},
 	"bluespicecategorymanager": "Менеджер категорій",
@@ -30,5 +31,8 @@
 	"bs-categorymanager-rename-category-new-name": "Нова назва категорії:",
 	"bs-categorymanager-move-new-name": "Вкажіть нову назву категорії. Нова назва:",
 	"bs-categorymanager-replace-in-pages": "Перейменування на сторінці:",
-	"bs-categorymanager-statistics-report-category-pages": "Сторінки у категоріях"
+	"bs-categorymanager-statistics-report-category-pages": "Сторінки у категоріях",
+	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "Категорія уже існує",
+	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "Будь ласка, спробуйте іншу назву категорії",
+	"bs-categorymanager-statistics-report-category-pages-axis-value": "Кількість сторінок"
 }
