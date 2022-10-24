@@ -6,7 +6,8 @@
 			"Movses",
 			"Piramidion",
 			"Vlad5250",
-			"Ата"
+			"Ата",
+			"Пан Хаунд"
 		]
 	},
 	"bluespicecategorymanager": "Менеджер категорій",
@@ -20,6 +21,8 @@
 	"bs-categorymanager-removecategoryconfirm-text": "Ви впевнені, що хочете вилучити цю категорію?",
 	"bs-categorymanager-removecategoryconfirm-title": "Вилучити категорію",
 	"bs-categorymanager-addcategory-dialog-error-title": "Не вдалось створити категорію",
+	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "Категорія уже існує",
+	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "Будь ласка, спробуйте іншу назву категорії",
 	"bs-categorymanager-action-show-category": "Показати категорію",
 	"right-categorymanager-viewspecialpage": "Доступ до спеціальної сторінки [[Special:BlueSpiceCategoryManager]]",
 	"bs-categorymanager-collection-type-categorizedpages": "Розміщення категорій",
@@ -30,5 +33,6 @@
 	"bs-categorymanager-rename-category-new-name": "Нова назва категорії:",
 	"bs-categorymanager-move-new-name": "Вкажіть нову назву категорії. Нова назва:",
 	"bs-categorymanager-replace-in-pages": "Перейменування на сторінці:",
-	"bs-categorymanager-statistics-report-category-pages": "Сторінки у категоріях"
+	"bs-categorymanager-statistics-report-category-pages": "Сторінки у категоріях",
+	"bs-categorymanager-statistics-report-category-pages-axis-value": "Кількість сторінок"
 }
