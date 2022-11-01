@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"FiberAhmed",
+			"Meno25",
 			"أَحمد",
 			"ديفيد",
 			"محمد أحمد عبد الفتاح"
@@ -18,11 +19,18 @@
 	"bs-categorymanager-removecategoryconfirm-text": "هل أنت متأكد أنك تريد حذف هذا التصنيف؟",
 	"bs-categorymanager-removecategoryconfirm-title": "أزل التصنيف",
 	"bs-categorymanager-addcategory-dialog-error-title": "فشل إنشاء التصنيف",
+	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "الفئة موجودة بالفعل",
+	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "الرجاء محاولة اسم فئة مختلف",
 	"bs-categorymanager-action-show-category": "إظهار التصنيف",
 	"right-categorymanager-viewspecialpage": "الوصول إلى الصفحة الخاصة [[Special:BlueSpiceCategoryManager]].",
 	"bs-categorymanager-collection-type-categorizedpages": "تخصيص التصنيف",
 	"bs-categorymanager-collection-var-namespacename": "النطاق",
 	"bs-categorymanager-collection-var-categorizedpages": "الصفحات في هذه التصنيفات",
 	"bs-categorymanager-collection-var-uncategorizedpages": "الصفحات دون هذه التصنيفات",
-	"bs-categorymanager-rename-category-new-name": "اسم التصنيف الجديد:"
+	"bs-categorymanager-rename-category": "إعادة تسمية الفئة",
+	"bs-categorymanager-rename-category-new-name": "اسم التصنيف الجديد:",
+	"bs-categorymanager-move-new-name": "قم بتعيين اسم الفئة الجديد. اسم جديد:",
+	"bs-categorymanager-replace-in-pages": "إعادة تسمية في الصفحة:",
+	"bs-categorymanager-statistics-report-category-pages": "صفحات في فئات",
+	"bs-categorymanager-statistics-report-category-pages-axis-value": "عدد الصفحات"
 }
