@@ -3,6 +3,7 @@
 		"authors": [
 			"Cwlin0416",
 			"Kly",
+			"Seikan Tunnel",
 			"Willy1018",
 			"Winston Sung"
 		]
@@ -30,5 +31,6 @@
 	"bs-categorymanager-replace-in-pages": "在頁面裡重新命名：",
 	"bs-categorymanager-statistics-report-category-pages": "在分類裡的頁面",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "分類已存在",
-	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "請嘗試不同的分類名稱"
+	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "請嘗試不同的分類名稱",
+	"bs-categorymanager-statistics-report-category-pages-axis-value": "頁面數量"
 }
