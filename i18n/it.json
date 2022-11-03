@@ -19,6 +19,7 @@
 	"bs-categorymanager-removecategoryconfirm-text": "Sei sicuro/a di voler cancellare questa categoria?",
 	"bs-categorymanager-removecategoryconfirm-title": "Rimuovere categoria",
 	"bs-categorymanager-addcategory-dialog-error-title": "Creazione della categoria non riuscita",
+	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "La categoria esiste già",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "Prova con un nome di categoria diverso",
 	"bs-categorymanager-action-show-category": "Mostra categoria",
 	"right-categorymanager-viewspecialpage": "Accede alla pagina speciale [[Special:BlueSpiceCategoryManager]]",
@@ -30,5 +31,6 @@
 	"bs-categorymanager-rename-category-new-name": "Nome nuova Categoria",
 	"bs-categorymanager-move-new-name": "Imposta il nuovo nome della categoria. Nuovo nome:",
 	"bs-categorymanager-replace-in-pages": "Rinomina nella pagina:",
-	"bs-categorymanager-statistics-report-category-pages": "Pagine in categorie"
+	"bs-categorymanager-statistics-report-category-pages": "Pagine in categorie",
+	"bs-categorymanager-statistics-report-category-pages-axis-value": "Numero di pagine"
 }
