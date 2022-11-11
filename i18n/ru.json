@@ -35,5 +35,6 @@
 	"bs-categorymanager-statistics-report-category-pages": "Страницы в категориях",
 	"bs-categorymanager-text": "Категории",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "Категория уже существует",
-	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "Пожалуйста, попробуйте другое название категории"
+	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "Пожалуйста, попробуйте другое название категории",
+	"bs-categorymanager-statistics-report-category-pages-axis-value": "Количество страниц"
 }
