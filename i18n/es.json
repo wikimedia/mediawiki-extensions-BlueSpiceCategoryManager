@@ -5,6 +5,7 @@
 			"Fitoschido",
 			"Macofe",
 			"Rodney Araujo",
+			"SpikeShroom",
 			"TehFrog"
 		]
 	},
@@ -29,5 +30,8 @@
 	"bs-categorymanager-rename-category-new-name": "Nuevo nombre de categoría:",
 	"bs-categorymanager-move-new-name": "Elige el nuevo nombre de categoría. Nuevo nombre:",
 	"bs-categorymanager-replace-in-pages": "Renombrar en la página:",
-	"bs-categorymanager-statistics-report-category-pages": "Páginas en categorías"
+	"bs-categorymanager-statistics-report-category-pages": "Páginas en categorías",
+	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "La categoría ya existe",
+	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "Intente con un nombre de categoría diferente",
+	"bs-categorymanager-statistics-report-category-pages-axis-value": "Número de páginas"
 }
