@@ -28,5 +28,6 @@
 	"bs-categorymanager-replace-in-pages": "Døp om i siden:",
 	"bs-categorymanager-statistics-report-category-pages": "Sider i kategorier",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "Kategori finnes allerede",
-	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "Vennligst prøv et annet kategorinavn"
+	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "Vennligst prøv et annet kategorinavn",
+	"bs-categorymanager-statistics-report-category-pages-axis-value": "Antall sider"
 }
