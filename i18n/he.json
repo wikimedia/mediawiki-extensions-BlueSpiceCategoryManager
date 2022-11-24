@@ -31,5 +31,6 @@
 	"bs-categorymanager-rename-category-new-name": "שם לקטגוריה החדשה:",
 	"bs-categorymanager-move-new-name": "הגדרת שם הקטגוריה החדש. שם חדש:",
 	"bs-categorymanager-replace-in-pages": "לשנות את השם בדף:",
-	"bs-categorymanager-statistics-report-category-pages": "דפים בקטגוריות"
+	"bs-categorymanager-statistics-report-category-pages": "דפים בקטגוריות",
+	"bs-categorymanager-statistics-report-category-pages-axis-value": "מספר הדפים"
 }
