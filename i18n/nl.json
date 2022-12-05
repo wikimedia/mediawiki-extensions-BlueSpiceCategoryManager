@@ -31,5 +31,6 @@
 	"bs-categorymanager-rename-category-new-name": "Nieuwe categorienaam:",
 	"bs-categorymanager-move-new-name": "Stel de nieuwe categorienaam in. Nieuwe naam:",
 	"bs-categorymanager-replace-in-pages": "Naam in pagina wijzigen:",
-	"bs-categorymanager-statistics-report-category-pages": "Pagina's in categorieën"
+	"bs-categorymanager-statistics-report-category-pages": "Pagina's in categorieën",
+	"bs-categorymanager-statistics-report-category-pages-axis-value": "Aantal pagina's"
 }
