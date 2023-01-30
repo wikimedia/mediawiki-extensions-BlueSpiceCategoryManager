@@ -3,6 +3,7 @@
 		"authors": [
 			"A2y4",
 			"Aefgh39622",
+			"Buehl",
 			"MathXplore",
 			"Mugenpman",
 			"Otokoume",
@@ -30,5 +31,8 @@
 	"bs-categorymanager-replace-in-pages": "ページの名前を変更",
 	"bs-categorymanager-statistics-report-category-pages": "カテゴリ内のページ",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "カテゴリは既に存在します",
-	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "別のカテゴリ名を試してください"
+	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "別のカテゴリ名を試してください",
+	"bs-categorymanager-collection-var-categorizedpages": "カテゴリのあるページ",
+	"bs-categorymanager-collection-var-uncategorizedpages": "カテゴリのないページ",
+	"bs-categorymanager-statistics-report-category-pages-axis-value": "ページ数"
 }
