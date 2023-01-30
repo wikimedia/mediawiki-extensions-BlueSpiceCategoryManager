@@ -27,5 +27,6 @@
 	"bs-categorymanager-statistics-report-category-pages": "분류 내 문서",
 	"bs-categorymanager-text": "분류",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "분류가 이미 존재합니다",
-	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "다른 분류 이름을 사용해 보십시오"
+	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "다른 분류 이름을 사용해 보십시오",
+	"bs-categorymanager-statistics-report-category-pages-axis-value": "페이지 수"
 }
