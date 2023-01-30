@@ -27,5 +27,6 @@
 	"bs-categorymanager-rename-category-new-name": "새 분류 이름:",
 	"bs-categorymanager-move-new-name": "새 분류 이름을 설정합니다. 새 이름:",
 	"bs-categorymanager-replace-in-pages": "문서에서 이름 바꾸기:",
-	"bs-categorymanager-statistics-report-category-pages": "분류 내 문서"
+	"bs-categorymanager-statistics-report-category-pages": "분류 내 문서",
+	"bs-categorymanager-statistics-report-category-pages-axis-value": "페이지 수"
 }
