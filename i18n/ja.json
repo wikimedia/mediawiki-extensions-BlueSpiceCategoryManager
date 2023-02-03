@@ -10,12 +10,15 @@
 			"RYOUMA1117",
 			"Shirayuki",
 			"Suyama",
-			"Tamaki Wakita"
+			"Tamaki Wakita",
+			"背番号4のエース"
 		]
 	},
 	"bluespicecategorymanager": "カテゴリマネージャー",
+	"bluespicecategorymanager-desc": "カテゴリを管理するためのビジュアルツール",
 	"action-categorymanager-viewspecialpage": "カテゴリマネージャーの閲覧",
 	"bs-categorymanager-text": "カテゴリ",
+	"bs-categorymanager-draganddrop-text": "ドラッグアンドドロップで再編成",
 	"bs-categorymanager-label": "カテゴリマネージャー",
 	"bs-categorymanager-dlg-new-title": "カテゴリの作成",
 	"bs-categorymanager-dlg-new-prompt": "名前を入力してください:",
@@ -26,6 +29,7 @@
 	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "別のカテゴリ名を試してください",
 	"bs-categorymanager-action-show-category": "カテゴリを表示",
 	"right-categorymanager-viewspecialpage": "特別ページ [[Special:BlueSpiceCategoryManager]] を利用",
+	"bs-categorymanager-collection-type-categorizedpages": "カテゴリ情報",
 	"bs-categorymanager-collection-var-namespacename": "名前空間",
 	"bs-categorymanager-collection-var-categorizedpages": "カテゴリのあるページ",
 	"bs-categorymanager-collection-var-uncategorizedpages": "カテゴリのないページ",
