@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
+			"Seipinne",
 			"Yupik"
 		]
 	},
+	"bs-categorymanager-text": "Luokah",
 	"bs-categorymanager-removecategoryconfirm-title": "Meddâlist luoka"
 }
