@@ -27,7 +27,7 @@
 	"bs-categorymanager-collection-var-namespacename": "名前空間",
 	"bs-categorymanager-rename-category": "カテゴリの名前を変更",
 	"bs-categorymanager-rename-category-new-name": "新しい名前：",
-	"bs-categorymanager-move-new-name": "新しいカテゴリーの名前を設定。新しい名前：",
+	"bs-categorymanager-move-new-name": "新しいカテゴリの名前を設定。新しい名前:",
 	"bs-categorymanager-replace-in-pages": "ページの名前を変更",
 	"bs-categorymanager-statistics-report-category-pages": "カテゴリ内のページ",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "カテゴリは既に存在します",
