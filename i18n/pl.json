@@ -19,5 +19,7 @@
 	"right-categorymanager-viewspecialpage": "Dostęp do strony specjalnej [[Special:BlueSpiceCategoryManager]].",
 	"bs-categorymanager-collection-var-namespacename": "Przestrzeń nazw",
 	"bs-categorymanager-collection-var-categorizedpages": "Strony z kategoriami",
-	"bs-categorymanager-collection-var-uncategorizedpages": "Strony bez kategorii"
+	"bs-categorymanager-collection-var-uncategorizedpages": "Strony bez kategorii",
+	"bs-categorymanager-text": "Kategorie",
+	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "Kategoria już istnieje"
 }
