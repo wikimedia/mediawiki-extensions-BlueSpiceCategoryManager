@@ -21,5 +21,14 @@
 	"bs-categorymanager-collection-type-categorizedpages": "Додела категорија",
 	"bs-categorymanager-collection-var-namespacename": "Именски простор",
 	"bs-categorymanager-collection-var-categorizedpages": "Странице са категоријама",
-	"bs-categorymanager-collection-var-uncategorizedpages": "Странице без категорија"
+	"bs-categorymanager-collection-var-uncategorizedpages": "Странице без категорија",
+	"bs-categorymanager-text": "Категорије",
+	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "Категорија већ постоји",
+	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "Покушајте са другим називом категорије",
+	"bs-categorymanager-rename-category": "Преименуј категорију",
+	"bs-categorymanager-rename-category-new-name": "Нови назив категорије:",
+	"bs-categorymanager-move-new-name": "Постављање новог назива категорије. Нови назив:",
+	"bs-categorymanager-replace-in-pages": "Преименовање на страници:",
+	"bs-categorymanager-statistics-report-category-pages": "Странице у категоријама",
+	"bs-categorymanager-statistics-report-category-pages-axis-value": "Број страница"
 }
