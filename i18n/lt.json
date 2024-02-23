@@ -2,15 +2,16 @@
 	"@metadata": {
 		"authors": [
 			"Eitvys200",
+			"Homo",
 			"Nokeoo"
 		]
 	},
-	"bluespicecategorymanager": "Kategorijų tvarkytojas",
+	"bluespicecategorymanager": "Kategorijų tvarkyklė",
 	"bluespicecategorymanager-desc": "Vizualinis įrankis tvarkyti kategorijoms",
 	"action-categorymanager-viewspecialpage": "žiūrėti Kategorijų tvarkytoją",
 	"bs-categorymanager-text": "Kategorijos",
 	"bs-categorymanager-draganddrop-text": "Vilkite ir atleiskite, kad  pertvarkytumėte",
-	"bs-categorymanager-label": "Kategorijų tvarkytojas",
+	"bs-categorymanager-label": "Kategorijų tvarkyklė",
 	"bs-categorymanager-dlg-new-title": "Sukurti kategoriją",
 	"bs-categorymanager-dlg-new-prompt": "Prašome įvesti pavadinimą:",
 	"bs-categorymanager-removecategoryconfirm-text": "Ar tikrai norite ištrinti šią kategoriją?",
