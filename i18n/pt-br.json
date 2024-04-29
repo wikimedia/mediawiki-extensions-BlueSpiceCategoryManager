@@ -3,7 +3,7 @@
 		"authors": [
 			"Eduardo Addad de Oliveira",
 			"Eduardoaddad",
-			"Fúlvio",
+			"F\u00falvio",
 			"Juan90264"
 		]
 	},
@@ -17,19 +17,19 @@
 	"bs-categorymanager-dlg-new-prompt": "Introduza o nome:",
 	"bs-categorymanager-removecategoryconfirm-text": "Tem a certeza de que pretende eliminar esta categoria?",
 	"bs-categorymanager-removecategoryconfirm-title": "Remover categoria",
-	"bs-categorymanager-addcategory-dialog-error-title": "A criação da categoria falhou",
+	"bs-categorymanager-addcategory-dialog-error-title": "A cria\u00e7\u00e3o da categoria falhou",
 	"bs-categorymanager-action-show-category": "Mostrar categoria",
-	"right-categorymanager-viewspecialpage": "Acesso à página especial [[Special:BlueSpiceCategoryManager]].",
-	"bs-categorymanager-collection-type-categorizedpages": "Alocação de categoria",
-	"bs-categorymanager-collection-var-namespacename": "Espaço nominal",
-	"bs-categorymanager-collection-var-categorizedpages": "Páginas com categorias",
-	"bs-categorymanager-collection-var-uncategorizedpages": "Páginas sem categorias",
+	"right-categorymanager-viewspecialpage": "Acesso \u00e0 p\u00e1gina especial [[Special:BlueSpiceCategoryManager]].",
+	"bs-categorymanager-collection-type-categorizedpages": "Aloca\u00e7\u00e3o de categoria",
+	"bs-categorymanager-collection-var-namespacename": "Espa\u00e7o nominal",
+	"bs-categorymanager-collection-var-categorizedpages": "P\u00e1ginas com categorias",
+	"bs-categorymanager-collection-var-uncategorizedpages": "P\u00e1ginas sem categorias",
 	"bs-categorymanager-rename-category": "Renomear categoria",
 	"bs-categorymanager-rename-category-new-name": "Novo nome de categoria:",
 	"bs-categorymanager-move-new-name": "Defina o novo nome da categoria. Novo nome:",
-	"bs-categorymanager-replace-in-pages": "Renomear na página:",
-	"bs-categorymanager-statistics-report-category-pages": "Páginas em categorias",
-	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "A categoria já existe",
+	"bs-categorymanager-replace-in-pages": "Renomear na p\u00e1gina:",
+	"bs-categorymanager-statistics-report-category-pages": "P\u00e1ginas em categorias",
+	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "A categoria j\u00e1 existe",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "Tente um nome de categoria diferente",
-	"bs-categorymanager-statistics-report-category-pages-axis-value": "Número de páginas"
+	"bs-categorymanager-statistics-report-category-pages-axis-value": "N\u00famero de p\u00e1ginas"
 }

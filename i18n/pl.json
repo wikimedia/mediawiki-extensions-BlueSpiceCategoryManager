@@ -2,25 +2,25 @@
 	"@metadata": {
 		"authors": [
 			"Chrumps",
-			"InternerowyGołąb",
+			"InternerowyGo\u0142\u0105b",
 			"Rail",
 			"Railfail536",
 			"WaldiSt"
 		]
 	},
-	"bluespicecategorymanager": "Menedżer kategorii",
-	"bluespicecategorymanager-desc": "Narzędzie wizualne do zarządzania kategoriami",
-	"bs-categorymanager-label": "Menedżer kategorii",
-	"bs-categorymanager-dlg-new-title": "Utwórz kategorię",
-	"bs-categorymanager-dlg-new-prompt": "Podaj nazwę:",
-	"bs-categorymanager-removecategoryconfirm-title": "Usuń kategorię",
-	"bs-categorymanager-addcategory-dialog-error-title": "Tworzenie kategorii nie powiodło się",
-	"bs-categorymanager-action-show-category": "Pokaż kategorię",
-	"right-categorymanager-viewspecialpage": "Dostęp do strony specjalnej [[Special:BlueSpiceCategoryManager]].",
-	"bs-categorymanager-collection-var-namespacename": "Przestrzeń nazw",
+	"bluespicecategorymanager": "Mened\u017cer kategorii",
+	"bluespicecategorymanager-desc": "Narz\u0119dzie wizualne do zarz\u0105dzania kategoriami",
+	"bs-categorymanager-label": "Mened\u017cer kategorii",
+	"bs-categorymanager-dlg-new-title": "Utw\u00f3rz kategori\u0119",
+	"bs-categorymanager-dlg-new-prompt": "Podaj nazw\u0119:",
+	"bs-categorymanager-removecategoryconfirm-title": "Usu\u0144 kategori\u0119",
+	"bs-categorymanager-addcategory-dialog-error-title": "Tworzenie kategorii nie powiod\u0142o si\u0119",
+	"bs-categorymanager-action-show-category": "Poka\u017c kategori\u0119",
+	"right-categorymanager-viewspecialpage": "Dost\u0119p do strony specjalnej [[Special:BlueSpiceCategoryManager]].",
+	"bs-categorymanager-collection-var-namespacename": "Przestrze\u0144 nazw",
 	"bs-categorymanager-collection-var-categorizedpages": "Strony z kategoriami",
 	"bs-categorymanager-collection-var-uncategorizedpages": "Strony bez kategorii",
 	"bs-categorymanager-text": "Kategorie",
-	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "Kategoria już istnieje",
+	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "Kategoria ju\u017c istnieje",
 	"bs-categorymanager-rename-category-new-name": "Nowa nazwa kategorii:"
 }
