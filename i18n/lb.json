@@ -2,12 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Robby",
-			"Soued031"
+			"Soued031",
+			"Volvox"
 		]
 	},
 	"bluespicecategorymanager": "Gestionnaire vu Kategorien",
 	"bluespicecategorymanager-desc": "Visuellen Tool fir d'Gestioun vu Kategorien",
 	"action-categorymanager-viewspecialpage": "Gestionnaire vu Kategorien weisen",
+	"bs-categorymanager-text": "Kategorien",
 	"bs-categorymanager-draganddrop-text": "Zéien a fale loossen fir ze reorganiséieren",
 	"bs-categorymanager-label": "Gestionnaire vu Kategorien",
 	"bs-categorymanager-dlg-new-title": "Kategorie uleeën",
@@ -16,9 +18,17 @@
 	"bs-categorymanager-removecategoryconfirm-title": "Kategorie ewechhuelen",
 	"bs-categorymanager-addcategory-dialog-error-title": "Uleeë vun der Kategorie huet net funktionéiert",
 	"bs-categorymanager-action-show-category": "Kategorie weisen",
+	"right-categorymanager-viewspecialpage": "Zougrëff op d'Spezialsäit [[Special:BlueSpiceCategoryManager]]",
+	"bs-categorymanager-collection-type-categorizedpages": "Kategorienzouweisung",
 	"bs-categorymanager-collection-var-namespacename": "Nummraum",
 	"bs-categorymanager-collection-var-categorizedpages": "Säite mat Kategorien",
 	"bs-categorymanager-collection-var-uncategorizedpages": "Säiten ouni Kategorie",
+	"bs-categorymanager-rename-category": "Kategorie ëmbenennen",
+	"bs-categorymanager-rename-category-new-name": "Neie Kategoriennumm:",
+	"bs-categorymanager-move-new-name": "Leet den neie Kategoriennumm fest. Neien Numm:",
+	"bs-categorymanager-replace-in-pages": "Ëmbenennen an der Säit:",
 	"bs-categorymanager-statistics-report-category-pages": "Säiten an der Kategorie",
-	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "Kategorie gëtt et schonn"
+	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "Kategorie gëtt et schonn",
+	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "Probéiert wgl. en anere Kategoriennumm",
+	"bs-categorymanager-statistics-report-category-pages-axis-value": "Zuel vu Säiten"
 }
