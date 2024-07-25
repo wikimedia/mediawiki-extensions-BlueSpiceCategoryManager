@@ -182,6 +182,21 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 		this.treePanel.getView().on( 'itemclick', this.onItemclick, this );
 		this.treePanel.on( 'itemexpand', this.onItemexpand, this );
 
+		// Make sure that the tabGuard elements are not focusable, WCAG
+		this.treePanel.on( 'afterrender', function() {
+			if ( this.treePanel.headerCt.tabGuardBeforeEl ) {
+				this.treePanel.headerCt.tabGuardBeforeEl.set( { tabIndex: -1 } );
+			}
+
+			if ( this.treePanel.headerCt.tabGuardAfterEl ) {
+				this.treePanel.headerCt.tabGuardAfterEl.set( { tabIndex: -1 } );
+			}
+
+			if ( this.treePanel.el ) {
+				this.treePanel.el.set( { tabIndex: -1 } );
+			}
+		}.bind( this ) );
+
 		this.items = [
 			this.treePanel
 		];
