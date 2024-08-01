@@ -110,7 +110,8 @@
 				"bs-categorymanager-rename-category",
 				"bs-categorymanager-rename-category-new-name",
 				"bs-categorymanager-move-new-name",
-				"bs-categorymanager-replace-in-pages"
+				"bs-categorymanager-replace-in-pages",
+				"bs-categorymanager-category-column-name"
 			]
 		},
 		"ext.bluespice.categorymanager.statistics": {

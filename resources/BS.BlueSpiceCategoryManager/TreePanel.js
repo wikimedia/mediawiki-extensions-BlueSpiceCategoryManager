@@ -59,6 +59,7 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 				}
 			},
 			columns : [{
+				header: mw.message('bs-categorymanager-category-column-name').plain(),
 				xtype: 'treecolumn', //this is so we know which column will show the tree
 				flex: 2,
 				dataIndex: 'text',
@@ -184,14 +185,6 @@ Ext.define( "BS.BlueSpiceCategoryManager.TreePanel", {
 
 		// Make sure that the tabGuard elements are not focusable, WCAG
 		this.treePanel.on( 'afterrender', function() {
-			if ( this.treePanel.headerCt.tabGuardBeforeEl ) {
-				this.treePanel.headerCt.tabGuardBeforeEl.set( { tabIndex: -1 } );
-			}
-
-			if ( this.treePanel.headerCt.tabGuardAfterEl ) {
-				this.treePanel.headerCt.tabGuardAfterEl.set( { tabIndex: -1 } );
-			}
-
 			if ( this.treePanel.el ) {
 				this.treePanel.el.set( { tabIndex: -1 } );
 			}
