@@ -4,6 +4,7 @@
 			"Dejan Savuljesku",
 			"Ferdinand0101",
 			"Hikemaniac",
+			"Justman10000",
 			"Ljonka",
 			"Metalhead64",
 			"Mglaser",
@@ -36,5 +37,6 @@
 	"bs-categorymanager-move-new-name": "Die neue Kategorie wird umbenannt. Neuer Name:",
 	"bs-categorymanager-replace-in-pages": "Umbenennen in der Seite:",
 	"bs-categorymanager-statistics-report-category-pages": "Seiten in Kategorien",
-	"bs-categorymanager-statistics-report-category-pages-axis-value": "Anzahl an Seiten"
+	"bs-categorymanager-statistics-report-category-pages-axis-value": "Anzahl an Seiten",
+	"bs-categorymanager-category-column-name": "Kategoriename"
 }
