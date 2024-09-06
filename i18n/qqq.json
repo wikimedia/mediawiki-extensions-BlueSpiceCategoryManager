@@ -33,5 +33,6 @@
 	"bs-categorymanager-statistics-report-category-pages": "Name of statistics report",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "Title of the error dialog if someone create a duplicate category",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "Text of the error dialog if someone create a duplicate category",
-	"bs-categorymanager-statistics-report-category-pages-axis-value": "Axis label which shows number of pages"
+	"bs-categorymanager-statistics-report-category-pages-axis-value": "Axis label which shows number of pages",
+	"bs-categorymanager-category-column-name": "Label for the grid column that shows category name"
 }

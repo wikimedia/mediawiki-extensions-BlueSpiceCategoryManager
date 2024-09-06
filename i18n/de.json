@@ -4,6 +4,7 @@
 			"Dejan Savuljesku",
 			"Ferdinand0101",
 			"Hikemaniac",
+			"Justman10000",
 			"Ljonka",
 			"Metalhead64",
 			"Mglaser",
@@ -36,5 +37,6 @@
 	"bs-categorymanager-statistics-report-category-pages": "Seiten in Kategorien",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "Kategorie existiert bereits",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "Bitte verwende einen anderen Kategorienamen",
-	"bs-categorymanager-statistics-report-category-pages-axis-value": "Anzahl an Seiten"
+	"bs-categorymanager-statistics-report-category-pages-axis-value": "Anzahl an Seiten",
+	"bs-categorymanager-category-column-name": "Kategoriename"
 }

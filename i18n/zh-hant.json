@@ -32,5 +32,6 @@
 	"bs-categorymanager-statistics-report-category-pages": "在分類裡的頁面",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "分類已存在",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "請嘗試不同的分類名稱",
-	"bs-categorymanager-statistics-report-category-pages-axis-value": "頁面數量"
+	"bs-categorymanager-statistics-report-category-pages-axis-value": "頁面數量",
+	"bs-categorymanager-category-column-name": "分類名稱"
 }
