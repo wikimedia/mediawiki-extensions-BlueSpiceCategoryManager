@@ -38,5 +38,6 @@
 	"bs-categorymanager-statistics-report-category-pages": "带有分类的页面",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "分类已存在",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "请尝试不同的分类名称",
-	"bs-categorymanager-statistics-report-category-pages-axis-value": "页面数量"
+	"bs-categorymanager-statistics-report-category-pages-axis-value": "页面数量",
+	"bs-categorymanager-category-column-name": "分类名称"
 }
