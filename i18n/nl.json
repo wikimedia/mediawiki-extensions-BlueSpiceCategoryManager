@@ -32,5 +32,6 @@
 	"bs-categorymanager-statistics-report-category-pages": "Pagina's in categorieën",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "Categorie bestaat al",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "Probeer een andere categorienaam.",
-	"bs-categorymanager-statistics-report-category-pages-axis-value": "Aantal pagina's"
+	"bs-categorymanager-statistics-report-category-pages-axis-value": "Aantal pagina's",
+	"bs-categorymanager-category-column-name": "Categorienaam"
 }
