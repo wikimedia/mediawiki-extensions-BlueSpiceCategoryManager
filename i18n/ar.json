@@ -32,5 +32,6 @@
 	"bs-categorymanager-statistics-report-category-pages": "صفحات في فئات",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "الفئة موجودة بالفعل",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "الرجاء محاولة اسم فئة مختلف",
-	"bs-categorymanager-statistics-report-category-pages-axis-value": "عدد الصفحات"
+	"bs-categorymanager-statistics-report-category-pages-axis-value": "عدد الصفحات",
+	"bs-categorymanager-category-column-name": "اسم التصنيف"
 }
