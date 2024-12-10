@@ -38,5 +38,14 @@
 	"bs-categorymanager-replace-in-pages": "Umbenennen in der Seite:",
 	"bs-categorymanager-statistics-report-category-pages": "Seiten in Kategorien",
 	"bs-categorymanager-statistics-report-category-pages-axis-value": "Anzahl an Seiten",
-	"bs-categorymanager-category-column-name": "Kategoriename"
+	"bs-categorymanager-category-column-name": "Kategoriename",
+	"bs-categorymanager-dialog-action-done-label": "Fertig",
+	"bs-categorymanager-removecategory-confirm": "Die Kategorie $1 ist gelöscht",
+	"bs-categorymanager-dialog-create-category-placeholder": "Neue Kategorie hinzufügen",
+	"bs-categorymanager-create-new-category-label": "Neue Kategorie",
+	"bs-configmanager-tool-create-category-label": "Kategorie hinzufügen",
+	"bs-categorymanager-movecategory-confirm": "Die Kategorie $1 wurde verschoben",
+	"bs-categorymanager-category-item-edit-label": "Bearbeiten",
+	"bs-categorymanager-category-item-view-label": "Kategorieseite anzeigen",
+	"bs-categorymanager-category-item-delete-label": "Löschen"
 }
