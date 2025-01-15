@@ -32,5 +32,6 @@
 	"bs-categorymanager-move-new-name": "قم بتعيين اسم الفئة الجديد. اسم جديد:",
 	"bs-categorymanager-replace-in-pages": "إعادة تسمية في الصفحة:",
 	"bs-categorymanager-statistics-report-category-pages": "صفحات في فئات",
-	"bs-categorymanager-statistics-report-category-pages-axis-value": "عدد الصفحات"
+	"bs-categorymanager-statistics-report-category-pages-axis-value": "عدد الصفحات",
+	"bs-categorymanager-category-column-name": "اسم التصنيف"
 }
