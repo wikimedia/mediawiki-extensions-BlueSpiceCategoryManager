@@ -23,12 +23,21 @@
 	"bs-categorymanager-collection-var-categorizedpages": "Pages with categories",
 	"bs-categorymanager-collection-var-uncategorizedpages": "Pages without categories",
 	"bs-categorymanager-rename-category": "Rename category",
-	"bs-categorymanager-rename-category-new-name": "New category name:",
+	"bs-categorymanager-rename-category-new-name": "New category name",
 	"bs-categorymanager-move-new-name": "Set the new category name. New name:",
 	"bs-categorymanager-replace-in-pages": "Rename in page:",
 	"bs-categorymanager-statistics-report-category-pages": "Pages in categories",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "Category already exists",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "Please try a different category name",
 	"bs-categorymanager-statistics-report-category-pages-axis-value": "Number of pages",
-	"bs-categorymanager-category-column-name": "Category name"
+	"bs-categorymanager-category-column-name": "Category name",
+	"bs-categorymanager-dialog-action-done-label": "Done",
+	"bs-categorymanager-removecategory-confirm": "The category $1 is deleted",
+	"bs-categorymanager-dialog-create-category-placeholder": "Add new category",
+	"bs-categorymanager-create-new-category-label": "New category",
+	"bs-configmanager-tool-create-category-label": "Create category",
+	"bs-categorymanager-movecategory-confirm": "The category $1 was moved",
+	"bs-categorymanager-category-item-edit-label": "Edit",
+	"bs-categorymanager-category-item-view-label": "View category page",
+	"bs-categorymanager-category-item-delete-label": "Delete"
 }

@@ -34,5 +34,14 @@
 	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "Title of the error dialog if someone create a duplicate category",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "Text of the error dialog if someone create a duplicate category",
 	"bs-categorymanager-statistics-report-category-pages-axis-value": "Axis label which shows number of pages",
-	"bs-categorymanager-category-column-name": "Label for the grid column that shows category name"
+	"bs-categorymanager-category-column-name": "Label for the grid column that shows category name",
+	"bs-categorymanager-dialog-action-done-label": "Button to close the dialog once renaming category is complete\n{{Identical|Done}}",
+	"bs-categorymanager-removecategory-confirm": "Notification to inform that category is deleted\nParameter:\n* - $1: title of category which is deleted",
+	"bs-categorymanager-dialog-create-category-placeholder": "Placeholder label for input field to create a new category",
+	"bs-categorymanager-create-new-category-label": "Label for input field to create a new category",
+	"bs-configmanager-tool-create-category-label": "Button label which opens dialog to create a new category",
+	"bs-categorymanager-movecategory-confirm": "Notification to inform that category was moved\nParameter:\n* - $1: title of category which was moved",
+	"bs-categorymanager-category-item-edit-label": "Label for category tree item action which opens dialog to edit category\n{{Identical|Edit}}",
+	"bs-categorymanager-category-item-view-label": "Label for category tree item action which opens link to category page",
+	"bs-categorymanager-category-item-delete-label": "Label for category tree item action which allows to delete category\n{{Identical|Delete}}"
 }
