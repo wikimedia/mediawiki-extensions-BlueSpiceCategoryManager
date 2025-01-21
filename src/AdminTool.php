@@ -3,7 +3,7 @@
 namespace BlueSpice\CategoryManager;
 
 use BlueSpice\IAdminTool;
-use Message;
+use MediaWiki\Message\Message;
 
 class AdminTool implements IAdminTool {
 
