@@ -344,7 +344,7 @@ bs.categoryManager.api.CategoryActions.prototype.getCategoriesFromConfig = funct
 	return categorynames;
 };
 
-bs.categoryManager.api.CategoryActions.prototype.prepareNewCategoryName = function () {
+bs.categoryManager.api.CategoryActions.prototype.prepareNewCategoryName = function ( category ) {
 	let result = '';
 	if ( category.includes( ' ' ) && category.includes( '_' ) ) {
 		const withUnderscore = category.replace( ' ', '_' );
