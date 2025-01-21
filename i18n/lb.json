@@ -27,9 +27,18 @@
 	"right-categorymanager-viewspecialpage": "Zougrëff op d'Spezialsäit [[Special:BlueSpiceCategoryManager]]",
 	"bs-categorymanager-collection-type-categorizedpages": "Kategorienzouweisung",
 	"bs-categorymanager-rename-category": "Kategorie ëmbenennen",
-	"bs-categorymanager-rename-category-new-name": "Neie Kategoriennumm:",
+	"bs-categorymanager-rename-category-new-name": "Neie Kategoriennumm",
 	"bs-categorymanager-move-new-name": "Leet den neie Kategoriennumm fest. Neien Numm:",
 	"bs-categorymanager-replace-in-pages": "Ëmbenennen an der Säit:",
 	"bs-categorymanager-statistics-report-category-pages-axis-value": "Zuel vu Säiten",
-	"bs-categorymanager-category-column-name": "Numm vun der Kategorie"
+	"bs-categorymanager-category-column-name": "Numm vun der Kategorie",
+	"bs-categorymanager-dialog-action-done-label": "Fäerdeg",
+	"bs-categorymanager-removecategory-confirm": "D'Kategorie $1 ass geläscht",
+	"bs-categorymanager-dialog-create-category-placeholder": "Nei Kategorie derbäisetzen",
+	"bs-categorymanager-create-new-category-label": "Nei Kategorie",
+	"bs-configmanager-tool-create-category-label": "Kategorie uleeën",
+	"bs-categorymanager-movecategory-confirm": "D'Kategorie $1 gouf geréckelt",
+	"bs-categorymanager-category-item-edit-label": "Änneren",
+	"bs-categorymanager-category-item-view-label": "Kategoriesäit weisen",
+	"bs-categorymanager-category-item-delete-label": "Läschen"
 }
