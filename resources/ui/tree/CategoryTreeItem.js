@@ -8,6 +8,8 @@ bs.categoryManager.ui.tree.CategoryTreeItem = function ( cfg ) {
 	cfg.style.IconCollapse = 'expand';
 	cfg.classes = cfg.classes || [];
 	this.catText = cfg.label || '';
+	this.catTitle = mw.Title.newFromText( this.catText, bs.ns.NS_CATEGORY );
+	cfg.href = this.catTitle.getUrl();
 
 	bs.categoryManager.ui.tree.CategoryTreeItem.parent.call( this, cfg );
 	this.expanded = cfg.expanded;
@@ -28,12 +30,11 @@ bs.categoryManager.ui.tree.CategoryTreeItem.prototype.possiblyAddOptions = funct
 	} );
 	options.push( this.editBtn.$element );
 
-	let catTitle = mw.Title.newFromText( this.catText, bs.ns.NS_CATEGORY );
 	this.viewButton = new OO.ui.ButtonWidget( {
 		framed: false,
 		label: mw.message( 'bs-categorymanager-category-item-view-label' ).text(),
 		icon: 'eye',
-		href: catTitle.getUrl()
+		href: this.catTitle.getUrl()
 	} );
 	options.push( this.viewButton );
 
