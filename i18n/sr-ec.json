@@ -3,6 +3,7 @@
 		"authors": [
 			"BadDog",
 			"Kizule",
+			"Milicevic01",
 			"Zoranzoki21"
 		]
 	},
@@ -23,7 +24,7 @@
 	"bs-categorymanager-collection-var-categorizedpages": "Странице са категоријама",
 	"bs-categorymanager-collection-var-uncategorizedpages": "Странице без категорија",
 	"bs-categorymanager-rename-category": "Преименуј категорију",
-	"bs-categorymanager-rename-category-new-name": "Нови назив категорије:",
+	"bs-categorymanager-rename-category-new-name": "Нови назив категорије",
 	"bs-categorymanager-statistics-report-category-pages": "Странице у категоријама",
 	"bs-categorymanager-statistics-report-category-pages-axis-value": "Број страница"
 }
