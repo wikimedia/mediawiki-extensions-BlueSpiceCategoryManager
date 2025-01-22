@@ -26,12 +26,21 @@
 	"bs-categorymanager-collection-var-categorizedpages": "الصفحات في هذه التصنيفات",
 	"bs-categorymanager-collection-var-uncategorizedpages": "الصفحات دون هذه التصنيفات",
 	"bs-categorymanager-rename-category": "إعادة تسمية الفئة",
-	"bs-categorymanager-rename-category-new-name": "اسم التصنيف الجديد:",
+	"bs-categorymanager-rename-category-new-name": "اسم التصنيف الجديد",
 	"bs-categorymanager-move-new-name": "قم بتعيين اسم الفئة الجديد. اسم جديد:",
 	"bs-categorymanager-replace-in-pages": "إعادة تسمية في الصفحة:",
 	"bs-categorymanager-statistics-report-category-pages": "صفحات في فئات",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "الفئة موجودة بالفعل",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "الرجاء محاولة اسم فئة مختلف",
 	"bs-categorymanager-statistics-report-category-pages-axis-value": "عدد الصفحات",
-	"bs-categorymanager-category-column-name": "اسم التصنيف"
+	"bs-categorymanager-category-column-name": "اسم التصنيف",
+	"bs-categorymanager-dialog-action-done-label": "تم",
+	"bs-categorymanager-removecategory-confirm": "تم حذف الفئة $1",
+	"bs-categorymanager-dialog-create-category-placeholder": "إضافة فئة جديدة",
+	"bs-categorymanager-create-new-category-label": "فئة جديدة",
+	"bs-configmanager-tool-create-category-label": "إنشاء فئة",
+	"bs-categorymanager-movecategory-confirm": "تم نقل الفئة $1",
+	"bs-categorymanager-category-item-edit-label": "عدل",
+	"bs-categorymanager-category-item-view-label": "عرض صفحة التصنيف",
+	"bs-categorymanager-category-item-delete-label": "حذف"
 }

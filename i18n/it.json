@@ -26,11 +26,18 @@
 	"bs-categorymanager-collection-var-categorizedpages": "Pagine con categorie",
 	"bs-categorymanager-collection-var-uncategorizedpages": "Pagine senza categorie",
 	"bs-categorymanager-rename-category": "Rinomina categoria",
-	"bs-categorymanager-rename-category-new-name": "Nome nuova Categoria",
+	"bs-categorymanager-rename-category-new-name": "Nome nuova categoria",
 	"bs-categorymanager-move-new-name": "Imposta il nuovo nome della categoria. Nuovo nome:",
 	"bs-categorymanager-replace-in-pages": "Rinomina nella pagina:",
 	"bs-categorymanager-statistics-report-category-pages": "Pagine in categorie",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "La categoria esiste già",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "Prova con un nome di categoria diverso",
-	"bs-categorymanager-statistics-report-category-pages-axis-value": "Numero di pagine"
+	"bs-categorymanager-statistics-report-category-pages-axis-value": "Numero di pagine",
+	"bs-categorymanager-dialog-action-done-label": "Fatto",
+	"bs-categorymanager-dialog-create-category-placeholder": "Aggiungi nuova categoria",
+	"bs-categorymanager-create-new-category-label": "Nuova categoria",
+	"bs-configmanager-tool-create-category-label": "Creare categoria",
+	"bs-categorymanager-movecategory-confirm": "La categoria $1 è stata spostata",
+	"bs-categorymanager-category-item-edit-label": "Modifica",
+	"bs-categorymanager-category-item-delete-label": "Cancella"
 }
