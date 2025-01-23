@@ -29,8 +29,8 @@ namespace BlueSpice\CategoryManager\Hook;
 use BlueSpice\CategoryManager\Data\Page\PrimaryDataProvider;
 use BlueSpice\CategoryManager\Data\Page\Record;
 use BlueSpice\Hook;
-use IContextSource;
 use MediaWiki\Config\Config;
+use MediaWiki\Context\IContextSource;
 use MediaWiki\Title\Title;
 
 abstract class BSPageStoreDataProviderBeforeAppendRow extends Hook {
