@@ -10,7 +10,7 @@ class CategoryManager extends SpecialPage {
 	public function __construct() {
 		parent::__construct(
 			'BlueSpiceCategoryManager',
-			'categorymanager-viewspecialpage'
+			'wikiadmin'
 		);
 	}
 
@@ -18,7 +18,7 @@ class CategoryManager extends SpecialPage {
 	 * @inheritDoc
 	 */
 	public function execute( $param ) {
-		$this->setHeaders();
+		parent::execute( $param );
 		$this->getOutput()->addModules(
 			'ext.bluespice.categorymanager'
 		);
