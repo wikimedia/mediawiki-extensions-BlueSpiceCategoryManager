@@ -29,7 +29,14 @@
 	"bs-categorymanager-collection-var-categorizedpages": "Страницы с категориями",
 	"bs-categorymanager-collection-var-uncategorizedpages": "Страницы без категорий",
 	"bs-categorymanager-rename-category": "Переименовать категорию",
-	"bs-categorymanager-rename-category-new-name": "Новое название категории:",
+	"bs-categorymanager-rename-category-new-name": "Новое название категории",
 	"bs-categorymanager-statistics-report-category-pages": "Страницы в категориях",
-	"bs-categorymanager-statistics-report-category-pages-axis-value": "Количество страниц"
+	"bs-categorymanager-statistics-report-category-pages-axis-value": "Количество страниц",
+	"bs-categorymanager-dialog-action-done-label": "Готово",
+	"bs-categorymanager-dialog-create-category-placeholder": "Добавить новую категорию",
+	"bs-categorymanager-create-new-category-label": "Новая категория",
+	"bs-configmanager-tool-create-category-label": "Создать категорию",
+	"bs-categorymanager-category-item-edit-label": "Править",
+	"bs-categorymanager-category-item-view-label": "Просмотреть страницу категории",
+	"bs-categorymanager-category-item-delete-label": "Удалить"
 }

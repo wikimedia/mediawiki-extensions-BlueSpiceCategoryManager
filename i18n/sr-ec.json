@@ -3,7 +3,8 @@
 		"authors": [
 			"BadDog",
 			"Kizule",
-			"Zoranzoki21"
+			"Zoranzoki21",
+			"Milicevic01"
 		]
 	},
 	"bluespicecategorymanager": "Менаџер категорија",
@@ -23,7 +24,9 @@
 	"bs-categorymanager-collection-var-categorizedpages": "Странице са категоријама",
 	"bs-categorymanager-collection-var-uncategorizedpages": "Странице без категорија",
 	"bs-categorymanager-rename-category": "Преименуј категорију",
-	"bs-categorymanager-rename-category-new-name": "Нови назив категорије:",
+	"bs-categorymanager-rename-category-new-name": "Нови назив категорије",
 	"bs-categorymanager-statistics-report-category-pages": "Странице у категоријама",
-	"bs-categorymanager-statistics-report-category-pages-axis-value": "Број страница"
+	"bs-categorymanager-statistics-report-category-pages-axis-value": "Број страница",
+	"bs-categorymanager-removecategory-confirm": "Категорија $1 је обрисана",
+	"bs-categorymanager-category-item-delete-label": "Обриши"
 }
