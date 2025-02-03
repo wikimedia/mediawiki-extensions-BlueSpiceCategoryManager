@@ -34,6 +34,7 @@
 	"bs-categorymanager-dialog-create-category-placeholder": "Ajouter une nouvelle catégorie",
 	"bs-categorymanager-create-new-category-label": "Nouvelle catégorie",
 	"bs-configmanager-tool-create-category-label": "Créer une catégorie",
+	"bs-categorymanager-movecategory-confirm": "La catégorie $1 a été renommée",
 	"bs-categorymanager-category-item-edit-label": "Modifier",
 	"bs-categorymanager-category-item-view-label": "Voir la page de catégorie",
 	"bs-categorymanager-category-item-delete-label": "Supprimer"
