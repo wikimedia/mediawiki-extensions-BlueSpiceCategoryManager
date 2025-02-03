@@ -42,5 +42,6 @@
 	"bs-configmanager-tool-create-category-label": "Créer une catégorie",
 	"bs-categorymanager-category-item-edit-label": "Modifier",
 	"bs-categorymanager-category-item-view-label": "Voir la page de catégorie",
-	"bs-categorymanager-category-item-delete-label": "Supprimer"
+	"bs-categorymanager-category-item-delete-label": "Supprimer",
+	"bs-categorymanager-movecategory-confirm": "La catégorie $1 a été renommée"
 }
