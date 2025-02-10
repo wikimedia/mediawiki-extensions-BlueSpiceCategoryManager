@@ -200,7 +200,7 @@ bs.categoryManager.api.CategoryActions.prototype.doTask = function ( dfd, task, 
 				wgPageName: pageTitle.getPrefixedText(),
 				wgNamespaceNumber: pageTitle.getNamespaceId(),
 				wgRedirectedFrom: pageTitle.getPrefixedText(),
-				wgTitle: pageTitle.getName()
+				wgTitle: pageTitle.getMain()
 			}
 		}
 	).fail( function ( response ) {
