@@ -80,9 +80,9 @@ bs.categoryManager.ui.dialog.CreateCategory.prototype.getActionProcess = functio
 					this.popPending();
 					return;
 				}
-				console.error( error );
 				this.showErrors( new OO.ui.Error( error, { recoverable: false } ) );
 				this.updateSize();
+				this.popPending();
 				return;
 			} );
 		}, this );

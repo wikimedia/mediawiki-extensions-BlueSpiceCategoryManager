@@ -34,8 +34,12 @@ bs.categoryManager.api.CategoryActions.prototype.addCategory = function ( newCat
 		dfd.resolve( this );
 		return dfd.promise();
 	} )
-	.catch( ( error ) => {
-		dfd.reject( error );
+	.catch( ( error, page, result ) => {
+		if ( result.errors && result.errors.length > 0 ) {
+			dfd.reject( result.errors[0].html );
+		} else {
+			dfd.reject( result );
+		}
 		return dfd.promise();
 	} );
 };
