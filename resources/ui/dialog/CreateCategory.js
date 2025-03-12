@@ -27,12 +27,12 @@ bs.categoryManager.ui.dialog.CreateCategory.static.actions = [
 	}
 ];
 
-bs.categoryManager.ui.dialog.CreateCategory.prototype.getSetupProcess = function( data ) {
+bs.categoryManager.ui.dialog.CreateCategory.prototype.getSetupProcess = function ( data ) {
 	return bs.categoryManager.ui.dialog.CreateCategory.parent.prototype.getSetupProcess.call( this, data )
-	.next( function() {
-		this.saveAction = this.actions.getSpecial().primary;
-		this.saveAction.setDisabled( true );
-	}.bind( this ) )
+		.next( () => {
+			this.saveAction = this.actions.getSpecial().primary;
+			this.saveAction.setDisabled( true );
+		} );
 };
 
 bs.categoryManager.ui.dialog.CreateCategory.prototype.initialize = function () {
@@ -42,7 +42,7 @@ bs.categoryManager.ui.dialog.CreateCategory.prototype.initialize = function () {
 		expanded: false
 	} );
 	this.categoryInput = new OO.ui.TextInputWidget( {
-		placeholder: mw.message( 'bs-categorymanager-dialog-create-category-placeholder' ).text() //'Add new category name'
+		placeholder: mw.message( 'bs-categorymanager-dialog-create-category-placeholder' ).text() // 'Add new category name'
 	} );
 	this.categoryInput.connect( this, {
 		change: function () {
@@ -53,9 +53,9 @@ bs.categoryManager.ui.dialog.CreateCategory.prototype.initialize = function () {
 			this.saveAction.setDisabled( true );
 		}
 	} );
-	var categoryInputLayout = new OO.ui.FieldLayout( this.categoryInput, {
+	const categoryInputLayout = new OO.ui.FieldLayout( this.categoryInput, {
 		align: 'top',
-		label: mw.message( 'bs-categorymanager-create-new-category-label' ).text(),
+		label: mw.message( 'bs-categorymanager-create-new-category-label' ).text()
 	} );
 	this.panel.$element.append( categoryInputLayout.$element );
 	this.$body.append( this.panel.$element );
@@ -66,25 +66,25 @@ bs.categoryManager.ui.dialog.CreateCategory.prototype.getActionProcess = functio
 	if ( action ) {
 		return new OO.ui.Process( function () {
 			this.pushPending();
-			var newCategoryValue = this.categoryInput.getValue();
-			var categoryAction = new bs.categoryManager.api.CategoryActions();
+			const newCategoryValue = this.categoryInput.getValue();
+			const categoryAction = new bs.categoryManager.api.CategoryActions();
 
 			categoryAction.addCategory( newCategoryValue, this.selectedCategory )
-			.then( function () {
-				this.close( { action: action } );
-				this.emit( 'close' );
-			}.bind( this ) )
-			.catch( ( error ) => {
-				if ( error === 'duplicate' ) {
-					this.saveAction.setDisabled( true );
+				.then( () => {
+					this.close( { action: action } );
+					this.emit( 'close' );
+				} )
+				.catch( ( error ) => {
+					if ( error === 'duplicate' ) {
+						this.saveAction.setDisabled( true );
+						this.popPending();
+						return;
+					}
+					this.showErrors( new OO.ui.Error( error, { recoverable: false } ) );
+					this.updateSize();
 					this.popPending();
 					return;
-				}
-				this.showErrors( new OO.ui.Error( error, { recoverable: false } ) );
-				this.updateSize();
-				this.popPending();
-				return;
-			} );
+				} );
 		}, this );
 	}
 	return bs.categoryManager.ui.dialog.CreateCategory.super.prototype.getActionProcess.call( this, action );

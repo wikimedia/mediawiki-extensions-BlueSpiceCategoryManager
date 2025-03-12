@@ -19,7 +19,7 @@ bs.categoryManager.ui.tree.CategoryTreeItem = function ( cfg ) {
 OO.inheritClass( bs.categoryManager.ui.tree.CategoryTreeItem, OOJSPlus.ui.data.tree.Item );
 
 bs.categoryManager.ui.tree.CategoryTreeItem.prototype.possiblyAddOptions = function () {
-	options = [];
+	const options = [];
 	this.editBtn = new OO.ui.ButtonWidget( {
 		framed: false,
 		label: mw.message( 'bs-categorymanager-category-item-edit-label' ).text(),

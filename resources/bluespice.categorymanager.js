@@ -1,10 +1,10 @@
-( function ( mw, $, bs, d, undefined ) {
+( function ( $, bs ) {
 
-	$( function () {
+	$( () => {
 		require( './ui/CategoryManager.js' );
 
-		let manager = new bs.categoryManager.ui.CategoryManager();
+		const manager = new bs.categoryManager.ui.CategoryManager();
 		$( '#bs-categorymanager-tree' ).append( manager.$element );
 	} );
 
-} )( mediaWiki, jQuery, blueSpice, document );
+}( jQuery, blueSpice ) );
