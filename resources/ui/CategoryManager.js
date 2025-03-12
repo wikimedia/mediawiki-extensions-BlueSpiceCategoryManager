@@ -49,7 +49,7 @@ bs.categoryManager.ui.CategoryManager.prototype.setupTree = function () {
 		delete: 'deleteCategory',
 		move: 'moveCategory'
 	} );
-	
+
 	this.$element.append( this.categoryTree.$element );
 };
 
@@ -58,7 +58,7 @@ bs.categoryManager.ui.CategoryManager.prototype.moveCategory = function ( catego
 		this.categoryTree.reload();
 		mw.notify( mw.message( 'bs-categorymanager-movecategory-confirm', category ).text() );
 	} );
-}
+};
 
 bs.categoryManager.ui.CategoryManager.prototype.editCategory = function ( category ) {
 	if ( !this.windowManager ) {
@@ -67,14 +67,14 @@ bs.categoryManager.ui.CategoryManager.prototype.editCategory = function ( catego
 		} );
 		$( document.body ).append( this.windowManager.$element );
 	}
-	var dialog = new bs.categoryManager.ui.dialog.RenameCategory( {
+	const dialog = new bs.categoryManager.ui.dialog.RenameCategory( {
 		category: category
 	} );
 	dialog.connect( this, {
 		close: function () {
 			this.categoryTree.reload();
 		}
-	})
+	} );
 	this.windowManager.addWindows( [ dialog ] );
 	this.windowManager.openWindow( dialog );
 };
@@ -82,7 +82,7 @@ bs.categoryManager.ui.CategoryManager.prototype.editCategory = function ( catego
 bs.categoryManager.ui.CategoryManager.prototype.deleteCategory = function ( category ) {
 	bs.util.confirm( 'RemoveCategory', {
 		text: mw.message( 'bs-categorymanager-removecategoryconfirm-text' ).plain(),
-		title: mw.message( 'bs-categorymanager-removecategoryconfirm-title' ).plain(),
+		title: mw.message( 'bs-categorymanager-removecategoryconfirm-title' ).plain()
 	},
 	{
 		ok: () => {
@@ -95,7 +95,7 @@ bs.categoryManager.ui.CategoryManager.prototype.deleteCategory = function ( cate
 };
 
 bs.categoryManager.ui.CategoryManager.prototype.addCategory = function () {
-	var selectedCategory = '';
+	let selectedCategory = '';
 	if ( this.categoryTree.selectedItem ) {
 		selectedCategory = this.categoryTree.selectedItem.catText;
 	}
@@ -106,7 +106,7 @@ bs.categoryManager.ui.CategoryManager.prototype.addCategory = function () {
 		} );
 		$( document.body ).append( this.windowManager.$element );
 	}
-	var dialog = new bs.categoryManager.ui.dialog.CreateCategory( {
+	const dialog = new bs.categoryManager.ui.dialog.CreateCategory( {
 		selectedCategory: selectedCategory
 	} );
 	dialog.connect( this, {

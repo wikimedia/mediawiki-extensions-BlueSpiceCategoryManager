@@ -36,8 +36,8 @@ OO.inheritClass( bs.categoryManager.ui.toolbar.CreateTool, OO.ui.Tool );
 
 bs.categoryManager.ui.toolbar.CreateTool.static.name = 'create';
 bs.categoryManager.ui.toolbar.CreateTool.static.icon = 'add';
-bs.categoryManager.ui.toolbar.CreateTool.static.title = mw.message( 'bs-configmanager-tool-create-category-label' ).text(); //create category';
-/* eslint-disable-next-line es-x/no-regexp-prototype-flags */
+bs.categoryManager.ui.toolbar.CreateTool.static.title = mw.message( 'bs-configmanager-tool-create-category-label' ).text(); // create category';
+
 bs.categoryManager.ui.toolbar.CreateTool.static.flags = [ 'progressive' ];
 bs.categoryManager.ui.toolbar.CreateTool.static.displayBothIconAndLabel = true;
 bs.categoryManager.ui.toolbar.CreateTool.prototype.onSelect = function () {
