@@ -3,9 +3,9 @@
 namespace BlueSpice\CategoryManager\Special;
 
 use MediaWiki\Html\Html;
-use MediaWiki\SpecialPage\SpecialPage;
+use OOJSPlus\Special\OOJSTreeSpecialPage;
 
-class CategoryManager extends SpecialPage {
+class CategoryManager extends OOJSTreeSpecialPage {
 
 	public function __construct() {
 		parent::__construct(
@@ -17,13 +17,11 @@ class CategoryManager extends SpecialPage {
 	/**
 	 * @inheritDoc
 	 */
-	public function execute( $param ) {
-		parent::execute( $param );
-		$this->getOutput()->addModules(
-			'ext.bluespice.categorymanager'
-		);
+	public function doExecute( $subPage ) {
+		$out = $this->getOutput();
+		$out->addModules( [ 'ext.bluespice.categorymanager' ] );
 
-		$this->getOutput()->addHTML(
+		$out->addHTML(
 			Html::element( 'div', [
 				'id' => 'bs-categorymanager-tree'
 			] )
