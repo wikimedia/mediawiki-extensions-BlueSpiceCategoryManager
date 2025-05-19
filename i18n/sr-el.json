@@ -19,7 +19,9 @@
 	"bs-categorymanager-collection-var-categorizedpages": "Stranice sa kategorijama",
 	"bs-categorymanager-collection-var-uncategorizedpages": "Stranice bez kategorija",
 	"bs-categorymanager-rename-category": "Preimenuj kategoriju",
-	"bs-categorymanager-rename-category-new-name": "Novi naziv kategorije:",
+	"bs-categorymanager-rename-category-new-name": "Novi naziv kategorije",
 	"bs-categorymanager-statistics-report-category-pages": "Stranice u kategorijama",
-	"bs-categorymanager-statistics-report-category-pages-axis-value": "Broj stranica"
+	"bs-categorymanager-statistics-report-category-pages-axis-value": "Broj stranica",
+	"bs-categorymanager-removecategory-confirm": "Kategorija $1 je obrisana",
+	"bs-categorymanager-category-item-delete-label": "Obriši"
 }
