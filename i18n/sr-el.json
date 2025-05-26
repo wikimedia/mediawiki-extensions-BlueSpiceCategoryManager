@@ -20,11 +20,13 @@
 	"bs-categorymanager-collection-var-categorizedpages": "Stranice sa kategorijama",
 	"bs-categorymanager-collection-var-uncategorizedpages": "Stranice bez kategorija",
 	"bs-categorymanager-rename-category": "Preimenuj kategoriju",
-	"bs-categorymanager-rename-category-new-name": "Novi naziv kategorije:",
+	"bs-categorymanager-rename-category-new-name": "Novi naziv kategorije",
 	"bs-categorymanager-move-new-name": "Postavljanje novog naziva kategorije. Novi naziv:",
 	"bs-categorymanager-replace-in-pages": "Preimenovanje na stranici:",
 	"bs-categorymanager-statistics-report-category-pages": "Stranice u kategorijama",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "Kategorija već postoji",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "Pokušajte sa drugim nazivom kategorije",
-	"bs-categorymanager-statistics-report-category-pages-axis-value": "Broj stranica"
+	"bs-categorymanager-statistics-report-category-pages-axis-value": "Broj stranica",
+	"bs-categorymanager-removecategory-confirm": "Kategorija $1 je obrisana",
+	"bs-categorymanager-category-item-delete-label": "Obriši"
 }
