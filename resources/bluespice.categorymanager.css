@@ -2,7 +2,7 @@
 	float: right;
 }
 
-.bs-categorymanager-tree .oojsplus-data-tree-items .oojs-ui-data-tree-item div {
+.bs-categorymanager-tree .oojsplus-data-tree-items .oojs-ui-data-tree-item > div {
 	clear: both;
 	background-color: #f1f3f4;
 }
