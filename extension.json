@@ -105,7 +105,7 @@
 				"ext.oOJSPlus.data"
 			],
 			"messages": [
-				"bs-categorymanager-dlg-new-title",
+				"bs-categorymanager-dlg-add-title",
 				"bs-categorymanager-removecategoryconfirm-text",
 				"bs-categorymanager-removecategoryconfirm-title",
 				"bs-categorymanager-addcategory-dialog-error-title",
@@ -113,16 +113,17 @@
 				"bs-categorymanager-addcategory-dialog-error-duplicate-text",
 				"bs-categorymanager-rename-category",
 				"bs-categorymanager-rename-category-new-name",
-				"bs-categorymanager-dialog-action-done-label",
+				"bs-categorymanager-dialog-action-add-label",
 				"cancel",
 				"bs-categorymanager-removecategory-confirm",
 				"bs-categorymanager-dialog-create-category-placeholder",
-				"bs-categorymanager-create-new-category-label",
+				"bs-categorymanager-add-category-label",
 				"bs-configmanager-tool-create-category-label",
 				"bs-categorymanager-movecategory-confirm",
-				"bs-categorymanager-category-item-edit-label",
+				"bs-categorymanager-category-item-rename-label",
 				"bs-categorymanager-category-item-view-label",
-				"bs-categorymanager-category-item-delete-label"
+				"bs-categorymanager-category-item-delete-label",
+				"bs-categorymanager-dialog-action-rename-label"
 			]
 		},
 		"ext.bluespice.categorymanager.statistics": {

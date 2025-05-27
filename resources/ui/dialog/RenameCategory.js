@@ -18,12 +18,12 @@ bs.categoryManager.ui.dialog.RenameCategory.static.size = 'medium';
 bs.categoryManager.ui.dialog.RenameCategory.static.actions = [
 	{
 		action: 'save',
-		label: mw.message( 'bs-categorymanager-dialog-action-done-label' ).text(),
+		label: mw.message( 'bs-categorymanager-dialog-action-rename-label' ).text(),
 		flags: [ 'primary', 'progressive' ]
 	},
 	{
 		label: mw.message( 'cancel' ).text(),
-		flags: 'safe'
+		flags: [ 'safe', 'close' ]
 	}
 ];
 
@@ -55,7 +55,8 @@ bs.categoryManager.ui.dialog.RenameCategory.prototype.initialize = function () {
 		}
 	} );
 	const categoryInputLayout = new OO.ui.FieldLayout( this.categoryInput, {
-		label: mw.message( 'bs-categorymanager-rename-category-new-name' ).text()
+		label: mw.message( 'bs-categorymanager-rename-category-new-name' ).text(),
+		align: 'top'
 	} );
 	this.panel.$element.append( categoryInputLayout.$element );
 	this.$body.append( this.panel.$element );

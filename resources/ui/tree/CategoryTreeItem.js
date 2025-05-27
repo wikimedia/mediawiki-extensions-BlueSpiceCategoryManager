@@ -22,7 +22,7 @@ bs.categoryManager.ui.tree.CategoryTreeItem.prototype.possiblyAddOptions = funct
 	const options = [];
 	this.editBtn = new OO.ui.ButtonWidget( {
 		framed: false,
-		label: mw.message( 'bs-categorymanager-category-item-edit-label' ).text(),
+		label: mw.message( 'bs-categorymanager-category-item-rename-label' ).text(),
 		icon: 'edit'
 	} );
 	this.editBtn.connect( this, {

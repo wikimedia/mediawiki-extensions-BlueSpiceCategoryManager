@@ -11,19 +11,19 @@ bs.categoryManager.ui.dialog.CreateCategory = function ( cfg ) {
 OO.inheritClass( bs.categoryManager.ui.dialog.CreateCategory, OO.ui.ProcessDialog );
 
 bs.categoryManager.ui.dialog.CreateCategory.static.name = 'CreateCategoryDialog';
-bs.categoryManager.ui.dialog.CreateCategory.static.title = mw.message( 'bs-categorymanager-dlg-new-title' ).text();
+bs.categoryManager.ui.dialog.CreateCategory.static.title = mw.message( 'bs-categorymanager-dlg-add-title' ).text();
 
 bs.categoryManager.ui.dialog.CreateCategory.static.size = 'medium';
 
 bs.categoryManager.ui.dialog.CreateCategory.static.actions = [
 	{
 		action: 'save',
-		label: mw.message( 'bs-categorymanager-dialog-action-done-label' ).text(),
+		label: mw.message( 'bs-categorymanager-dialog-action-add-label' ).text(),
 		flags: [ 'primary', 'progressive' ]
 	},
 	{
 		label: mw.message( 'cancel' ).text(),
-		flags: 'safe'
+		flags: [ 'safe', 'close' ]
 	}
 ];
 
@@ -41,9 +41,7 @@ bs.categoryManager.ui.dialog.CreateCategory.prototype.initialize = function () {
 		padded: true,
 		expanded: false
 	} );
-	this.categoryInput = new OO.ui.TextInputWidget( {
-		placeholder: mw.message( 'bs-categorymanager-dialog-create-category-placeholder' ).text() // 'Add new category name'
-	} );
+	this.categoryInput = new OO.ui.TextInputWidget();
 	this.categoryInput.connect( this, {
 		change: function () {
 			if ( this.categoryInput.getValue().length > 0 ) {
@@ -55,7 +53,7 @@ bs.categoryManager.ui.dialog.CreateCategory.prototype.initialize = function () {
 	} );
 	const categoryInputLayout = new OO.ui.FieldLayout( this.categoryInput, {
 		align: 'top',
-		label: mw.message( 'bs-categorymanager-create-new-category-label' ).text()
+		label: mw.message( 'bs-categorymanager-add-category-label' ).text()
 	} );
 	this.panel.$element.append( categoryInputLayout.$element );
 	this.$body.append( this.panel.$element );
