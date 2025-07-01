@@ -12,7 +12,6 @@
 	"bluespicecategorymanager-desc": "Narzędzie wizualne do zarządzania kategoriami",
 	"bs-categorymanager-text": "Kategorie",
 	"bs-categorymanager-label": "Menedżer kategorii",
-	"bs-categorymanager-dlg-new-title": "Utwórz kategorię",
 	"bs-categorymanager-removecategoryconfirm-title": "Usuń kategorię",
 	"bs-categorymanager-addcategory-dialog-error-title": "Tworzenie kategorii nie powiodło się",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "Kategoria już istnieje",
