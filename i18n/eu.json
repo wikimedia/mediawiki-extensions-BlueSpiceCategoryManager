@@ -9,5 +9,6 @@
 	"bs-categorymanager-label": "Kategoria kudeatzailea",
 	"bs-categorymanager-removecategoryconfirm-text": "Ziur zaude kategoria hau ezabatu nahi duzula?",
 	"bs-categorymanager-removecategoryconfirm-title": "Kategoria ezabatu",
-	"bs-categorymanager-addcategory-dialog-error-title": "Kategoria ezin izan da sortu"
+	"bs-categorymanager-addcategory-dialog-error-title": "Kategoria ezin izan da sortu",
+	"bs-categorymanager-dlg-new-title": "Kategoria sortu"
 }

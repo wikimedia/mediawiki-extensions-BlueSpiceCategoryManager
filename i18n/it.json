@@ -30,5 +30,9 @@
 	"bs-categorymanager-dialog-create-category-placeholder": "Aggiungi nuova categoria",
 	"bs-configmanager-tool-create-category-label": "Creare categoria",
 	"bs-categorymanager-movecategory-confirm": "La categoria $1 è stata spostata",
-	"bs-categorymanager-category-item-delete-label": "Cancella"
+	"bs-categorymanager-category-item-delete-label": "Cancella",
+	"bs-categorymanager-dlg-new-title": "Creare categoria",
+	"bs-categorymanager-dialog-action-done-label": "Fatto",
+	"bs-categorymanager-create-new-category-label": "Nuova categoria",
+	"bs-categorymanager-category-item-edit-label": "Modifica"
 }

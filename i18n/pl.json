@@ -19,5 +19,6 @@
 	"bs-categorymanager-collection-var-namespacename": "Przestrzeń nazw",
 	"bs-categorymanager-collection-var-categorizedpages": "Strony z kategoriami",
 	"bs-categorymanager-collection-var-uncategorizedpages": "Strony bez kategorii",
-	"bs-categorymanager-rename-category-new-name": "Nowa nazwa kategorii:"
+	"bs-categorymanager-rename-category-new-name": "Nowa nazwa kategorii:",
+	"bs-categorymanager-dlg-new-title": "Utwórz kategorię"
 }

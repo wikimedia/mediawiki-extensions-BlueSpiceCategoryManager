@@ -34,5 +34,9 @@
 	"bs-categorymanager-dialog-create-category-placeholder": "Добавить новую категорию",
 	"bs-configmanager-tool-create-category-label": "Создать категорию",
 	"bs-categorymanager-category-item-view-label": "Просмотреть страницу категории",
-	"bs-categorymanager-category-item-delete-label": "Удалить"
+	"bs-categorymanager-category-item-delete-label": "Удалить",
+	"bs-categorymanager-dlg-new-title": "Создать категорию",
+	"bs-categorymanager-dialog-action-done-label": "Готово",
+	"bs-categorymanager-create-new-category-label": "Новая категория",
+	"bs-categorymanager-category-item-edit-label": "Править"
 }

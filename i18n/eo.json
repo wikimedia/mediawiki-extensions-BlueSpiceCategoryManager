@@ -7,5 +7,6 @@
 	"bs-categorymanager-label": "Kategorio-administrilo",
 	"bs-categorymanager-removecategoryconfirm-text": "Ĉu vi certas, ke vi volas forigi ĉi tiun kategorion?",
 	"bs-categorymanager-removecategoryconfirm-title": "Forigi kategorion",
-	"bs-categorymanager-addcategory-dialog-error-title": "Kreado de kategorio malsukcesis"
+	"bs-categorymanager-addcategory-dialog-error-title": "Kreado de kategorio malsukcesis",
+	"bs-categorymanager-dlg-new-title": "Krei kategorion"
 }

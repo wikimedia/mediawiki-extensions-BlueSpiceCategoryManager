@@ -10,5 +10,6 @@
 	"action-categorymanager-viewspecialpage": "বিষয়শ্রেণী ব্যবস্থাপক দেখুন",
 	"bs-categorymanager-label": "বিষয়শ্রেণী ব্যবস্থাপক",
 	"bs-categorymanager-removecategoryconfirm-title": "বিষয়শ্রেণী সরান",
-	"bs-categorymanager-collection-var-namespacename": "নামস্থান"
+	"bs-categorymanager-collection-var-namespacename": "নামস্থান",
+	"bs-categorymanager-dlg-new-title": "বিষয়শ্রেণী তৈরি করুন"
 }

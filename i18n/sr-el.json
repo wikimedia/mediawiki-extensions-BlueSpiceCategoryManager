@@ -22,5 +22,6 @@
 	"bs-categorymanager-statistics-report-category-pages": "Stranice u kategorijama",
 	"bs-categorymanager-statistics-report-category-pages-axis-value": "Broj stranica",
 	"bs-categorymanager-removecategory-confirm": "Kategorija $1 je obrisana",
-	"bs-categorymanager-category-item-delete-label": "Obriši"
+	"bs-categorymanager-category-item-delete-label": "Obriši",
+	"bs-categorymanager-dlg-new-title": "Pravljenje kategorija"
 }

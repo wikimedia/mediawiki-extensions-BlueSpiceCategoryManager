@@ -23,5 +23,6 @@
 	"bs-categorymanager-rename-category": "Døp om kategori",
 	"bs-categorymanager-rename-category-new-name": "Nytt kategorinavn:",
 	"bs-categorymanager-statistics-report-category-pages": "Sider i kategorier",
-	"bs-categorymanager-statistics-report-category-pages-axis-value": "Antall sider"
+	"bs-categorymanager-statistics-report-category-pages-axis-value": "Antall sider",
+	"bs-categorymanager-dlg-new-title": "Opprett kategori"
 }
