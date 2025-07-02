@@ -34,5 +34,10 @@
 	"bs-categorymanager-movecategory-confirm": "D'Kategorie $1 gouf geréckelt",
 	"bs-categorymanager-category-item-edit-label": "Änneren",
 	"bs-categorymanager-category-item-view-label": "Kategoriesäit weisen",
-	"bs-categorymanager-category-item-delete-label": "Läschen"
+	"bs-categorymanager-category-item-delete-label": "Läschen",
+	"bs-categorymanager-dialog-action-add-label": "Derbäisetzen",
+	"bs-categorymanager-add-category-label": "Numm vun der Kategorie",
+	"bs-categorymanager-category-item-rename-label": "Ëmbenennen",
+	"bs-categorymanager-dlg-add-title": "Kategorie derbäisetzen",
+	"bs-categorymanager-dialog-action-rename-label": "Ëmbenennen"
 }
