@@ -13,7 +13,6 @@
 	"action-categorymanager-viewspecialpage": "visa kategorihanterare",
 	"bs-categorymanager-text": "Kategorier",
 	"bs-categorymanager-label": "Kategorihanterare",
-	"bs-categorymanager-dlg-new-title": "Skapa kategori",
 	"bs-categorymanager-removecategoryconfirm-text": "Är du säker på att du vill radera kategorin \"%1$s\"?",
 	"bs-categorymanager-removecategoryconfirm-title": "Ta bort kategori",
 	"bs-categorymanager-addcategory-dialog-error-title": "Misslyckades att skapa kategori",

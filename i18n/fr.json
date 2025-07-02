@@ -14,7 +14,6 @@
 	"action-categorymanager-viewspecialpage": "afficher le gestionnaire de catégories",
 	"bs-categorymanager-text": "Catégories",
 	"bs-categorymanager-label": "Gestionnaire de catégories",
-	"bs-categorymanager-dlg-new-title": "Créer une catégorie",
 	"bs-categorymanager-removecategoryconfirm-text": "Voulez-vous vraiment supprimer cette catégorie ?",
 	"bs-categorymanager-removecategoryconfirm-title": "Supprimer la catégorie",
 	"bs-categorymanager-addcategory-dialog-error-title": "Échec dans la création de catégorie",
@@ -29,13 +28,10 @@
 	"bs-categorymanager-rename-category-new-name": "Nouveau nom de catégorie",
 	"bs-categorymanager-statistics-report-category-pages": "Pages dans les catégories",
 	"bs-categorymanager-statistics-report-category-pages-axis-value": "Nombre de pages",
-	"bs-categorymanager-dialog-action-done-label": "Terminé",
 	"bs-categorymanager-removecategory-confirm": "La catégorie $1 est supprimée",
 	"bs-categorymanager-dialog-create-category-placeholder": "Ajouter une nouvelle catégorie",
-	"bs-categorymanager-create-new-category-label": "Nouvelle catégorie",
 	"bs-configmanager-tool-create-category-label": "Créer une catégorie",
 	"bs-categorymanager-movecategory-confirm": "La catégorie $1 a été renommée",
-	"bs-categorymanager-category-item-edit-label": "Modifier",
 	"bs-categorymanager-category-item-view-label": "Voir la page de catégorie",
 	"bs-categorymanager-category-item-delete-label": "Supprimer"
 }

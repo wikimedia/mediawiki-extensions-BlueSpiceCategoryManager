@@ -13,7 +13,6 @@
 	"action-categorymanager-viewspecialpage": "om Categoriebeheer te bekijken",
 	"bs-categorymanager-text": "Categorieën",
 	"bs-categorymanager-label": "Categoriebeheer",
-	"bs-categorymanager-dlg-new-title": "Categorie aanmaken",
 	"bs-categorymanager-removecategoryconfirm-text": "Weet u zeker dat u deze categorie wilt verwijderen?",
 	"bs-categorymanager-removecategoryconfirm-title": "Categorie verwijderen",
 	"bs-categorymanager-addcategory-dialog-error-title": "Kon de categorie niet aanmaken",
@@ -28,13 +27,10 @@
 	"bs-categorymanager-rename-category-new-name": "Nieuwe categorienaam",
 	"bs-categorymanager-statistics-report-category-pages": "Pagina's in categorieën",
 	"bs-categorymanager-statistics-report-category-pages-axis-value": "Aantal pagina's",
-	"bs-categorymanager-dialog-action-done-label": "Klaar",
 	"bs-categorymanager-removecategory-confirm": "De categorie $1 is verwijderd",
 	"bs-categorymanager-dialog-create-category-placeholder": "Nieuwe categorie toevoegen",
-	"bs-categorymanager-create-new-category-label": "Nieuwe categorie",
 	"bs-configmanager-tool-create-category-label": "Categorie aanmaken",
 	"bs-categorymanager-movecategory-confirm": "De categorie $1 is hernoemd",
-	"bs-categorymanager-category-item-edit-label": "Bewerken",
 	"bs-categorymanager-category-item-view-label": "Categoriepagina bekijken",
 	"bs-categorymanager-category-item-delete-label": "Verwijderen"
 }

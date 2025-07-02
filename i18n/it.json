@@ -13,7 +13,6 @@
 	"action-categorymanager-viewspecialpage": "vedi il gestore di categorie",
 	"bs-categorymanager-text": "Categorie",
 	"bs-categorymanager-label": "Gestore delle categorie",
-	"bs-categorymanager-dlg-new-title": "Creare categoria",
 	"bs-categorymanager-removecategoryconfirm-text": "Sei sicuro/a di voler cancellare questa categoria?",
 	"bs-categorymanager-removecategoryconfirm-title": "Rimuovere categoria",
 	"bs-categorymanager-addcategory-dialog-error-title": "Creazione della categoria non riuscita",
@@ -28,11 +27,8 @@
 	"bs-categorymanager-rename-category-new-name": "Nome nuova categoria",
 	"bs-categorymanager-statistics-report-category-pages": "Pagine in categorie",
 	"bs-categorymanager-statistics-report-category-pages-axis-value": "Numero di pagine",
-	"bs-categorymanager-dialog-action-done-label": "Fatto",
 	"bs-categorymanager-dialog-create-category-placeholder": "Aggiungi nuova categoria",
-	"bs-categorymanager-create-new-category-label": "Nuova categoria",
 	"bs-configmanager-tool-create-category-label": "Creare categoria",
 	"bs-categorymanager-movecategory-confirm": "La categoria $1 è stata spostata",
-	"bs-categorymanager-category-item-edit-label": "Modifica",
 	"bs-categorymanager-category-item-delete-label": "Cancella"
 }

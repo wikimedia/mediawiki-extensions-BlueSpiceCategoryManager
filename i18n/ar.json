@@ -13,7 +13,6 @@
 	"action-categorymanager-viewspecialpage": "عرض مدير التصنيف",
 	"bs-categorymanager-text": "التصنيفات",
 	"bs-categorymanager-label": "مدير التصنيف",
-	"bs-categorymanager-dlg-new-title": "أنشئ تصنيفا",
 	"bs-categorymanager-removecategoryconfirm-text": "هل أنت متأكد أنك تريد حذف هذا التصنيف؟",
 	"bs-categorymanager-removecategoryconfirm-title": "أزل التصنيف",
 	"bs-categorymanager-addcategory-dialog-error-title": "فشل إنشاء التصنيف",
@@ -28,13 +27,10 @@
 	"bs-categorymanager-rename-category-new-name": "اسم التصنيف الجديد",
 	"bs-categorymanager-statistics-report-category-pages": "صفحات في فئات",
 	"bs-categorymanager-statistics-report-category-pages-axis-value": "عدد الصفحات",
-	"bs-categorymanager-dialog-action-done-label": "تم",
 	"bs-categorymanager-removecategory-confirm": "تم حذف الفئة $1",
 	"bs-categorymanager-dialog-create-category-placeholder": "إضافة فئة جديدة",
-	"bs-categorymanager-create-new-category-label": "فئة جديدة",
 	"bs-configmanager-tool-create-category-label": "إنشاء فئة",
 	"bs-categorymanager-movecategory-confirm": "تم نقل الفئة $1",
-	"bs-categorymanager-category-item-edit-label": "عدل",
 	"bs-categorymanager-category-item-view-label": "عرض صفحة التصنيف",
 	"bs-categorymanager-category-item-delete-label": "حذف"
 }

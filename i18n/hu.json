@@ -10,7 +10,6 @@
 	"action-categorymanager-viewspecialpage": "kategória kezelő megtekintése",
 	"bs-categorymanager-text": "Kategóriák",
 	"bs-categorymanager-label": "Kategória kezelő",
-	"bs-categorymanager-dlg-new-title": "Kategória létrehozása",
 	"bs-categorymanager-removecategoryconfirm-text": "Biztos, hogy törölni akarod ezt a kategóriát?",
 	"bs-categorymanager-removecategoryconfirm-title": "Kategória eltávolítása",
 	"bs-categorymanager-addcategory-dialog-error-title": "A kategória létrehozása sikertelen",
@@ -25,13 +24,10 @@
 	"bs-categorymanager-rename-category-new-name": "Új kategórianév:",
 	"bs-categorymanager-statistics-report-category-pages": "Kategóriákba tartozó lapok",
 	"bs-categorymanager-statistics-report-category-pages-axis-value": "Lapok száma",
-	"bs-categorymanager-dialog-action-done-label": "Kész",
 	"bs-categorymanager-removecategory-confirm": "A $1 kategória törölve",
 	"bs-categorymanager-dialog-create-category-placeholder": "Új kategória hozzáadása",
-	"bs-categorymanager-create-new-category-label": "Új kategória",
 	"bs-configmanager-tool-create-category-label": "Kategória létrehozása",
 	"bs-categorymanager-movecategory-confirm": "A(z) $1 kategória áthelyezve",
-	"bs-categorymanager-category-item-edit-label": "Szerkesztés",
 	"bs-categorymanager-category-item-view-label": "Kategórialap megtekintése",
 	"bs-categorymanager-category-item-delete-label": "Törlés"
 }
