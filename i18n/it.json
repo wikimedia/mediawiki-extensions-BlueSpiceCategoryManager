@@ -34,5 +34,10 @@
 	"bs-categorymanager-dlg-new-title": "Creare categoria",
 	"bs-categorymanager-dialog-action-done-label": "Fatto",
 	"bs-categorymanager-create-new-category-label": "Nuova categoria",
-	"bs-categorymanager-category-item-edit-label": "Modifica"
+	"bs-categorymanager-category-item-edit-label": "Modifica",
+	"bs-categorymanager-dialog-action-add-label": "Aggiungi",
+	"bs-categorymanager-add-category-label": "Nome della categoria",
+	"bs-categorymanager-category-item-rename-label": "Rinomina",
+	"bs-categorymanager-dlg-add-title": "Aggiungi categoria",
+	"bs-categorymanager-dialog-action-rename-label": "Rinomina"
 }

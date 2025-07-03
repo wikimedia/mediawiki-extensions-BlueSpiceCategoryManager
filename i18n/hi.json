@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sfic"
+			"Abijeet Patro"
 		]
-	}
+	},
+	"bs-categorymanager-dialog-action-add-label": "जोड़ें"
 }
