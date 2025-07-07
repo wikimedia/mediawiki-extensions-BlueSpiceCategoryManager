@@ -36,5 +36,10 @@
 	"bs-categorymanager-movecategory-confirm": "הקטגוריה $1 הועברה",
 	"bs-categorymanager-category-item-edit-label": "עריכה",
 	"bs-categorymanager-category-item-view-label": "צפייה בדף הקטגוריה",
-	"bs-categorymanager-category-item-delete-label": "מחיקה"
+	"bs-categorymanager-category-item-delete-label": "מחיקה",
+	"bs-categorymanager-dialog-action-add-label": "הוספה",
+	"bs-categorymanager-add-category-label": "שם הקטגוריה",
+	"bs-categorymanager-category-item-rename-label": "שינוי שם",
+	"bs-categorymanager-dlg-add-title": "הוספת קטגוריה",
+	"bs-categorymanager-dialog-action-rename-label": "שינוי שם"
 }
