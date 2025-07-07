@@ -31,5 +31,6 @@
 	"bs-categorymanager-removecategory-confirm": "Категорија $1 је обрисана",
 	"bs-categorymanager-category-item-delete-label": "Обриши",
 	"bs-categorymanager-dialog-action-add-label": "Додај",
-	"bs-categorymanager-dialog-action-rename-label": "Преименуј"
+	"bs-categorymanager-dialog-action-rename-label": "Преименуј",
+	"bs-categorymanager-category-item-rename-label": "Преименуј"
 }
