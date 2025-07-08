@@ -27,10 +27,9 @@
 	"bs-categorymanager-rename-category-new-name": "Нови назив категорије",
 	"bs-categorymanager-statistics-report-category-pages": "Странице у категоријама",
 	"bs-categorymanager-statistics-report-category-pages-axis-value": "Број страница",
-	"bs-categorymanager-removecategory-confirm": "Категорија $1 је обрисана",
-	"bs-categorymanager-category-item-delete-label": "Обриши",
-	"bs-categorymanager-dlg-new-title": "Прављење категорија",
 	"bs-categorymanager-dialog-action-add-label": "Додај",
-	"bs-categorymanager-dialog-action-rename-label": "Преименуј",
-	"bs-categorymanager-category-item-rename-label": "Преименуј"
+	"bs-categorymanager-removecategory-confirm": "Категорија $1 је обрисана",
+	"bs-categorymanager-category-item-rename-label": "Преименуј",
+	"bs-categorymanager-category-item-delete-label": "Обриши",
+	"bs-categorymanager-dialog-action-rename-label": "Преименуј"
 }
