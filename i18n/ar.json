@@ -36,5 +36,10 @@
 	"bs-categorymanager-movecategory-confirm": "تم نقل الفئة $1",
 	"bs-categorymanager-category-item-edit-label": "عدل",
 	"bs-categorymanager-category-item-view-label": "عرض صفحة التصنيف",
-	"bs-categorymanager-category-item-delete-label": "حذف"
+	"bs-categorymanager-category-item-delete-label": "حذف",
+	"bs-categorymanager-dialog-action-add-label": "إضافة",
+	"bs-categorymanager-add-category-label": "اسم التصنيف",
+	"bs-categorymanager-category-item-rename-label": "إعادة تسمية",
+	"bs-categorymanager-dlg-add-title": "إضافة تصنيف",
+	"bs-categorymanager-dialog-action-rename-label": "إعادة تسمية"
 }
