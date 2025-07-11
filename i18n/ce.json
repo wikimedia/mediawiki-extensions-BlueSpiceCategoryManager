@@ -22,5 +22,14 @@
 	"bs-categorymanager-rename-category": "Категорин цӀе хийца",
 	"bs-categorymanager-rename-category-new-name": "Категорин керла цӀе:",
 	"bs-categorymanager-statistics-report-category-pages": "АгӀонаш категореш чохь",
-	"bs-categorymanager-statistics-report-category-pages-axis-value": "АгӀонийн дукхалла"
+	"bs-categorymanager-statistics-report-category-pages-axis-value": "АгӀонийн дукхалла",
+	"bs-categorymanager-dialog-action-add-label": "ТӀетоха",
+	"bs-categorymanager-dialog-create-category-placeholder": "ТӀетоха керла категори",
+	"bs-categorymanager-add-category-label": "Категорин цӀе",
+	"bs-configmanager-tool-create-category-label": "Кхолла категори",
+	"bs-categorymanager-category-item-rename-label": "ЦӀе хийца",
+	"bs-categorymanager-category-item-view-label": "Категорийн агӀоне хьажа",
+	"bs-categorymanager-category-item-delete-label": "ДӀайаккха",
+	"bs-categorymanager-dlg-add-title": "ТӀетоха категори",
+	"bs-categorymanager-dialog-action-rename-label": "ЦӀе хийца"
 }
