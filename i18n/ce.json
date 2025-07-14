@@ -28,5 +28,9 @@
 	"bs-categorymanager-statistics-report-category-pages": "АгӀонаш категореш чохь",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "Категори хӀинцале йолуш йу",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "Дехар до, категорин кхий цӀе хьажа",
-	"bs-categorymanager-statistics-report-category-pages-axis-value": "АгӀонийн дукхалла"
+	"bs-categorymanager-statistics-report-category-pages-axis-value": "АгӀонийн дукхалла",
+	"bs-categorymanager-dialog-create-category-placeholder": "ТӀетоха керла категори",
+	"bs-configmanager-tool-create-category-label": "Кхолла категори",
+	"bs-categorymanager-category-item-view-label": "Категорийн агӀоне хьажа",
+	"bs-categorymanager-category-item-delete-label": "ДӀайаккха"
 }
