@@ -42,5 +42,10 @@
 	"bs-categorymanager-movecategory-confirm": "De categorie $1 is hernoemd",
 	"bs-categorymanager-category-item-edit-label": "Bewerken",
 	"bs-categorymanager-category-item-view-label": "Categoriepagina bekijken",
-	"bs-categorymanager-category-item-delete-label": "Verwijderen"
+	"bs-categorymanager-category-item-delete-label": "Verwijderen",
+	"bs-categorymanager-dialog-action-add-label": "Toevoegen",
+	"bs-categorymanager-add-category-label": "Categorienaam",
+	"bs-categorymanager-category-item-rename-label": "Hernoemen",
+	"bs-categorymanager-dlg-add-title": "Categorie toevoegen",
+	"bs-categorymanager-dialog-action-rename-label": "Hernoemen"
 }
