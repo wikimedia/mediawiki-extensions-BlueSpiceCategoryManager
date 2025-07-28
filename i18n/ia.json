@@ -38,5 +38,10 @@
 	"bs-categorymanager-movecategory-confirm": "Le categoria $1 ha essite renominate",
 	"bs-categorymanager-category-item-edit-label": "Modificar",
 	"bs-categorymanager-category-item-view-label": "Vider pagina de categoria",
-	"bs-categorymanager-category-item-delete-label": "Deler"
+	"bs-categorymanager-category-item-delete-label": "Deler",
+	"bs-categorymanager-dialog-action-add-label": "Adder",
+	"bs-categorymanager-add-category-label": "Nomine de categoria",
+	"bs-categorymanager-category-item-rename-label": "Renominar",
+	"bs-categorymanager-dlg-add-title": "Adder categoria",
+	"bs-categorymanager-dialog-action-rename-label": "Renominar"
 }

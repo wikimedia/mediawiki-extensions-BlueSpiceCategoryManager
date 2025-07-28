@@ -39,5 +39,10 @@
 	"bs-categorymanager-movecategory-confirm": "The category $1 was moved",
 	"bs-categorymanager-category-item-edit-label": "Edit",
 	"bs-categorymanager-category-item-view-label": "View category page",
-	"bs-categorymanager-category-item-delete-label": "Delete"
+	"bs-categorymanager-category-item-delete-label": "Delete",
+	"bs-categorymanager-dialog-action-add-label": "Add",
+	"bs-categorymanager-add-category-label": "Category name",
+	"bs-categorymanager-category-item-rename-label": "Rename",
+	"bs-categorymanager-dlg-add-title": "Add category",
+	"bs-categorymanager-dialog-action-rename-label": "Rename"
 }

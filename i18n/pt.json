@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Hamilton Abreu"
+			"Hamilton Abreu",
+			"Mansil alfalb"
 		]
 	},
 	"bluespicecategorymanager": "Gestor de categorias",
@@ -28,5 +29,10 @@
 	"bs-categorymanager-statistics-report-category-pages": "Páginas em categorias",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "A categoria já existe",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "Tente um nome de categoria diferente, por favor",
-	"bs-categorymanager-statistics-report-category-pages-axis-value": "Número de páginas"
+	"bs-categorymanager-statistics-report-category-pages-axis-value": "Número de páginas",
+	"bs-categorymanager-dialog-action-add-label": "Adicionar",
+	"bs-categorymanager-add-category-label": "Nome da categoria",
+	"bs-categorymanager-category-item-rename-label": "Renomear",
+	"bs-categorymanager-dlg-add-title": "Adicionar categoria",
+	"bs-categorymanager-dialog-action-rename-label": "Renomear"
 }

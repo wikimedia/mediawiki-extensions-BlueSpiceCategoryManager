@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Aca",
 			"BadDog",
 			"Kizule",
 			"Milicevic01",
@@ -33,5 +34,8 @@
 	"bs-categorymanager-statistics-report-category-pages": "Странице у категоријама",
 	"bs-categorymanager-statistics-report-category-pages-axis-value": "Број страница",
 	"bs-categorymanager-removecategory-confirm": "Категорија $1 је обрисана",
-	"bs-categorymanager-category-item-delete-label": "Обриши"
+	"bs-categorymanager-category-item-delete-label": "Обриши",
+	"bs-categorymanager-dialog-action-add-label": "Додај",
+	"bs-categorymanager-category-item-rename-label": "Преименуј",
+	"bs-categorymanager-dialog-action-rename-label": "Преименуј"
 }

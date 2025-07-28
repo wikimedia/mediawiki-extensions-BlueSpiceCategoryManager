@@ -47,5 +47,10 @@
 	"bs-categorymanager-movecategory-confirm": "Die Kategorie $1 wurde verschoben",
 	"bs-categorymanager-category-item-edit-label": "Bearbeiten",
 	"bs-categorymanager-category-item-view-label": "Kategorieseite anzeigen",
-	"bs-categorymanager-category-item-delete-label": "Löschen"
+	"bs-categorymanager-category-item-delete-label": "Löschen",
+	"bs-categorymanager-dialog-action-add-label": "Hinzufügen",
+	"bs-categorymanager-add-category-label": "Name der Kategorie",
+	"bs-categorymanager-category-item-rename-label": "Umbenennen",
+	"bs-categorymanager-dlg-add-title": "Kategorie hinzufügen",
+	"bs-categorymanager-dialog-action-rename-label": "Umbenennen"
 }

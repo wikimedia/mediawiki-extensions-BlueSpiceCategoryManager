@@ -37,5 +37,10 @@
 	"bs-categorymanager-movecategory-confirm": "$1 분류가 이동되었습니다",
 	"bs-categorymanager-category-item-edit-label": "편집",
 	"bs-categorymanager-category-item-view-label": "분류 문서 보기",
-	"bs-categorymanager-category-item-delete-label": "삭제"
+	"bs-categorymanager-category-item-delete-label": "삭제",
+	"bs-categorymanager-dialog-action-add-label": "추가",
+	"bs-categorymanager-add-category-label": "분류 이름",
+	"bs-categorymanager-category-item-rename-label": "이름 바꾸기",
+	"bs-categorymanager-dlg-add-title": "분류 추가",
+	"bs-categorymanager-dialog-action-rename-label": "이름 바꾸기"
 }
