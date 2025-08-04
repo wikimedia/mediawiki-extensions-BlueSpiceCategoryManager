@@ -22,11 +22,17 @@
 	"bs-categorymanager-collection-var-categorizedpages": "Strani s kategorijami",
 	"bs-categorymanager-collection-var-uncategorizedpages": "Strani brez kategorij",
 	"bs-categorymanager-rename-category": "Preimenuj kategorijo",
-	"bs-categorymanager-rename-category-new-name": "Novo ime kategorije:",
+	"bs-categorymanager-rename-category-new-name": "Novo ime kategorije",
 	"bs-categorymanager-move-new-name": "Določite novo ime kategorije. Novo ime:",
 	"bs-categorymanager-replace-in-pages": "Preimenuj na strani:",
 	"bs-categorymanager-statistics-report-category-pages": "Strani v kategorijah",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "Kategorija že obstaja",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "Poskusite z drugim imenom kategorije",
-	"bs-categorymanager-statistics-report-category-pages-axis-value": "Število strani"
+	"bs-categorymanager-statistics-report-category-pages-axis-value": "Število strani",
+	"bs-categorymanager-removecategory-confirm": "Kategorija $1 je izbrisana",
+	"bs-categorymanager-dialog-create-category-placeholder": "Dodajanje nove kategorije",
+	"bs-configmanager-tool-create-category-label": "Ustvari kategorijo",
+	"bs-categorymanager-movecategory-confirm": "Kategorija $1 je bila prestavljena",
+	"bs-categorymanager-category-item-view-label": "Ogled strani kategorije",
+	"bs-categorymanager-category-item-delete-label": "Izbris"
 }
