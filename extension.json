@@ -47,7 +47,8 @@
 			},
 			"Reports": {
 				"cm-categorypages": {
-					"class": "\\BlueSpice\\CategoryManager\\Statistics\\Report\\CategoryPages"
+					"class": "\\BlueSpice\\CategoryManager\\Statistics\\Report\\CategoryPages",
+					"services": [ "TitleFactory" ]
 				}
 			}
 		}
