@@ -35,5 +35,6 @@
 	"bs-categorymanager-category-item-view-label": "View category page",
 	"bs-categorymanager-category-item-delete-label": "Delete",
 	"bs-categorymanager-dlg-add-title": "Add category",
-	"bs-categorymanager-dialog-action-rename-label": "Rename"
+	"bs-categorymanager-dialog-action-rename-label": "Rename",
+	"bs-categorymanager-dlg-create-category-exists-label": "A category with this name already exists. Please choose another name."
 }

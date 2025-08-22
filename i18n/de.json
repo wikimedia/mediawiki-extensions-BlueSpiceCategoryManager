@@ -43,5 +43,6 @@
 	"bs-categorymanager-category-item-view-label": "Kategorieseite anzeigen",
 	"bs-categorymanager-category-item-delete-label": "Löschen",
 	"bs-categorymanager-dlg-add-title": "Kategorie hinzufügen",
-	"bs-categorymanager-dialog-action-rename-label": "Umbenennen"
+	"bs-categorymanager-dialog-action-rename-label": "Umbenennen",
+	"bs-categorymanager-dlg-create-category-exists-label": "Eine Kategorie mit diesem Namen existiert bereits. Bitte wähle einen anderen Namen."
 }

@@ -124,7 +124,8 @@
 				"bs-categorymanager-category-item-rename-label",
 				"bs-categorymanager-category-item-view-label",
 				"bs-categorymanager-category-item-delete-label",
-				"bs-categorymanager-dialog-action-rename-label"
+				"bs-categorymanager-dialog-action-rename-label",
+				"bs-categorymanager-dlg-create-category-exists-label"
 			]
 		},
 		"ext.bluespice.categorymanager.statistics": {

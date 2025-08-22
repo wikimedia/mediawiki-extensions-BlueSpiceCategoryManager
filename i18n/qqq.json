@@ -39,5 +39,6 @@
 	"bs-categorymanager-category-item-view-label": "Label for category tree item action which opens link to category page",
 	"bs-categorymanager-category-item-delete-label": "Label for category tree item action which allows to delete category\n{{Identical|Delete}}",
 	"bs-categorymanager-dlg-add-title": "Title of dialog window that allows to add new category",
-	"bs-categorymanager-dialog-action-rename-label": "Button label for action to rename category\n{{Identical|Rename}}"
+	"bs-categorymanager-dialog-action-rename-label": "Button label for action to rename category\n{{Identical|Rename}}",
+	"bs-categorymanager-dlg-create-category-exists-label": "Error message that is shown if user wants to create a category which already exists"
 }
