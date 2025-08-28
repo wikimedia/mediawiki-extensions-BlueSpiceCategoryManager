@@ -9,6 +9,8 @@
 
 	bs.categoryManager.report.CategoryPagesReport.static.label = mw.message( 'bs-categorymanager-statistics-report-category-pages' ).text();
 
+	bs.categoryManager.report.CategoryPagesReport.static.desc = mw.message( 'bs-categorymanager-statistics-report-category-pages-desc' ).text();
+
 	bs.categoryManager.report.CategoryPagesReport.prototype.getFilters = function () {
 		return [
 			new bs.aggregatedStatistics.filter.IntervalFilter(),
