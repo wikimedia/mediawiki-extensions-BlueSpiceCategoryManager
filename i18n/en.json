@@ -27,6 +27,7 @@
 	"bs-categorymanager-move-new-name": "Set the new category name. New name:",
 	"bs-categorymanager-replace-in-pages": "Rename in page:",
 	"bs-categorymanager-statistics-report-category-pages": "Pages in categories",
+	"bs-categorymanager-statistics-report-category-pages-desc": "Number of pages in a category in the selected period and interval, filterable by namespace",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "Category already exists",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "Please try a different category name",
 	"bs-categorymanager-statistics-report-category-pages-axis-value": "Number of pages"

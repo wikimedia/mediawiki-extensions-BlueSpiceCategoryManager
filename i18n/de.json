@@ -34,6 +34,7 @@
 	"bs-categorymanager-move-new-name": "Die neue Kategorie wird umbenannt. Neuer Name:",
 	"bs-categorymanager-replace-in-pages": "Umbenennen in der Seite:",
 	"bs-categorymanager-statistics-report-category-pages": "Seiten in Kategorien",
+	"bs-categorymanager-statistics-report-category-pages-desc": "Anzahl der Seiten in einer Kategorie im gewählten Zeitraum und Intervall, filterbar nach Namensraum",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "Kategorie existiert bereits",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "Bitte verwende einen anderen Kategorienamen",
 	"bs-categorymanager-statistics-report-category-pages-axis-value": "Anzahl an Seiten"
