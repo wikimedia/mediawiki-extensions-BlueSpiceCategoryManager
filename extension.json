@@ -133,6 +133,7 @@
 			],
 			"messages": [
 				"bs-categorymanager-statistics-report-category-pages",
+				"bs-categorymanager-statistics-report-category-pages-desc",
 				"bs-categorymanager-statistics-report-category-pages-axis-value"
 			]
 		}

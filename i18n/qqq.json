@@ -27,6 +27,7 @@
 	"bs-categorymanager-rename-category": "Label for the icon in the category manager to rename a category. Also Used in the dialog as title.",
 	"bs-categorymanager-rename-category-new-name": "Label for the text field where the user enters a new category name.",
 	"bs-categorymanager-statistics-report-category-pages": "Name of statistics report",
+	"bs-categorymanager-statistics-report-category-pages-desc": "Description of statistics report",
 	"bs-categorymanager-statistics-report-category-pages-axis-value": "Axis label which shows number of pages",
 	"bs-categorymanager-dialog-action-add-label": "Button label for action to add new category\n{{Identical|Add}}",
 	"bs-categorymanager-removecategory-confirm": "Notification to inform that category is deleted\nParameter:\n* - $1: title of category which is deleted",

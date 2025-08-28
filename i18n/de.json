@@ -32,6 +32,7 @@
 	"bs-categorymanager-rename-category": "Kategorie umbenennen",
 	"bs-categorymanager-rename-category-new-name": "Neuer Kategoriename",
 	"bs-categorymanager-statistics-report-category-pages": "Seiten in Kategorien",
+	"bs-categorymanager-statistics-report-category-pages-desc": "Anzahl der Seiten in einer Kategorie im gewählten Zeitraum und Intervall, filterbar nach Namensraum",
 	"bs-categorymanager-statistics-report-category-pages-axis-value": "Anzahl an Seiten",
 	"bs-categorymanager-dialog-action-done-label": "Fertig",
 	"bs-categorymanager-removecategory-confirm": "Die Kategorie $1 ist gelöscht",
