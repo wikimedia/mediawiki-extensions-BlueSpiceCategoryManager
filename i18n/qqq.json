@@ -48,5 +48,7 @@
 	"bs-categorymanager-add-category-label": "Label for input field to create a new category",
 	"bs-categorymanager-category-item-rename-label": "Label for category tree item action which opens dialog to edit category\n{{Identical|Rename}}",
 	"bs-categorymanager-dlg-add-title": "Title of dialog window that allows to add new category",
-	"bs-categorymanager-dialog-action-rename-label": "Button label for action to rename category\n{{Identical|Rename}}"
+	"bs-categorymanager-dialog-action-rename-label": "Button label for action to rename category\n{{Identical|Rename}}",
+	"bs-categorymanager-statistics-report-category-pages-desc": "Description of statistics report",
+	"bs-categorymanager-dlg-create-category-exists-label": "Error message that is shown if user wants to create a category which already exists"
 }
