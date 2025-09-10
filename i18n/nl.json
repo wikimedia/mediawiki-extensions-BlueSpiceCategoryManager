@@ -26,6 +26,7 @@
 	"bs-categorymanager-rename-category": "Categorie hernoemen",
 	"bs-categorymanager-rename-category-new-name": "Nieuwe categorienaam",
 	"bs-categorymanager-statistics-report-category-pages": "Pagina's in categorieën",
+	"bs-categorymanager-statistics-report-category-pages-desc": "Aantal pagina’s in een categorie in de geselecteerde periode en interval, te filteren op naamruimte",
 	"bs-categorymanager-statistics-report-category-pages-axis-value": "Aantal pagina's",
 	"bs-categorymanager-dialog-action-add-label": "Toevoegen",
 	"bs-categorymanager-removecategory-confirm": "De categorie $1 is verwijderd",
@@ -37,5 +38,6 @@
 	"bs-categorymanager-category-item-view-label": "Categoriepagina bekijken",
 	"bs-categorymanager-category-item-delete-label": "Verwijderen",
 	"bs-categorymanager-dlg-add-title": "Categorie toevoegen",
-	"bs-categorymanager-dialog-action-rename-label": "Hernoemen"
+	"bs-categorymanager-dialog-action-rename-label": "Hernoemen",
+	"bs-categorymanager-dlg-create-category-exists-label": "Er is al een categorie met deze naam. Kies een andere naam."
 }
