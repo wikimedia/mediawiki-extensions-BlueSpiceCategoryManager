@@ -47,5 +47,7 @@
 	"bs-categorymanager-add-category-label": "اسم التصنيف",
 	"bs-categorymanager-category-item-rename-label": "إعادة تسمية",
 	"bs-categorymanager-dlg-add-title": "إضافة تصنيف",
-	"bs-categorymanager-dialog-action-rename-label": "إعادة تسمية"
+	"bs-categorymanager-dialog-action-rename-label": "إعادة تسمية",
+	"bs-categorymanager-statistics-report-category-pages-desc": "عدد الصفحات في فئة معينة في الفترة والفاصل الزمني المحددين، قابلة للتصفية حسب مساحة الاسم",
+	"bs-categorymanager-dlg-create-category-exists-label": "يوجد بالفعل فئة بهذا الاسم. يُرجى اختيار اسم آخر."
 }
