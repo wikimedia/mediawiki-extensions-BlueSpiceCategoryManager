@@ -26,6 +26,7 @@
 	"bs-categorymanager-rename-category": "إعادة تسمية الفئة",
 	"bs-categorymanager-rename-category-new-name": "اسم التصنيف الجديد",
 	"bs-categorymanager-statistics-report-category-pages": "صفحات في فئات",
+	"bs-categorymanager-statistics-report-category-pages-desc": "عدد الصفحات في فئة معينة في الفترة والفاصل الزمني المحددين، قابلة للتصفية حسب مساحة الاسم",
 	"bs-categorymanager-statistics-report-category-pages-axis-value": "عدد الصفحات",
 	"bs-categorymanager-dialog-action-add-label": "إضافة",
 	"bs-categorymanager-removecategory-confirm": "تم حذف الفئة $1",
@@ -37,5 +38,6 @@
 	"bs-categorymanager-category-item-view-label": "عرض صفحة التصنيف",
 	"bs-categorymanager-category-item-delete-label": "حذف",
 	"bs-categorymanager-dlg-add-title": "إضافة تصنيف",
-	"bs-categorymanager-dialog-action-rename-label": "إعادة تسمية"
+	"bs-categorymanager-dialog-action-rename-label": "إعادة تسمية",
+	"bs-categorymanager-dlg-create-category-exists-label": "يوجد بالفعل فئة بهذا الاسم. يُرجى اختيار اسم آخر."
 }

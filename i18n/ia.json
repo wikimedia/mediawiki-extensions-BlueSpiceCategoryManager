@@ -22,6 +22,7 @@
 	"bs-categorymanager-rename-category": "Renominar categoria",
 	"bs-categorymanager-rename-category-new-name": "Nove nomine del categoria",
 	"bs-categorymanager-statistics-report-category-pages": "Paginas in categorias",
+	"bs-categorymanager-statistics-report-category-pages-desc": "Numero de paginas in un categoria in le periodo e intervallo seligite, filtrabile per spatio de nomines",
 	"bs-categorymanager-statistics-report-category-pages-axis-value": "Numero de paginas",
 	"bs-categorymanager-dialog-action-add-label": "Adder",
 	"bs-categorymanager-removecategory-confirm": "Le categoria $1 es delite",
@@ -33,5 +34,6 @@
 	"bs-categorymanager-category-item-view-label": "Vider pagina de categoria",
 	"bs-categorymanager-category-item-delete-label": "Deler",
 	"bs-categorymanager-dlg-add-title": "Adder categoria",
-	"bs-categorymanager-dialog-action-rename-label": "Renominar"
+	"bs-categorymanager-dialog-action-rename-label": "Renominar",
+	"bs-categorymanager-dlg-create-category-exists-label": "Existe ja un categoria con iste nomine. Per favor elige un altere nomine."
 }

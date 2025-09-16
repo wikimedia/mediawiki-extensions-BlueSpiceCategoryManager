@@ -24,6 +24,7 @@
 	"bs-categorymanager-rename-category": "Renomear a categoría",
 	"bs-categorymanager-rename-category-new-name": "Nome de categoría novo",
 	"bs-categorymanager-statistics-report-category-pages": "Páxinas en categorías",
+	"bs-categorymanager-statistics-report-category-pages-desc": "Número de páxinas nunha categoría no período e intervalo seleccionados, filtrables por espazo de nomes",
 	"bs-categorymanager-statistics-report-category-pages-axis-value": "Número de páxinas",
 	"bs-categorymanager-dialog-action-add-label": "Engadir",
 	"bs-categorymanager-removecategory-confirm": "Eliminouse a categoría «$1»",
@@ -35,5 +36,6 @@
 	"bs-categorymanager-category-item-view-label": "Ver a páxina da categoría",
 	"bs-categorymanager-category-item-delete-label": "Eliminar",
 	"bs-categorymanager-dlg-add-title": "Engadir unha categoría",
-	"bs-categorymanager-dialog-action-rename-label": "Renomear"
+	"bs-categorymanager-dialog-action-rename-label": "Renomear",
+	"bs-categorymanager-dlg-create-category-exists-label": "Xa existe unha categoría con este nome. Escolle outro nome."
 }
