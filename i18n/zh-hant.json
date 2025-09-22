@@ -26,12 +26,18 @@
 	"bs-categorymanager-collection-var-categorizedpages": "帶有分類的頁面",
 	"bs-categorymanager-collection-var-uncategorizedpages": "不帶分類的頁面",
 	"bs-categorymanager-rename-category": "重新命名分類",
-	"bs-categorymanager-rename-category-new-name": "新分類名稱：",
+	"bs-categorymanager-rename-category-new-name": "新分類名稱",
 	"bs-categorymanager-move-new-name": "設定新分類名稱。新名稱：",
 	"bs-categorymanager-replace-in-pages": "在頁面裡重新命名：",
 	"bs-categorymanager-statistics-report-category-pages": "在分類裡的頁面",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "分類已存在",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "請嘗試不同的分類名稱",
 	"bs-categorymanager-statistics-report-category-pages-axis-value": "頁面數量",
-	"bs-categorymanager-category-column-name": "分類名稱"
+	"bs-categorymanager-category-column-name": "分類名稱",
+	"bs-categorymanager-removecategory-confirm": "已刪除分類$1",
+	"bs-categorymanager-dialog-create-category-placeholder": "新增分類",
+	"bs-configmanager-tool-create-category-label": "建立分類",
+	"bs-categorymanager-movecategory-confirm": "已移動分類$1",
+	"bs-categorymanager-category-item-view-label": "檢視分類頁面",
+	"bs-categorymanager-category-item-delete-label": "刪除"
 }
