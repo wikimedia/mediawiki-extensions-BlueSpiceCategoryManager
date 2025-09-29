@@ -39,7 +39,7 @@ class CategoryPages implements IReport {
 		foreach ( $filterData['categories'] as $category ) {
 			$title = $this->titleFactory->newFromDBkey( $category );
 			if ( $title ) {
-				$categories[] = $title->getText();
+				$categories[] = $title->getDBkey();
 			}
 		}
 
