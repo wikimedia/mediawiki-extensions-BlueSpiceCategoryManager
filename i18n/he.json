@@ -26,6 +26,7 @@
 	"bs-categorymanager-rename-category": "שינוי שם הקטגוריה",
 	"bs-categorymanager-rename-category-new-name": "שם הקטגוריה החדשה",
 	"bs-categorymanager-statistics-report-category-pages": "דפים בקטגוריות",
+	"bs-categorymanager-statistics-report-category-pages-desc": "מספר הדפים בקטגוריה בתקופה ובמרווח שנבחרו, ניתן לסינון לפי מרחב שם",
 	"bs-categorymanager-statistics-report-category-pages-axis-value": "מספר הדפים",
 	"bs-categorymanager-dialog-action-add-label": "הוספה",
 	"bs-categorymanager-removecategory-confirm": "הקטגוריה $1 נמחקה",
@@ -37,5 +38,6 @@
 	"bs-categorymanager-category-item-view-label": "צפייה בדף הקטגוריה",
 	"bs-categorymanager-category-item-delete-label": "מחיקה",
 	"bs-categorymanager-dlg-add-title": "הוספת קטגוריה",
-	"bs-categorymanager-dialog-action-rename-label": "שינוי שם"
+	"bs-categorymanager-dialog-action-rename-label": "שינוי שם",
+	"bs-categorymanager-dlg-create-category-exists-label": "קטגוריה בשם הזה כבר קיימת. נא לבחור שם אחר."
 }
