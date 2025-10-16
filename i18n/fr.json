@@ -28,6 +28,7 @@
 	"bs-categorymanager-rename-category": "Renommer la catégorie",
 	"bs-categorymanager-rename-category-new-name": "Nouveau nom de catégorie",
 	"bs-categorymanager-statistics-report-category-pages": "Pages dans les catégories",
+	"bs-categorymanager-statistics-report-category-pages-desc": "Nombre de pages dans une catégorie dans la période et l'intervalle sélectionnés, filtrable par espace de noms",
 	"bs-categorymanager-statistics-report-category-pages-axis-value": "Nombre de pages",
 	"bs-categorymanager-dialog-action-add-label": "Ajouter",
 	"bs-categorymanager-removecategory-confirm": "La catégorie $1 est supprimée",
@@ -39,5 +40,6 @@
 	"bs-categorymanager-category-item-view-label": "Voir la page de catégorie",
 	"bs-categorymanager-category-item-delete-label": "Supprimer",
 	"bs-categorymanager-dlg-add-title": "Ajouter une catégorie",
-	"bs-categorymanager-dialog-action-rename-label": "Renommer"
+	"bs-categorymanager-dialog-action-rename-label": "Renommer",
+	"bs-categorymanager-dlg-create-category-exists-label": "Une catégorie portant ce nom existe déjà. Veuillez en choisir un autre."
 }
