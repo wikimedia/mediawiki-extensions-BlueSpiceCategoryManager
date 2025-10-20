@@ -39,5 +39,6 @@
 	"bs-categorymanager-add-category-label": "Numm vun der Kategorie",
 	"bs-categorymanager-category-item-rename-label": "Ëmbenennen",
 	"bs-categorymanager-dlg-add-title": "Kategorie derbäisetzen",
-	"bs-categorymanager-dialog-action-rename-label": "Ëmbenennen"
+	"bs-categorymanager-dialog-action-rename-label": "Ëmbenennen",
+	"bs-categorymanager-dlg-create-category-exists-label": "Et gëtt schonn eng Kategorie mat dësem Numm. Sicht Iech wgl. en aneren Nummer eraus."
 }

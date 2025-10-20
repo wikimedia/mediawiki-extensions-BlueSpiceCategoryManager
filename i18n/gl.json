@@ -36,5 +36,7 @@
 	"bs-categorymanager-category-item-view-label": "Ver a páxina da categoría",
 	"bs-categorymanager-category-item-delete-label": "Eliminar",
 	"bs-categorymanager-dlg-add-title": "Engadir unha categoría",
-	"bs-categorymanager-dialog-action-rename-label": "Renomear"
+	"bs-categorymanager-dialog-action-rename-label": "Renomear",
+	"bs-categorymanager-statistics-report-category-pages-desc": "Número de páxinas nunha categoría no período e intervalo seleccionados, filtrables por espazo de nomes",
+	"bs-categorymanager-dlg-create-category-exists-label": "Xa existe unha categoría con este nome. Escolle outro nome."
 }

@@ -43,5 +43,7 @@
 	"bs-categorymanager-add-category-label": "Nom de la catégorie",
 	"bs-categorymanager-category-item-rename-label": "Renommer",
 	"bs-categorymanager-dlg-add-title": "Ajouter une catégorie",
-	"bs-categorymanager-dialog-action-rename-label": "Renommer"
+	"bs-categorymanager-dialog-action-rename-label": "Renommer",
+	"bs-categorymanager-statistics-report-category-pages-desc": "Nombre de pages dans une catégorie dans la période et l'intervalle sélectionnés, filtrable par espace de noms",
+	"bs-categorymanager-dlg-create-category-exists-label": "Une catégorie portant ce nom existe déjà. Veuillez en choisir un autre."
 }

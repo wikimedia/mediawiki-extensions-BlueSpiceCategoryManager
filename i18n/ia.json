@@ -37,5 +37,7 @@
 	"bs-categorymanager-add-category-label": "Nomine de categoria",
 	"bs-categorymanager-category-item-rename-label": "Renominar",
 	"bs-categorymanager-dlg-add-title": "Adder categoria",
-	"bs-categorymanager-dialog-action-rename-label": "Renominar"
+	"bs-categorymanager-dialog-action-rename-label": "Renominar",
+	"bs-categorymanager-statistics-report-category-pages-desc": "Numero de paginas in un categoria in le periodo e intervallo seligite, filtrabile per spatio de nomines",
+	"bs-categorymanager-dlg-create-category-exists-label": "Existe ja un categoria con iste nomine. Per favor elige un altere nomine."
 }

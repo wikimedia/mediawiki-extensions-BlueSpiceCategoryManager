@@ -41,5 +41,7 @@
 	"bs-categorymanager-add-category-label": "שם הקטגוריה",
 	"bs-categorymanager-category-item-rename-label": "שינוי שם",
 	"bs-categorymanager-dlg-add-title": "הוספת קטגוריה",
-	"bs-categorymanager-dialog-action-rename-label": "שינוי שם"
+	"bs-categorymanager-dialog-action-rename-label": "שינוי שם",
+	"bs-categorymanager-statistics-report-category-pages-desc": "מספר הדפים בקטגוריה בתקופה ובמרווח שנבחרו, ניתן לסינון לפי מרחב שם",
+	"bs-categorymanager-dlg-create-category-exists-label": "קטגוריה בשם הזה כבר קיימת. נא לבחור שם אחר."
 }

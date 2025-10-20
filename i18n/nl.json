@@ -41,5 +41,7 @@
 	"bs-categorymanager-add-category-label": "Categorienaam",
 	"bs-categorymanager-category-item-rename-label": "Hernoemen",
 	"bs-categorymanager-dlg-add-title": "Categorie toevoegen",
-	"bs-categorymanager-dialog-action-rename-label": "Hernoemen"
+	"bs-categorymanager-dialog-action-rename-label": "Hernoemen",
+	"bs-categorymanager-statistics-report-category-pages-desc": "Aantal pagina’s in een categorie in de geselecteerde periode en interval, te filteren op naamruimte",
+	"bs-categorymanager-dlg-create-category-exists-label": "Er is al een categorie met deze naam. Kies een andere naam."
 }
