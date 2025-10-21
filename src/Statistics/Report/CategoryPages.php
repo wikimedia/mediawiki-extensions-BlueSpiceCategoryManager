@@ -5,7 +5,7 @@ namespace BlueSpice\CategoryManager\Statistics\Report;
 use BlueSpice\ExtendedStatistics\ClientReportHandler;
 use BlueSpice\ExtendedStatistics\IReport;
 use MediaWiki\MediaWikiServices;
-use MediaWiki\Title\TitleFactory;
+use TitleFactory;
 
 class CategoryPages implements IReport {
 
