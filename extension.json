@@ -22,20 +22,6 @@
 					"className": "\\BlueSpice\\CategoryManager\\Extension",
 					"extPath": "/BlueSpiceCategoryManager"
 				}
-			},
-			"PermissionRegistry": {
-				"categorymanager-viewspecialpage": {
-					"type": "global",
-					"roles": [
-						"admin",
-						"editor",
-						"maintenanceadmin",
-						"structuremanager"
-					]
-				}
-			},
-			"AdminToolRegistry": {
-				"bs-category-manager": "BlueSpice\\CategoryManager\\AdminTool"
 			}
 		},
 		"BlueSpiceExtendedStatistics": {
@@ -53,20 +39,6 @@
 			}
 		}
 	},
-	"GroupPermissions": {
-		"*": {
-			"categorymanager-viewspecialpage": false
-		},
-		"user": {
-			"categorymanager-viewspecialpage": false
-		},
-		"sysop": {
-			"categorymanager-viewspecialpage": true
-		}
-	},
-	"AvailableRights": [
-		"categorymanager-viewspecialpage"
-	],
 	"SpecialPages": {
 		"BlueSpiceCategoryManager": "\\BlueSpice\\CategoryManager\\Special\\CategoryManager"
 	},
