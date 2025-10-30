@@ -81,8 +81,8 @@ bs.categoryManager.ui.CategoryManager.prototype.editCategory = function ( catego
 
 bs.categoryManager.ui.CategoryManager.prototype.deleteCategory = function ( category ) {
 	bs.util.confirm( 'RemoveCategory', {
-		text: mw.message( 'bs-categorymanager-removecategoryconfirm-text' ).plain(),
-		title: mw.message( 'bs-categorymanager-removecategoryconfirm-title' ).plain()
+		text: mw.message( 'bs-categorymanager-removecategoryconfirm-text' ).text(),
+		title: mw.message( 'bs-categorymanager-removecategoryconfirm-title' ).text()
 	},
 	{
 		ok: () => {
