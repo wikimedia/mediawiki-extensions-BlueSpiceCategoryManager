@@ -17,7 +17,7 @@ bs.categoryManager.api.CategoryActions.prototype.addCategory = function ( newCat
 					'bs-categorymanager',
 					{
 						titleMsg: 'bs-categorymanager-addcategory-dialog-error-duplicate-title',
-						text: mw.message( 'bs-categorymanager-addcategory-dialog-error-duplicate-text' ).plain()
+						text: mw.message( 'bs-categorymanager-addcategory-dialog-error-duplicate-text' ).text()
 					}
 				);
 				dfd.reject( 'duplicate' );
@@ -54,7 +54,7 @@ bs.categoryManager.api.CategoryActions.prototype.renameCategory = function ( old
 					'bs-categorymanager',
 					{
 						titleMsg: 'bs-categorymanager-addcategory-dialog-error-duplicate-title',
-						text: mw.message( 'bs-categorymanager-addcategory-dialog-error-duplicate-text' ).plain()
+						text: mw.message( 'bs-categorymanager-addcategory-dialog-error-duplicate-text' ).text()
 					}
 				);
 				dfd.reject( 'duplicate' );
