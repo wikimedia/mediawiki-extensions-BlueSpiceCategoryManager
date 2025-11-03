@@ -10,13 +10,10 @@
 		]
 	},
 	"bluespicecategorymanager": "Kategorihanterare",
-	"action-categorymanager-viewspecialpage": "visa kategorihanterare",
 	"bs-categorymanager-text": "Kategorier",
-	"bs-categorymanager-label": "Kategorihanterare",
 	"bs-categorymanager-removecategoryconfirm-text": "Är du säker på att du vill radera kategorin \"%1$s\"?",
 	"bs-categorymanager-removecategoryconfirm-title": "Ta bort kategori",
 	"bs-categorymanager-addcategory-dialog-error-title": "Misslyckades att skapa kategori",
-	"right-categorymanager-viewspecialpage": "Åtkomst till specialsidan [[Special:BlueSpiceCategoryManager]].",
 	"bs-categorymanager-collection-type-categorizedpages": "Kategoriinformation",
 	"bs-categorymanager-collection-var-namespacename": "Namnrymd",
 	"bs-categorymanager-collection-var-categorizedpages": "Sidor med kategorier",
