@@ -29,5 +29,6 @@
 	"bs-categorymanager-add-category-label": "Nome da categoria",
 	"bs-categorymanager-category-item-rename-label": "Renomear",
 	"bs-categorymanager-dlg-add-title": "Adicionar categoria",
-	"bs-categorymanager-dialog-action-rename-label": "Renomear"
+	"bs-categorymanager-dialog-action-rename-label": "Renomear",
+	"bs-categorymanager-category-item-delete-label": "Eliminar"
 }
