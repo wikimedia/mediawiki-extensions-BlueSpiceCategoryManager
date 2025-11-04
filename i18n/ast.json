@@ -6,10 +6,7 @@
 	},
 	"bluespicecategorymanager": "Alministrador de categoríes",
 	"bluespicecategorymanager-desc": "Ferramienta visual p'alministrar categoríes",
-	"action-categorymanager-viewspecialpage": "ver el Xestor de categoríes",
-	"bs-categorymanager-label": "Alministrador de categoríes",
 	"bs-categorymanager-removecategoryconfirm-text": "¿Tas seguru de que quies desaniciar esta categoría?",
 	"bs-categorymanager-removecategoryconfirm-title": "Desaniciar categoría",
-	"bs-categorymanager-addcategory-dialog-error-title": "Falló la creación de la categoría",
-	"right-categorymanager-viewspecialpage": "Accesu a la páxina especial [[Special:BlueSpiceCategoryManager]]."
+	"bs-categorymanager-addcategory-dialog-error-title": "Falló la creación de la categoría"
 }

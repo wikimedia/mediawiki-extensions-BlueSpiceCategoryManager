@@ -9,7 +9,6 @@
 	"bs-categorymanager-removecategoryconfirm-text": "Дали сте сигурни дека сакате да ја избришете оваа категорија?",
 	"bs-categorymanager-removecategoryconfirm-title": "Отстрани категорија",
 	"bs-categorymanager-addcategory-dialog-error-title": "Создавањето на категоријата не успеа",
-	"right-categorymanager-viewspecialpage": "Пристап до службената страница [[Special:BlueSpiceCategoryManager]]",
 	"bs-categorymanager-collection-type-categorizedpages": "Разместување на категоријата",
 	"bs-categorymanager-collection-var-namespacename": "Именски простор",
 	"bs-categorymanager-collection-var-categorizedpages": "Страници со категории",
