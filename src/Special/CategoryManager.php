@@ -10,7 +10,7 @@ class CategoryManager extends OOJSTreeSpecialPage {
 	public function __construct() {
 		parent::__construct(
 			'BlueSpiceCategoryManager',
-			'wikiadmin'
+			'edit'
 		);
 	}
 

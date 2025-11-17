@@ -21,7 +21,7 @@ class GlobalActionsEditing extends RestrictedTextLink {
 
 	/** @inheritDoc */
 	public function getPermissions(): array {
-		return [ 'wikiadmin' ];
+		return [ 'edit' ];
 	}
 
 	/**
