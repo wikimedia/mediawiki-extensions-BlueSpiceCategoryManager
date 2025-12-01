@@ -18,3 +18,7 @@
 .bs-categorymanager-tree .oojsplus-data-tree-expander.oo-ui-buttonElement-frameless.oo-ui-iconElement:first-child {
 	margin-left: 0;
 }
+
+.bs-categorymanager-tree .tree-item-options-btn .tree-item-options-popup .oo-ui-buttonElement-button > .oo-ui-iconElement-icon {
+	opacity: 1;
+}
