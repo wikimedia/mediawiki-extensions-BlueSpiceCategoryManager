@@ -41,7 +41,10 @@ bs.categoryManager.ui.tree.CategoryTreeItem.prototype.possiblyAddOptions = funct
 	this.removeNodeBtn = new OO.ui.ButtonWidget( {
 		framed: false,
 		label: mw.message( 'bs-categorymanager-category-item-delete-label' ).text(),
-		icon: 'close'
+		icon: 'trash',
+		flags: [
+			'destructive'
+		]
 	} );
 	this.removeNodeBtn.connect( this, {
 		click: 'onRemoveClick'
@@ -57,7 +60,7 @@ bs.categoryManager.ui.tree.CategoryTreeItem.prototype.possiblyAddOptions = funct
 	} );
 
 	this.optionsPopup = new OO.ui.PopupButtonWidget( {
-		icon: 'menu',
+		icon: 'ellipsis',
 		framed: false,
 		classes: [ 'tree-item-options-btn' ],
 		popup: {
