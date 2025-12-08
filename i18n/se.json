@@ -6,5 +6,6 @@
 	},
 	"bs-categorymanager-text": "Kategoriijat",
 	"bs-categorymanager-removecategoryconfirm-title": "Sihko kategoriija",
-	"bs-categorymanager-collection-var-namespacename": "Nammagomuvuohta"
+	"bs-categorymanager-collection-var-namespacename": "Nammagomuvuohta",
+	"bs-categorymanager-dialog-create-category-placeholder": "Lasit ođđa kategoriija"
 }
