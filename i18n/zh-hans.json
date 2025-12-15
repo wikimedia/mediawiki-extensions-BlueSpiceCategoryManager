@@ -9,6 +9,7 @@
 			"Lakejason0",
 			"Liuxinyu970226",
 			"Nervie",
+			"Peterxy12",
 			"TsuyaMarisa",
 			"予弦",
 			"沈澄心",
@@ -40,5 +41,18 @@
 	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "分类已存在",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "请尝试不同的分类名称",
 	"bs-categorymanager-statistics-report-category-pages-axis-value": "页面数量",
-	"bs-categorymanager-category-column-name": "分类名称"
+	"bs-categorymanager-category-column-name": "分类名称",
+	"bs-categorymanager-statistics-report-category-pages-desc": "选定时段和间隔内某一分类的页面数量，可依命名空间筛选",
+	"bs-categorymanager-dialog-action-add-label": "添加",
+	"bs-categorymanager-removecategory-confirm": "已删除分类$1",
+	"bs-categorymanager-dialog-create-category-placeholder": "添加分类",
+	"bs-categorymanager-add-category-label": "分类名称",
+	"bs-configmanager-tool-create-category-label": "创建分类",
+	"bs-categorymanager-movecategory-confirm": "已移动分类$1",
+	"bs-categorymanager-category-item-rename-label": "重命名",
+	"bs-categorymanager-category-item-view-label": "查看分类页面",
+	"bs-categorymanager-category-item-delete-label": "删除",
+	"bs-categorymanager-dlg-add-title": "添加分类",
+	"bs-categorymanager-dialog-action-rename-label": "重命名",
+	"bs-categorymanager-dlg-create-category-exists-label": "已存在同名的分类，请选择别的名称。"
 }
