@@ -3,6 +3,8 @@
 		"authors": [
 			"DreZhsh",
 			"Gomoko",
+			"Goombiis",
+			"JLTRY",
 			"Thibaut120094",
 			"Verdy p",
 			"Wladek92"
@@ -25,12 +27,25 @@
 	"bs-categorymanager-collection-var-categorizedpages": "Pages catégorisées",
 	"bs-categorymanager-collection-var-uncategorizedpages": "Pages non catégorisées",
 	"bs-categorymanager-rename-category": "Renommer la catégorie",
-	"bs-categorymanager-rename-category-new-name": "Nouveau nom de la catégorie :",
+	"bs-categorymanager-rename-category-new-name": "Nouveau nom de catégorie",
 	"bs-categorymanager-move-new-name": "Définit le nouveau nom de la catégorie. Nouveau nom :",
 	"bs-categorymanager-replace-in-pages": "Renommer dans la page :",
 	"bs-categorymanager-statistics-report-category-pages": "Pages dans les catégories",
 	"bs-categorymanager-text": "Catégories",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "La catégorie existe déjà",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "Veuillez essayer un autre nom de catégorie",
-	"bs-categorymanager-statistics-report-category-pages-axis-value": "Nombre de pages"
+	"bs-categorymanager-statistics-report-category-pages-axis-value": "Nombre de pages",
+	"bs-categorymanager-statistics-report-category-pages-desc": "Nombre de pages dans une catégorie dans la période et l'intervalle sélectionnés, filtrable par espace de noms",
+	"bs-categorymanager-dialog-action-add-label": "Ajouter",
+	"bs-categorymanager-removecategory-confirm": "La catégorie $1 est supprimée",
+	"bs-categorymanager-dialog-create-category-placeholder": "Ajouter une nouvelle catégorie",
+	"bs-categorymanager-add-category-label": "Nom de la catégorie",
+	"bs-configmanager-tool-create-category-label": "Créer une catégorie",
+	"bs-categorymanager-movecategory-confirm": "La catégorie $1 a été renommée",
+	"bs-categorymanager-category-item-rename-label": "Renommer",
+	"bs-categorymanager-category-item-view-label": "Voir la page de catégorie",
+	"bs-categorymanager-category-item-delete-label": "Supprimer",
+	"bs-categorymanager-dlg-add-title": "Ajouter une catégorie",
+	"bs-categorymanager-dialog-action-rename-label": "Renommer",
+	"bs-categorymanager-dlg-create-category-exists-label": "Une catégorie portant ce nom existe déjà. Veuillez en choisir un autre."
 }

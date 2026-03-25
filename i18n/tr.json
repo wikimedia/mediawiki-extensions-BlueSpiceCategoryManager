@@ -4,7 +4,8 @@
 			"BaRaN6161 TURK",
 			"Can",
 			"Joseph",
-			"Melissadilara"
+			"Melissadilara",
+			"SaldırganSincap"
 		]
 	},
 	"bluespicecategorymanager": "Kategori yöneticisi",
@@ -25,7 +26,7 @@
 	"bs-categorymanager-collection-var-categorizedpages": "Kategorili sayfalar",
 	"bs-categorymanager-collection-var-uncategorizedpages": "Kategorisiz sayfalar",
 	"bs-categorymanager-rename-category": "Kategoriyi yeniden adlandır",
-	"bs-categorymanager-rename-category-new-name": "Yeni kategori adı:",
+	"bs-categorymanager-rename-category-new-name": "Yeni kategori adı",
 	"bs-categorymanager-move-new-name": "Yeni kategori adını ayarlayın. Yeni ad:",
 	"bs-categorymanager-replace-in-pages": "Şu sayfada değiştir:",
 	"bs-categorymanager-statistics-report-category-pages": "Kategorilerdeki sayfalar"

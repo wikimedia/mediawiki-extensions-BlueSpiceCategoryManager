@@ -22,5 +22,6 @@
 	"bs-categorymanager-collection-var-uncategorizedpages": "Strony bez kategorii",
 	"bs-categorymanager-text": "Kategorie",
 	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "Kategoria już istnieje",
-	"bs-categorymanager-rename-category-new-name": "Nowa nazwa kategorii:"
+	"bs-categorymanager-rename-category-new-name": "Nowa nazwa kategorii:",
+	"bs-categorymanager-dialog-action-rename-label": "Zmień nazwę"
 }

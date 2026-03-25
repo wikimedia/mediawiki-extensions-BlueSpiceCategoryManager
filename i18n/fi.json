@@ -3,7 +3,8 @@
 		"authors": [
 			"Cxz",
 			"MITO",
-			"Pyscowicz"
+			"Pyscowicz",
+			"Yupik"
 		]
 	},
 	"bs-categorymanager-removecategoryconfirm-title": "Poista luokka",
@@ -13,5 +14,6 @@
 	"bs-categorymanager-dlg-new-prompt": "Anna nimi:",
 	"bs-categorymanager-removecategoryconfirm-text": "Haluatko varmasti poistaa tämän luokan?",
 	"bs-categorymanager-addcategory-dialog-error-title": "Luokan luonti epäonnistui",
-	"bs-categorymanager-text": "Luokat"
+	"bs-categorymanager-text": "Luokat",
+	"bs-categorymanager-dlg-add-title": "Lisää luokka"
 }

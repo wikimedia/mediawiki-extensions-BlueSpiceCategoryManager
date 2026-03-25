@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Robby",
-			"Soued031"
+			"Soued031",
+			"Volvox"
 		]
 	},
 	"bluespicecategorymanager": "Gestionnaire vu Kategorien",
@@ -12,7 +13,7 @@
 	"bs-categorymanager-label": "Gestionnaire vu Kategorien",
 	"bs-categorymanager-dlg-new-title": "Kategorie uleeën",
 	"bs-categorymanager-dlg-new-prompt": "Gitt wgl. den Numm an:",
-	"bs-categorymanager-removecategoryconfirm-text": "Sidd Dir sécher datt Dir dës Kategorie läsche wëllt?",
+	"bs-categorymanager-removecategoryconfirm-text": "Sidd Dir sécher, datt Dir dës Kategorie läsche wëllt?",
 	"bs-categorymanager-removecategoryconfirm-title": "Kategorie ewechhuelen",
 	"bs-categorymanager-addcategory-dialog-error-title": "Uleeë vun der Kategorie huet net funktionéiert",
 	"bs-categorymanager-action-show-category": "Kategorie weisen",
@@ -20,5 +21,23 @@
 	"bs-categorymanager-collection-var-categorizedpages": "Säite mat Kategorien",
 	"bs-categorymanager-collection-var-uncategorizedpages": "Säiten ouni Kategorie",
 	"bs-categorymanager-statistics-report-category-pages": "Säiten an der Kategorie",
-	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "Kategorie gëtt et schonn"
+	"bs-categorymanager-addcategory-dialog-error-duplicate-title": "Kategorie gëtt et schonn",
+	"bs-categorymanager-text": "Kategorien",
+	"bs-categorymanager-addcategory-dialog-error-duplicate-text": "Probéiert wgl. en anere Kategoriennumm",
+	"bs-categorymanager-collection-type-categorizedpages": "Kategorienzouweisung",
+	"bs-categorymanager-rename-category": "Kategorie ëmbenennen",
+	"bs-categorymanager-rename-category-new-name": "Neie Kategoriennumm",
+	"bs-categorymanager-statistics-report-category-pages-axis-value": "Zuel vu Säiten",
+	"bs-categorymanager-dialog-action-add-label": "Derbäisetzen",
+	"bs-categorymanager-removecategory-confirm": "D'Kategorie $1 ass geläscht",
+	"bs-categorymanager-dialog-create-category-placeholder": "Nei Kategorie derbäisetzen",
+	"bs-categorymanager-add-category-label": "Numm vun der Kategorie",
+	"bs-configmanager-tool-create-category-label": "Kategorie uleeën",
+	"bs-categorymanager-movecategory-confirm": "D'Kategorie $1 gouf geréckelt",
+	"bs-categorymanager-category-item-rename-label": "Ëmbenennen",
+	"bs-categorymanager-category-item-view-label": "Kategoriesäit weisen",
+	"bs-categorymanager-category-item-delete-label": "Läschen",
+	"bs-categorymanager-dlg-add-title": "Kategorie derbäisetzen",
+	"bs-categorymanager-dialog-action-rename-label": "Ëmbenennen",
+	"bs-categorymanager-dlg-create-category-exists-label": "Et gëtt schonn eng Kategorie mat dësem Numm. Sicht Iech wgl. en aneren Nummer eraus."
 }
