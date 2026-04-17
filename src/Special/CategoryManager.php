@@ -8,10 +8,12 @@ use OOJSPlus\Special\OOJSTreeSpecialPage;
 class CategoryManager extends OOJSTreeSpecialPage {
 
 	public function __construct() {
-		parent::__construct(
-			'BlueSpiceCategoryManager',
-			'edit'
-		);
+		parent::__construct( 'BlueSpiceCategoryManager' );
+	}
+
+	/** @inheritDoc */
+	public function getRestriction(): string {
+		return 'edit';
 	}
 
 	/**
