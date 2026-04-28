@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Tensama0415",
 			"Ykhwong"
 		]
 	},
@@ -19,6 +20,7 @@
 	"bs-categorymanager-rename-category": "분류 이름 바꾸기",
 	"bs-categorymanager-rename-category-new-name": "새 분류 이름",
 	"bs-categorymanager-statistics-report-category-pages": "분류 내 문서",
+	"bs-categorymanager-statistics-report-category-pages-desc": "선택한 기간 및 간격 내 특정 분류의 문서 수 (이름공간별 필터링 가능)",
 	"bs-categorymanager-statistics-report-category-pages-axis-value": "페이지 수",
 	"bs-categorymanager-dialog-action-add-label": "추가",
 	"bs-categorymanager-removecategory-confirm": "$1 분류가 삭제되었습니다",
@@ -30,5 +32,6 @@
 	"bs-categorymanager-category-item-view-label": "분류 문서 보기",
 	"bs-categorymanager-category-item-delete-label": "삭제",
 	"bs-categorymanager-dlg-add-title": "분류 추가",
-	"bs-categorymanager-dialog-action-rename-label": "이름 바꾸기"
+	"bs-categorymanager-dialog-action-rename-label": "이름 바꾸기",
+	"bs-categorymanager-dlg-create-category-exists-label": "이 이름의 분류가 이미 존재합니다. 다른 제목을 선택해 주세요."
 }
