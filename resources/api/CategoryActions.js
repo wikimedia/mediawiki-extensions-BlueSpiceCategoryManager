@@ -303,7 +303,10 @@ bs.categoryManager.api.CategoryActions.prototype.replaceCategoriesInPage = funct
 
 	new mw.Api().edit( pageTitle, ( revision ) => {
 		const categorymembers = this.getCategoriesFromConfig();
-		const oldCategoryNames = this.prepareNewCategoryName( oldCategory );
+		const oldCategoryNames = this.prepareNewCategoryName( oldCategory )
+			.split( '|' )
+			.map( ( name ) => name.replace( /[.*+?^${}()[\]\\]/g, '\\$&' ) )
+			.join( '|' );
 		const regex = new RegExp( '\\[\\[(' + categorymembers + '):(' + oldCategoryNames + ')\\]\\]', 'gmi' );
 		const newtext = revision.content.replace( regex, '[[$1:' + newCategory + ']]' );
 		return {
