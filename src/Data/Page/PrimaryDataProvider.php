@@ -14,19 +14,16 @@ use MWStake\MediaWiki\Component\DataStore\ReaderParams;
 class PrimaryDataProvider extends PageDataProvider {
 
 	/**
-	 *
 	 * @var string[]
 	 */
 	protected $categories = null;
 
 	/**
-	 *
 	 * @var ReaderParams
 	 */
 	protected $readerParams = null;
 
 	/**
-	 *
 	 * @param ReaderParams $params
 	 * @return Record[]
 	 */
@@ -36,7 +33,6 @@ class PrimaryDataProvider extends PageDataProvider {
 	}
 
 	/**
-	 *
 	 * @param \stdClass $row
 	 */
 	protected function appendRowToData( \stdClass $row ) {
@@ -102,7 +98,6 @@ class PrimaryDataProvider extends PageDataProvider {
 	}
 
 	/**
-	 *
 	 * @return array
 	 */
 	protected function getCategories() {
@@ -127,7 +122,6 @@ class PrimaryDataProvider extends PageDataProvider {
 	}
 
 	/**
-	 *
 	 * @return array
 	 */
 	protected function getDefaultConds() {
@@ -135,7 +129,6 @@ class PrimaryDataProvider extends PageDataProvider {
 	}
 
 	/**
-	 *
 	 * @param ReaderParams $params
 	 * @return array
 	 */
@@ -178,7 +171,6 @@ class PrimaryDataProvider extends PageDataProvider {
 	}
 
 	/**
-	 *
 	 * @param ReaderParams $params
 	 * @return array
 	 */
