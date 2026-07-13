@@ -68,7 +68,7 @@ bs.categoryManager.ui.tree.CategoryTreeItem.prototype.possiblyAddOptions = funct
 		content: options
 	} );
 
-	this.optionsPopup = new OO.ui.PopupButtonWidget( {
+	this.optionsPopup = new OO.ui.PopupButtonWidget( { // eslint-disable-line mediawiki/no-unlabeled-buttonwidget
 		icon: 'ellipsis',
 		framed: false,
 		classes: [ 'tree-item-options-btn' ],

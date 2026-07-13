@@ -76,7 +76,7 @@ bs.categoryManager.ui.dialog.CreateCategory.prototype.validateTitleNotExist = fu
 
 	const categoryAction = new bs.categoryManager.api.CategoryActions();
 	categoryAction.getCategoryNames().then( ( allCategories ) => {
-		if ( allCategories.indexOf( value.toLowerCase() ) !== -1 ) {
+		if ( allCategories.indexOf( value.toLowerCase() ) !== -1 ) { // eslint-disable-line unicorn/prefer-includes
 			this.actions.setAbilities( { save: false } );
 			this.setExistWarning();
 		} else {

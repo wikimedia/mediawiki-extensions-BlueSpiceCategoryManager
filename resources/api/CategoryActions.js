@@ -12,7 +12,7 @@ bs.categoryManager.api.CategoryActions.prototype.addCategory = function ( newCat
 
 	return this.getCategoryNames()
 		.then( ( allCategories ) => {
-			if ( allCategories.indexOf( newCategory.toLowerCase() ) !== -1 ) {
+			if ( allCategories.indexOf( newCategory.toLowerCase() ) !== -1 ) { // eslint-disable-line unicorn/prefer-includes
 				bs.util.alert(
 					'bs-categorymanager',
 					{
@@ -49,7 +49,7 @@ bs.categoryManager.api.CategoryActions.prototype.renameCategory = function ( old
 	const fullName = 'Category:' + oldCategory;
 	return this.getCategoryNames()
 		.then( ( allCategories ) => {
-			if ( allCategories.indexOf( newCategory.toLowerCase() ) !== -1 ) {
+			if ( allCategories.indexOf( newCategory.toLowerCase() ) !== -1 ) { // eslint-disable-line unicorn/prefer-includes
 				bs.util.alert(
 					'bs-categorymanager',
 					{
@@ -117,7 +117,7 @@ bs.categoryManager.api.CategoryActions.prototype.deleteCategory = function ( cat
 					Promise.resolve()
 				);
 			}
-			return Promise.resolve();
+			return Promise.resolve(); // eslint-disable-line unicorn/no-useless-promise-resolve-reject
 		} )
 		.then( () => this.removeCategoryPage( fullName ) )
 		.then( () => {
