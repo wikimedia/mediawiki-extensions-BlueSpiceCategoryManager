@@ -103,31 +103,123 @@ bs.categoryManager.api.CategoryActions.prototype.move = function ( moveCategory,
 		} );
 };
 
-bs.categoryManager.api.CategoryActions.prototype.deleteCategory = function ( category ) {
+/**
+ * Removes the category from all pages it is assigned to and then deletes the category
+ * page itself. Since this may touch a large number of pages, the caller can follow the
+ * process page by page.
+ *
+ * @param {string} category Category name, without namespace prefix
+ * @param {Object} [options]
+ * @param {Array} [options.actions] Pre-fetched result of getRemoveCategoryActions, to
+ *  avoid querying the members a second time
+ * @param {Function} [options.onProgress] Called with ( page, index, total ) before a page is processed
+ * @param {Function} [options.onPageResult] Called with ( page, success, message ) after a page is processed
+ * @param {Function} [options.onCategoryPageDelete] Called before the category page itself is deleted
+ * @return {jQuery.Promise} Resolves with an object holding total, processed, failed and,
+ *  if the category page could not be removed, categoryPageError
+ */
+bs.categoryManager.api.CategoryActions.prototype.deleteCategory = function ( category, options ) {
+	options = options || {};
 	const dfd = $.Deferred();
 	const fullName = 'Category:' + category;
 
-	return this.getRemoveCategoryActions( fullName )
-		.then( ( categoryActions ) => {
-			if ( categoryActions.length > 0 ) {
-				return categoryActions.reduce(
-					( promise, action ) => promise.then(
-						() => this.removeCategories( action.page, action.categories )
-					),
-					Promise.resolve()
-				);
-			}
-			return Promise.resolve();
+	const actionsDfd = $.Deferred();
+	if ( options.actions ) {
+		actionsDfd.resolve( options.actions );
+	} else {
+		this.getRemoveCategoryActions( fullName )
+			.done( ( categoryActions ) => actionsDfd.resolve( categoryActions ) )
+			.fail( () => actionsDfd.reject() );
+	}
+
+	actionsDfd.promise()
+		.done( ( categoryActions ) => {
+			this.removeCategoryFromPages( categoryActions, options ).done( ( result ) => {
+				if ( result.failed.length > 0 ) {
+					dfd.resolve( result );
+					return;
+				}
+				if ( typeof options.onCategoryPageDelete === 'function' ) {
+					options.onCategoryPageDelete( fullName );
+				}
+				this.removeCategoryPage( fullName )
+					.done( () => {
+						dfd.resolve( result );
+					} )
+					.fail( ( me, response ) => {
+						result.categoryPageError = this.getErrorMessage( response );
+						dfd.resolve( result );
+					} );
+			} );
 		} )
-		.then( () => this.removeCategoryPage( fullName ) )
-		.then( () => {
-			dfd.resolve( this );
-			return dfd.promise();
-		} )
-		.catch( ( error ) => {
-			dfd.reject( error );
-			return dfd.promise();
+		.fail( () => {
+			dfd.reject();
 		} );
+
+	return dfd.promise();
+};
+
+/**
+ * Removes a category from the given pages, one after another. A page that cannot be
+ * processed is recorded and does not stop the remaining pages.
+ *
+ * @param {Array} categoryActions List of { page, categories } as returned by getRemoveCategoryActions
+ * @param {Object} options See deleteCategory
+ * @return {jQuery.Promise}
+ */
+bs.categoryManager.api.CategoryActions.prototype.removeCategoryFromPages = function ( categoryActions, options ) {
+	const dfd = $.Deferred();
+	const total = categoryActions.length;
+	const result = {
+		total: total,
+		processed: 0,
+		failed: []
+	};
+
+	const step = ( index ) => {
+		if ( index >= total ) {
+			dfd.resolve( result );
+			return;
+		}
+		const action = categoryActions[ index ];
+		if ( typeof options.onProgress === 'function' ) {
+			options.onProgress( action.page, index, total );
+		}
+
+		this.removeCategories( action.page, action.categories )
+			.done( () => {
+				result.processed++;
+				if ( typeof options.onPageResult === 'function' ) {
+					options.onPageResult( action.page, true );
+				}
+				step( index + 1 );
+			} )
+			.fail( ( context, data, response ) => {
+				const message = this.getErrorMessage( response );
+				result.failed.push( { page: action.page, message: message } );
+				if ( typeof options.onPageResult === 'function' ) {
+					options.onPageResult( action.page, false, message );
+				}
+				step( index + 1 );
+			} );
+	};
+
+	step( 0 );
+	return dfd.promise();
+};
+
+/**
+ * @param {Object} response
+ * @return {string}
+ */
+bs.categoryManager.api.CategoryActions.prototype.getErrorMessage = function ( response ) {
+	if ( response && response.errors && response.errors.length > 0 ) {
+		return $( '<span>' ).html( response.errors[ 0 ].html || response.errors[ 0 ].message || '' ).text();
+	}
+	if ( response && response.error && response.error.info ) {
+		return response.error.info;
+	}
+	return mw.message( 'bs-categorymanager-deletecategory-error-unknown' ).text();
 };
 
 bs.categoryManager.api.CategoryActions.prototype.removeCategoryPage = function ( category ) {
@@ -374,6 +466,7 @@ bs.categoryManager.api.CategoryActions.prototype.getRemoveCategoryActionsRecursi
 	queryData = Object.assign( {
 		action: 'query',
 		list: 'categorymembers',
+		cmlimit: 'max',
 		prop: 'pageprops'
 	}, queryData );
 
