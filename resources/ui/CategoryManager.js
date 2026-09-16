@@ -2,6 +2,7 @@ bs.util.registerNamespace( 'bs.categoryManager.ui' );
 
 require( './tree/CategoryTree.js' );
 require( './dialog/RenameCategory.js' );
+require( './dialog/DeleteCategory.js' );
 require( './../api/CategoryActions.js' );
 require( './toolbar/CategoryToolbar.js' );
 require( './dialog/CreateCategory.js' );
@@ -80,18 +81,23 @@ bs.categoryManager.ui.CategoryManager.prototype.editCategory = function ( catego
 };
 
 bs.categoryManager.ui.CategoryManager.prototype.deleteCategory = function ( category ) {
-	bs.util.confirm( 'RemoveCategory', {
-		text: mw.message( 'bs-categorymanager-removecategoryconfirm-text' ).text(),
-		title: mw.message( 'bs-categorymanager-removecategoryconfirm-title' ).text()
-	},
-	{
-		ok: () => {
-			this.actionApi.deleteCategory( category ).done( () => {
-				this.categoryTree.reload();
-				mw.notify( mw.message( 'bs-categorymanager-removecategory-confirm', category ).text() );
-			} );
+	if ( !this.windowManager ) {
+		this.windowManager = new OO.ui.WindowManager( {
+			modal: true
+		} );
+		$( document.body ).append( this.windowManager.$element );
+	}
+	const dialog = new bs.categoryManager.ui.dialog.DeleteCategory( {
+		category: category,
+		actionApi: this.actionApi
+	} );
+	dialog.connect( this, {
+		close: function () {
+			this.categoryTree.reload();
 		}
 	} );
+	this.windowManager.addWindows( [ dialog ] );
+	this.windowManager.openWindow( dialog );
 };
 
 bs.categoryManager.ui.CategoryManager.prototype.addCategory = function () {

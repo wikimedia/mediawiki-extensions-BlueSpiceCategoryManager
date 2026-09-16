@@ -22,3 +22,49 @@
 .bs-categorymanager-tree .tree-item-options-btn .tree-item-options-popup .oo-ui-buttonElement-button > .oo-ui-iconElement-icon {
 	opacity: 1;
 }
+
+.bs-categorymanager-delete-current-op {
+	margin-bottom: 0.5em;
+	min-height: 1.5em;
+	word-break: break-word;
+}
+
+.bs-categorymanager-delete-log {
+	height: 220px;
+	margin-top: 1em;
+	overflow-y: auto;
+	border: 1px solid var( --bs-border-color );
+	padding: 0.5em;
+}
+
+.bs-categorymanager-delete-log-item {
+	line-height: 1.8em;
+	word-break: break-word;
+}
+
+.bs-categorymanager-delete-log-item-label {
+	margin-left: 0.5em;
+}
+
+.bs-categorymanager-delete-log-item-error {
+	margin-left: 0.5em;
+	font-size: 0.9em;
+	color: var( --bs-destructive-fg );
+}
+
+.bs-categorymanager-delete-report-details {
+	margin-top: 1em;
+	max-height: 220px;
+	overflow-y: auto;
+}
+
+.bs-categorymanager-delete-report-failure {
+	line-height: 1.8em;
+	word-break: break-word;
+}
+
+.bs-categorymanager-delete-report-failure-reason {
+	margin-left: 0.5em;
+	font-size: 0.9em;
+	color: var( --bs-destructive-fg );
+}
