@@ -37,5 +37,16 @@
 	"bs-categorymanager-category-item-delete-label": "Label for category tree item action which allows to delete category\n{{Identical|Delete}}",
 	"bs-categorymanager-dlg-add-title": "Title of dialog window that allows to add new category",
 	"bs-categorymanager-dialog-action-rename-label": "Button label for action to rename category\n{{Identical|Rename}}",
-	"bs-categorymanager-dlg-create-category-exists-label": "Error message that is shown if user wants to create a category which already exists"
+	"bs-categorymanager-dlg-create-category-exists-label": "Error message that is shown if user wants to create a category which already exists",
+	"bs-categorymanager-deletecategory-counting": "Placeholder shown in the delete category dialog while the number of affected pages is being queried",
+	"bs-categorymanager-deletecategory-affected-pages": "Explanation of what deleting a category does.\nParameters:\n* $1: number of pages the category is assigned to",
+	"bs-categorymanager-deletecategory-action-done-label": "Button label for action which closes the delete category dialog after the deletion has finished\n{{Identical|Close}}",
+	"bs-categorymanager-deletecategory-progress-current": "Status text naming the page which is currently being processed.\nParameters:\n* $1: title of the page\n* $2: number of the page in the list\n* $3: total number of pages",
+	"bs-categorymanager-deletecategory-progress-category-page": "Status text shown while the category page itself is being deleted.\nParameters:\n* $1: name of the category",
+	"bs-categorymanager-deletecategory-report-success": "Result message of a successful category deletion.\nParameters:\n* $1: name of the category\n* $2: number of pages the category was removed from",
+	"bs-categorymanager-deletecategory-report-failed": "Result message if the category could not be removed from some pages.\nParameters:\n* $1: number of pages which failed\n* $2: total number of pages",
+	"bs-categorymanager-deletecategory-report-kept": "Note explaining why the category page still exists after an incomplete deletion.\nParameters:\n* $1: name of the category",
+	"bs-categorymanager-deletecategory-error-members": "Error message if the pages of the category could not be queried",
+	"bs-categorymanager-deletecategory-error-category-page": "Error message if the category page itself could not be deleted.\nParameters:\n* $1: name of the category\n* $2: error message returned by the API",
+	"bs-categorymanager-deletecategory-error-unknown": "Fallback error message if the API did not return a reason\n{{Identical|Unknown error}}"
 }
