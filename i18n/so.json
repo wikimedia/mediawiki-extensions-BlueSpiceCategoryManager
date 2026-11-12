@@ -1,0 +1,18 @@
+{
+	"@metadata": {
+		"authors": [
+			"AhmedG612"
+		]
+	},
+	"bs-categorymanager-deletecategory-counting": "Hubinta tirada bogagga ay arrintani saamaynayso …",
+	"bs-categorymanager-deletecategory-affected-pages": "{{PLURAL:$1|0=Qaybtan looma qoondeyn wax bog ah.|Qaybtan waxaa loo qoondeeyay $1 bog. Tirtiristeedu waxay marka hore qaybtan ka saaraysaa boggan.|Qaybtan waxaa loo qoondeeyay $1 bog. Tirtiristeedu waxay marka hore qaybtan ka saaraysaa dhammaan bogaggan.}}",
+	"bs-categorymanager-deletecategory-action-done-label": "Xir",
+	"bs-categorymanager-deletecategory-progress-current": "Qaybta ayaa laga saaraya \"$1\" ($2 ee $3)",
+	"bs-categorymanager-deletecategory-progress-category-page": "Tirtiridda bogga qaybta \"$1\" …",
+	"bs-categorymanager-deletecategory-report-success": "Qaybta $1 ayaa laga saaray {{PLURAL:$2|$2 bog|$2 bogag}} waana la tirtiray.",
+	"bs-categorymanager-deletecategory-report-failed": "Qaybta lagama saari karin $1 ka mid ah $2 bogag.",
+	"bs-categorymanager-deletecategory-report-kept": "Bogga qaybta $1 waa la hayay, sababtoo ah qaybta weli waa la isticmaalayaa. Waxaad mar kale bilaabi kartaa tirtirista si loo farsameeyo bogagga haray.",
+	"bs-categorymanager-deletecategory-error-members": "Bogagga qaybtan lama go'aamin karin.",
+	"bs-categorymanager-deletecategory-error-category-page": "Dhammaan bogagga waa la farsameeyay, laakiin bogga qaybta $1 lama tirtiri karin: $2",
+	"bs-categorymanager-deletecategory-error-unknown": "Khalad aan la garanayn"
+}

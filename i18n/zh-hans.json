@@ -49,5 +49,16 @@
 	"bs-categorymanager-category-item-delete-label": "删除",
 	"bs-categorymanager-dlg-add-title": "添加分类",
 	"bs-categorymanager-dialog-action-rename-label": "重命名",
-	"bs-categorymanager-dlg-create-category-exists-label": "已存在同名的分类，请选择别的名称。"
+	"bs-categorymanager-dlg-create-category-exists-label": "已存在同名的分类，请选择别的名称。",
+	"bs-categorymanager-deletecategory-counting": "正在检查有多少页面受到影响…",
+	"bs-categorymanager-deletecategory-affected-pages": "{{PLURAL:$1|0=此分类未分配给任何页面。|此分类已分配给$1个页面。删除它会先从该页面移除此分类。|此分类已分配给$1个页面。删除它会先从所有这些页面移除此分类。}}",
+	"bs-categorymanager-deletecategory-action-done-label": "关闭",
+	"bs-categorymanager-deletecategory-progress-current": "正在从“$1”移除分类（第$2个，共$3个）",
+	"bs-categorymanager-deletecategory-progress-category-page": "正在删除分类页面“$1”…",
+	"bs-categorymanager-deletecategory-report-success": "分类$1已从{{PLURAL:$2|$2个页面}}移除并删除。",
+	"bs-categorymanager-deletecategory-report-failed": "该分类无法从$2个页面中的$1个移除。",
+	"bs-categorymanager-deletecategory-report-kept": "分类页面$1已被保留，因为该分类仍在被使用。您可以再次开始删除操作以处理剩余页面。",
+	"bs-categorymanager-deletecategory-error-members": "无法确定此分类下的页面。",
+	"bs-categorymanager-deletecategory-error-category-page": "所有页面均已处理，但无法删除分类页面$1：$2",
+	"bs-categorymanager-deletecategory-error-unknown": "未知错误"
 }
