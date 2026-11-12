@@ -3,5 +3,7 @@
 		"authors": [
 			"Saraiki"
 		]
-	}
+	},
+	"bs-categorymanager-deletecategory-action-done-label": "بند کرو",
+	"bs-categorymanager-deletecategory-error-unknown": "نامعلوم غلطی"
 }
