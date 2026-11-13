@@ -39,5 +39,7 @@
 	"bs-categorymanager-add-category-label": "Nome della categoria",
 	"bs-categorymanager-category-item-rename-label": "Rinomina",
 	"bs-categorymanager-dlg-add-title": "Aggiungi categoria",
-	"bs-categorymanager-dialog-action-rename-label": "Rinomina"
+	"bs-categorymanager-dialog-action-rename-label": "Rinomina",
+	"bs-categorymanager-deletecategory-action-done-label": "Chiudi",
+	"bs-categorymanager-deletecategory-error-unknown": "Errore sconosciuto"
 }
